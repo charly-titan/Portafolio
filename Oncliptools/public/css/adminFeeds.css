@@ -1,0 +1,30 @@
+/* adminFeeds.php */
+#adminEscaletaRes,#tableFeedsRes,#feedsProcessRes{overflow: hidden;}
+
+/* process_feeds_prev.php */
+
+#lblOrder {float: left;}
+#espera {font-size: 14px;}
+
+
+/* table_feeds.php */
+
+
+#left{padding: .5em;}
+th{text-align: center;}
+.update{text-align: center;}
+.centerFeed{text-align: center;}
+.centerFeed span{padding: .2em;}
+tfoot{display: none;} 
+.glyEdit{opacity: 0.2;}
+
+#selectorPrograms{ 
+    width: 50%;
+
+}
+
+#hrsSelect{
+     background: lightslategray;
+     width:20%;
+    
+}

@@ -1,0 +1,446 @@
+* { margin: 0; padding: 0; list-style: none; }
+BODY {
+	text-align: center;
+	background: transparent url(../img/bg_body.gif); 
+	font: 13px 'Myriad Pro', arial, helvetica, sans-serif; 
+	color: #666;
+}
+#header {
+	background: #000 url(../img/televisaHeadRepeat.jpg) center top repeat-x;
+	height: 82px;
+	text-align: center;
+	overflow: hidden;
+}
+#header DIV.logo {
+	text-align: left;
+	margin: 0 auto;
+	width: 955px;
+	background: #F00;
+	height: 82px;
+	background: transparent url(../img/logoTelevisa.png) left top no-repeat; 
+	overflow: hidden;
+	
+}
+#header DIV H1 {
+	font: bold 30px/35px 'Myriad Pro', Helvetica;
+	color: #FFF;
+	margin: 10px 0 0 110px;
+}
+#header DIV H2 {
+	font: normal 20px/23px Helvetica;
+	color: #FFF;
+	margin: 0px 0 0 110px;
+}
+#wrapper {
+	width: 955px;
+	margin: 0 auto;
+	
+}
+#wrapper UL.floating {
+	position: absolute;
+	margin: 35px 0 0 136px;
+	display: none;
+}
+#wrapper UL.floating LI {
+	background: #2E5BB0;
+	font: normal 15px/17px Helvetica;
+	color: #FFF;
+	padding: 7px;
+	width: 136px;
+	max-width: 123px;
+	border-bottom: 1px solid #FFF;
+	cursor: pointer;
+}
+#wrapper UL.floating LI:hover {
+	background: #666;
+}
+#navigation {
+	background: #00316F;
+	height: 35px;
+	overflow: hidden;
+}
+#navigation UL LI {
+	border-right: 1px solid #001E53;
+	border-left: 1px solid #2E5BB0;
+	font: normal 15px/17px Helvetica;
+	color: #FFF;
+	padding: 8px 0 0 0;
+	float: left;
+	height: 35px;
+	width: 136px;
+	max-width: 134px;
+	cursor: pointer;
+	text-align: center;
+}
+#navigation UL LI.last {
+	width: 139px;
+	max-width: 137px;
+}
+#navigation UL LI:hover {
+	background: #2E5BB0;
+}
+
+/****************/
+/* Content		*/
+/****************/
+
+#content {
+	padding: 15px 0 0 15px;
+	height: 500px;
+	background: #FFF;
+	text-align: left;
+	border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	margin: 20px 0 20px 0;
+}
+#content H1 {
+	font: normal 20px/23px Helvetica;
+	margin: 20px 0 20px 0;
+}
+#content INPUT {
+	width: 150px;
+}
+#content TEXTAREA {
+	width: 200px;
+}
+#content TEXTAREA.xml {
+	width: 600px;
+	font: normal 11px/21px "Courier New", Courier, monospace;
+}
+#content INPUT.check {
+	width: auto;
+	margin: 0 5px 0 0;
+}
+#content INPUT.button {
+	width: 95px;
+}
+#content INPUT.fileName {
+	width: 470px;
+	padding: 8px;
+	font: normal 18px/21px Helvetica;
+}
+#content SELECT {
+	width: 150px;
+}
+#content TABLE {
+	border-collapse: collapse;
+	/*border: 1px solid red;*/
+}
+#content TABLE TD {
+	padding: 5px;
+	font: normal 12px/15px 'Myriad Pro', arial, helvetica, sans-serif;
+	/*border: 1px solid red;*/
+}
+SPAN.youtube {
+	font: normal 11px/13px 'Myriad Pro', arial, helvetica, sans-serif; 
+	color: #666;
+}
+#content TABLE TD H2.notice {
+	font: normal 11px/14px Helvetica;
+	color: #F00;
+}
+#options {
+	border-left: 1px solid #666;
+	width: 250px;
+	height: 200px;
+	margin: 15px 0 0 690px;
+	position: absolute;
+}
+
+/****************/
+/* Footer		*/
+/****************/
+
+#footer {
+	height: 260px;
+	max-height: 240px;
+	background: #FFF url(../img/tvsa_footer_backRepeat.gif) left top repeat-x;
+	text-align: center;
+	color: #0B2854;
+	padding: 20px 0 0 0;
+}
+#footer DIV {
+	width: 955px;
+	text-align: left;
+	margin: 0 auto;
+}
+#footer DIV DIV {
+	
+}
+#footer DIV H2 {
+	font: bold 15px/18px Helvetica;
+	ma rgin: 25px 0 0 0;
+}
+form li .datepicker
+{
+        cursor:pointer !important;
+        float:left;
+        height:16px;
+        margin:.1em 5px 0 0;
+        padding:0;
+        width:16px;
+}
+/*** Calendar **********************/
+div.calendar { position: relative; }
+
+.calendar table {
+cursor:pointer;
+border:1px solid #ccc;
+font-size: 11px;
+color: #000;
+background: #fff;
+font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+
+.calendar .button { 
+text-align: center;    
+padding: 2px;          
+}
+
+.calendar .nav {
+background:#f5f5f5;
+}
+
+.calendar thead .title { 
+font-weight: bold;      
+text-align: center;
+background: #dedede;
+color: #000;
+padding: 2px 0 3px 0;
+}
+
+.calendar thead .headrow { 
+background: #f5f5f5;
+color: #444;
+font-weight:bold;
+}
+
+.calendar thead .daynames { 
+background: #fff;
+color:#333;
+font-weight:bold;
+}
+
+.calendar thead .name { 
+border-bottom: 1px dotted #ccc;
+padding: 2px;
+text-align: center;
+color: #000;
+}
+
+.calendar thead .weekend { 
+color: #666;
+}
+
+.calendar thead .hilite { 
+background-color: #444;
+color: #fff;
+padding: 1px;
+}
+
+.calendar thead .active { 
+background-color: #d12f19;
+color:#fff;
+padding: 2px 0px 0px 2px;
+}
+
+
+.calendar tbody .day { 
+width:1.8em;
+color: #222;
+text-align: right;
+padding: 2px 2px 2px 2px;
+}
+.calendar tbody .day.othermonth {
+font-size: 80%;
+color: #bbb;
+}
+.calendar tbody .day.othermonth.oweekend {
+color: #fbb;
+}
+
+.calendar table .wn {
+padding: 2px 2px 2px 2px;
+border-right: 1px solid #000;
+background: #666;
+}
+
+.calendar tbody .rowhilite td {
+background: #FFF1AF;
+}
+
+.calendar tbody .rowhilite td.wn {
+background: #FFF1AF;
+}
+
+.calendar tbody td.hilite { 
+padding: 1px 1px 1px 1px;
+background:#444 !important;
+color:#fff !important;
+}
+
+.calendar tbody td.active { 
+color:#fff;
+background: #529214 !important;
+padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody td.selected { 
+font-weight: bold;
+border: 1px solid #888;
+padding: 1px 1px 1px 1px;
+background: #f5f5f5 !important;
+color: #222 !important;
+}
+
+.calendar tbody td.weekend { 
+color: #666;
+}
+
+.calendar tbody td.today { 
+font-weight: bold;
+color: #529214;
+background:#D9EFC2;
+}
+
+.calendar tbody .disabled { color: #999; }
+
+.calendar tbody .emptycell { 
+visibility: hidden;
+}
+
+.calendar tbody .emptyrow { 
+display: none;
+}
+
+.calendar tfoot .footrow { 
+text-align: center;
+background: #556;
+color: #fff;
+}
+
+.calendar tfoot .ttip { 
+background: #222;
+color: #fff;
+font-size:10px;
+border-top: 1px solid #dedede;
+padding: 3px;
+}
+
+.calendar tfoot .hilite { 
+background: #aaf;
+border: 1px solid #04f;
+color: #000;
+padding: 1px;
+}
+
+.calendar tfoot .active { 
+background: #77c;
+padding: 2px 0px 0px 2px;
+}
+
+.calendar .combo {
+position: absolute;
+display: none;
+top: 0px;
+left: 0px;
+width: 4em;
+border: 1px solid #ccc;
+background: #f5f5f5;
+color: #222;
+font-size: 90%;
+z-index: 100;
+}
+
+.calendar .combo .label,
+.calendar .combo .label-IEfix {
+text-align: center;
+padding: 1px;
+}
+
+.calendar .combo .label-IEfix {
+width: 4em;
+}
+
+.calendar .combo .hilite {
+background: #444;
+color:#fff;
+}
+
+.calendar .combo .active {
+border-top: 1px solid #999;
+border-bottom: 1px solid #999;
+background: #dedede;
+font-weight: bold;
+}
+
+form li .datepicker
+{
+        cursor:pointer !important;
+        float:left;
+        height:16px;
+        margin:.1em 5px 0 0;
+        padding:0;
+        width:16px;
+}
+
+.form_description
+{
+        border-bottom:1px dotted #ccc;
+        clear:both;
+        display:inline-block;
+        margin:0 0 1em;
+}
+
+.form_description[class]
+{
+        display:block;
+}
+
+.form_description h2
+{
+        clear:left;
+        font-size:160%;
+        font-weight:400;
+        margin:0 0 3px;
+}
+
+.form_description p
+{
+        font-size:95%;
+        line-height:130%;
+        margin:0 0 12px;
+}
+/**** Inputs and Labels ****/
+label.description
+{
+        border:none;
+        color:#222;
+        display:block;
+        font-size:95%;
+        font-weight:700;
+        line-height:150%;
+        padding:0 0 1px;
+}
+
+span.symbol
+{
+        font-size:115%;
+        line-height:130%;
+}
+
+input.text
+{
+        background:#fff url(../../../images/shadow.gif) repeat-x top;
+        border-bottom:1px solid #ddd;
+        border-left:1px solid #c3c3c3;
+        border-right:1px solid #c3c3c3;
+        border-top:1px solid #7c7c7c;
+        color:#333;
+        font-size:100%;
+        margin:0;
+        padding:2px 0;
+}

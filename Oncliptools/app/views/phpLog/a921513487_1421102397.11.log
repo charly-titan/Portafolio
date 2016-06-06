@@ -1,0 +1,1472 @@
+2015-01-12 22:39:57,112 [[ S:PROCESANDO VOD ID 380: 1421102397.1 ]]
+2015-01-12 22:39:57,147 [[ S:CREANDO DIRECTORIO: 1421102397.15 ]]
+2015-01-12 22:39:57,148 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412
+2015-01-12 22:39:57,148 [[ E:CREANDO DIRECTORIO: 1421102397.15 ]]
+2015-01-12 22:39:57,148 [[ S:DESCARGANDO SENALES DE AKAMAI: 1421102397.15 ]]
+2015-01-12 22:41:45,217 HLS Downloader 1.2.0 - Akamai Technologies, Inc. 2013
+Loading master playlist (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/master.m3u8?start=1421100000&end=1421101920)
+Done. 7 playlists found (0 ignored)
+Processing playlist (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_162_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Processing playlist (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_254_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Processing playlist (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_518_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Processing playlist (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_648_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Processing playlist (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_1048_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Processing playlist (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_4320_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Processing playlist (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_162_a-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Loading playlist (BANDWIDTH=4384000)
+Playlist loaded! (4384000, 142110001, 192)
+Loading playlist (BANDWIDTH=354000)
+Loading playlist (BANDWIDTH=195000)
+Playlist loaded! (354000, 142110001, 192)
+Playlist loaded! (195000, 142110001, 192)
+Loading playlist (BANDWIDTH=840000)
+Loading playlist (BANDWIDTH=710000)
+Playlist loaded! (840000, 142110001, 192)
+Playlist loaded! (710000, 142110001, 192)
+Loading playlist (BANDWIDTH=1240000)
+Loading playlist (BANDWIDTH=446000)
+Playlist loaded! (1240000, 142110001, 192)
+Playlist loaded! (446000, 142110001, 192)
+[x] Segment #142110001 (354000) downloaded OK
+[x] Segment #142110001 (195000) downloaded OK
+[x] Segment #142110001 (840000) downloaded OK
+[x] Segment #142110001 (710000) downloaded OK
+[x] Segment #142110001 (4384000) downloaded OK
+[x] Segment #142110001 (1240000) downloaded OK
+[x] Segment #142110001 (446000) downloaded OK
+[x] Segment #142110002 (354000) downloaded OK
+[x] Segment #142110002 (195000) downloaded OK
+[x] Segment #142110002 (710000) downloaded OK
+[x] Segment #142110002 (840000) downloaded OK
+[x] Segment #142110002 (4384000) downloaded OK
+[x] Segment #142110002 (1240000) downloaded OK
+[x] Segment #142110002 (446000) downloaded OK
+[x] Segment #142110003 (195000) downloaded OK
+[x] Segment #142110003 (354000) downloaded OK
+[x] Segment #142110003 (710000) downloaded OK
+[x] Segment #142110003 (840000) downloaded OK
+[x] Segment #142110003 (1240000) downloaded OK
+[x] Segment #142110003 (446000) downloaded OK
+[x] Segment #142110004 (195000) downloaded OK
+[x] Segment #142110004 (354000) downloaded OK
+[x] Segment #142110004 (710000) downloaded OK
+[x] Segment #142110004 (840000) downloaded OK
+[x] Segment #142110004 (1240000) downloaded OK
+[x] Segment #142110004 (446000) downloaded OK
+[x] Segment #142110005 (195000) downloaded OK
+[x] Segment #142110005 (354000) downloaded OK
+[x] Segment #142110005 (710000) downloaded OK
+[x] Segment #142110003 (4384000) downloaded OK
+[x] Segment #142110005 (840000) downloaded OK
+[x] Segment #142110005 (446000) downloaded OK
+[x] Segment #142110005 (1240000) downloaded OK
+[x] Segment #142110006 (195000) downloaded OK
+[x] Segment #142110006 (354000) downloaded OK
+[x] Segment #142110006 (710000) downloaded OK
+[x] Segment #142110006 (840000) downloaded OK
+[x] Segment #142110006 (446000) downloaded OK
+[x] Segment #142110006 (1240000) downloaded OK
+[x] Segment #142110007 (195000) downloaded OK
+[x] Segment #142110007 (354000) downloaded OK
+[x] Segment #142110007 (710000) downloaded OK
+[x] Segment #142110007 (840000) downloaded OK
+[x] Segment #142110007 (446000) downloaded OK
+[x] Segment #142110007 (1240000) downloaded OK
+[x] Segment #142110004 (4384000) downloaded OK
+[x] Segment #142110008 (195000) downloaded OK
+[x] Segment #142110008 (354000) downloaded OK
+[x] Segment #142110008 (710000) downloaded OK
+[x] Segment #142110008 (840000) downloaded OK
+[x] Segment #142110008 (446000) downloaded OK
+[x] Segment #142110008 (1240000) downloaded OK
+[x] Segment #142110009 (195000) downloaded OK
+[x] Segment #142110009 (354000) downloaded OK
+[x] Segment #142110009 (710000) downloaded OK
+[x] Segment #142110009 (840000) downloaded OK
+[x] Segment #142110009 (446000) downloaded OK
+[x] Segment #142110009 (1240000) downloaded OK
+[x] Segment #142110010 (195000) downloaded OK
+[x] Segment #142110010 (354000) downloaded OK
+[x] Segment #142110010 (710000) downloaded OK
+[x] Segment #142110010 (840000) downloaded OK
+[x] Segment #142110005 (4384000) downloaded OK
+[x] Segment #142110010 (446000) downloaded OK
+[x] Segment #142110011 (195000) downloaded OK
+[x] Segment #142110011 (354000) downloaded OK
+[x] Segment #142110010 (1240000) downloaded OK
+[x] Segment #142110011 (710000) downloaded OK
+[x] Segment #142110011 (840000) downloaded OK
+[x] Segment #142110011 (446000) downloaded OK
+[x] Segment #142110012 (195000) downloaded OK
+[x] Segment #142110012 (354000) downloaded OK
+[x] Segment #142110011 (1240000) downloaded OK
+[x] Segment #142110012 (710000) downloaded OK
+[x] Segment #142110012 (840000) downloaded OK
+[x] Segment #142110012 (446000) downloaded OK
+[x] Segment #142110013 (195000) downloaded OK
+[x] Segment #142110013 (354000) downloaded OK
+[x] Segment #142110012 (1240000) downloaded OK
+[x] Segment #142110013 (710000) downloaded OK
+[x] Segment #142110013 (840000) downloaded OK
+[x] Segment #142110013 (446000) downloaded OK
+[x] Segment #142110014 (195000) downloaded OK
+[x] Segment #142110014 (354000) downloaded OK
+[x] Segment #142110013 (1240000) downloaded OK
+[x] Segment #142110014 (710000) downloaded OK
+[x] Segment #142110014 (840000) downloaded OK
+[x] Segment #142110014 (446000) downloaded OK
+[x] Segment #142110015 (195000) downloaded OK
+[x] Segment #142110015 (354000) downloaded OK
+[x] Segment #142110006 (4384000) downloaded OK
+[x] Segment #142110015 (710000) downloaded OK
+[x] Segment #142110015 (840000) downloaded OK
+[x] Segment #142110015 (446000) downloaded OK
+[x] Segment #142110016 (195000) downloaded OK
+[x] Segment #142110016 (354000) downloaded OK
+[x] Segment #142110014 (1240000) downloaded OK
+[x] Segment #142110016 (710000) downloaded OK
+[x] Segment #142110016 (840000) downloaded OK
+[x] Segment #142110016 (446000) downloaded OK
+[x] Segment #142110017 (195000) downloaded OK
+[x] Segment #142110017 (354000) downloaded OK
+[x] Segment #142110015 (1240000) downloaded OK
+[x] Segment #142110017 (710000) downloaded OK
+[x] Segment #142110017 (840000) downloaded OK
+[x] Segment #142110017 (446000) downloaded OK
+[x] Segment #142110018 (195000) downloaded OK
+[x] Segment #142110018 (354000) downloaded OK
+[x] Segment #142110016 (1240000) downloaded OK
+[x] Segment #142110018 (710000) downloaded OK
+[x] Segment #142110018 (840000) downloaded OK
+[x] Segment #142110018 (446000) downloaded OK
+[x] Segment #142110019 (195000) downloaded OK
+[x] Segment #142110019 (354000) downloaded OK
+[x] Segment #142110007 (4384000) downloaded OK
+[x] Segment #142110019 (710000) downloaded OK
+[x] Segment #142110019 (840000) downloaded OK
+[x] Segment #142110019 (446000) downloaded OK
+[x] Segment #142110020 (195000) downloaded OK
+[x] Segment #142110020 (354000) downloaded OK
+[x] Segment #142110017 (1240000) downloaded OK
+[x] Segment #142110020 (710000) downloaded OK
+[x] Segment #142110020 (840000) downloaded OK
+[x] Segment #142110020 (446000) downloaded OK
+[x] Segment #142110021 (195000) downloaded OK
+[x] Segment #142110021 (354000) downloaded OK
+[x] Segment #142110018 (1240000) downloaded OK
+[x] Segment #142110021 (710000) downloaded OK
+[x] Segment #142110021 (840000) downloaded OK
+[x] Segment #142110021 (446000) downloaded OK
+[x] Segment #142110022 (195000) downloaded OK
+[x] Segment #142110022 (354000) downloaded OK
+[x] Segment #142110019 (1240000) downloaded OK
+[x] Segment #142110022 (710000) downloaded OK
+[x] Segment #142110022 (840000) downloaded OK
+[x] Segment #142110022 (446000) downloaded OK
+[x] Segment #142110023 (195000) downloaded OK
+[x] Segment #142110023 (354000) downloaded OK
+[x] Segment #142110020 (1240000) downloaded OK
+[x] Segment #142110023 (710000) downloaded OK
+[x] Segment #142110023 (840000) downloaded OK
+[x] Segment #142110023 (446000) downloaded OK
+[x] Segment #142110024 (195000) downloaded OK
+[x] Segment #142110024 (354000) downloaded OK
+[x] Segment #142110021 (1240000) downloaded OK
+[x] Segment #142110024 (710000) downloaded OK
+[x] Segment #142110024 (840000) downloaded OK
+[x] Segment #142110008 (4384000) downloaded OK
+[x] Segment #142110025 (195000) downloaded OK
+[x] Segment #142110024 (446000) downloaded OK
+[x] Segment #142110025 (354000) downloaded OK
+[x] Segment #142110025 (710000) downloaded OK
+[x] Segment #142110022 (1240000) downloaded OK
+[x] Segment #142110025 (840000) downloaded OK
+[x] Segment #142110026 (195000) downloaded OK
+[x] Segment #142110025 (446000) downloaded OK
+[x] Segment #142110026 (354000) downloaded OK
+[x] Segment #142110026 (710000) downloaded OK
+[x] Segment #142110023 (1240000) downloaded OK
+[x] Segment #142110026 (840000) downloaded OK
+[x] Segment #142110027 (195000) downloaded OK
+[x] Segment #142110026 (446000) downloaded OK
+[x] Segment #142110027 (354000) downloaded OK
+[x] Segment #142110027 (710000) downloaded OK
+[x] Segment #142110024 (1240000) downloaded OK
+[x] Segment #142110027 (840000) downloaded OK
+[x] Segment #142110028 (195000) downloaded OK
+[x] Segment #142110027 (446000) downloaded OK
+[x] Segment #142110028 (354000) downloaded OK
+[x] Segment #142110028 (710000) downloaded OK
+[x] Segment #142110025 (1240000) downloaded OK
+[x] Segment #142110028 (840000) downloaded OK
+[x] Segment #142110029 (195000) downloaded OK
+[x] Segment #142110028 (446000) downloaded OK
+[x] Segment #142110029 (354000) downloaded OK
+[x] Segment #142110029 (710000) downloaded OK
+[x] Segment #142110026 (1240000) downloaded OK
+[x] Segment #142110029 (840000) downloaded OK
+[x] Segment #142110030 (195000) downloaded OK
+[x] Segment #142110029 (446000) downloaded OK
+[x] Segment #142110030 (354000) downloaded OK
+[x] Segment #142110009 (4384000) downloaded OK
+[x] Segment #142110030 (710000) downloaded OK
+[x] Segment #142110027 (1240000) downloaded OK
+[x] Segment #142110031 (195000) downloaded OK
+[x] Segment #142110030 (446000) downloaded OK
+[x] Segment #142110031 (354000) downloaded OK
+[x] Segment #142110030 (840000) downloaded OK
+[x] Segment #142110031 (710000) downloaded OK
+[x] Segment #142110028 (1240000) downloaded OK
+[x] Segment #142110032 (195000) downloaded OK
+[x] Segment #142110031 (446000) downloaded OK
+[x] Segment #142110032 (354000) downloaded OK
+[x] Segment #142110031 (840000) downloaded OK
+[x] Segment #142110032 (710000) downloaded OK
+[x] Segment #142110010 (4384000) downloaded OK
+[x] Segment #142110033 (195000) downloaded OK
+[x] Segment #142110032 (446000) downloaded OK
+[x] Segment #142110033 (354000) downloaded OK
+[x] Segment #142110032 (840000) downloaded OK
+[x] Segment #142110033 (710000) downloaded OK
+[x] Segment #142110029 (1240000) downloaded OK
+[x] Segment #142110034 (195000) downloaded OK
+[x] Segment #142110033 (446000) downloaded OK
+[x] Segment #142110034 (354000) downloaded OK
+[x] Segment #142110033 (840000) downloaded OK
+[x] Segment #142110034 (710000) downloaded OK
+[x] Segment #142110030 (1240000) downloaded OK
+[x] Segment #142110035 (195000) downloaded OK
+[x] Segment #142110034 (446000) downloaded OK
+[x] Segment #142110035 (354000) downloaded OK
+[x] Segment #142110034 (840000) downloaded OK
+[x] Segment #142110035 (710000) downloaded OK
+[x] Segment #142110031 (1240000) downloaded OK
+[x] Segment #142110036 (195000) downloaded OK
+[x] Segment #142110035 (446000) downloaded OK
+[x] Segment #142110036 (354000) downloaded OK
+[x] Segment #142110011 (4384000) downloaded OK
+[x] Segment #142110036 (710000) downloaded OK
+[x] Segment #142110035 (840000) downloaded OK
+[x] Segment #142110037 (195000) downloaded OK
+[x] Segment #142110036 (446000) downloaded OK
+[x] Segment #142110037 (354000) downloaded OK
+[x] Segment #142110032 (1240000) downloaded OK
+[x] Segment #142110037 (710000) downloaded OK
+[x] Segment #142110036 (840000) downloaded OK
+[x] Segment #142110038 (195000) downloaded OK
+[x] Segment #142110037 (446000) downloaded OK
+[x] Segment #142110038 (354000) downloaded OK
+[x] Segment #142110033 (1240000) downloaded OK
+[x] Segment #142110038 (710000) downloaded OK
+[x] Segment #142110037 (840000) downloaded OK
+[x] Segment #142110039 (195000) downloaded OK
+[x] Segment #142110038 (446000) downloaded OK
+[x] Segment #142110039 (354000) downloaded OK
+[x] Segment #142110034 (1240000) downloaded OK
+[x] Segment #142110039 (710000) downloaded OK
+[x] Segment #142110038 (840000) downloaded OK
+[x] Segment #142110040 (195000) downloaded OK
+[x] Segment #142110039 (446000) downloaded OK
+[x] Segment #142110040 (354000) downloaded OK
+[x] Segment #142110035 (1240000) downloaded OK
+[x] Segment #142110040 (710000) downloaded OK
+[x] Segment #142110039 (840000) downloaded OK
+[x] Segment #142110041 (195000) downloaded OK
+[x] Segment #142110040 (446000) downloaded OK
+[x] Segment #142110041 (354000) downloaded OK
+[x] Segment #142110036 (1240000) downloaded OK
+[x] Segment #142110012 (4384000) downloaded OK
+[x] Segment #142110041 (710000) downloaded OK
+[x] Segment #142110042 (195000) downloaded OK
+[x] Segment #142110041 (446000) downloaded OK
+[x] Segment #142110040 (840000) downloaded OK
+[x] Segment #142110042 (354000) downloaded OK
+[x] Segment #142110037 (1240000) downloaded OK
+[x] Segment #142110042 (710000) downloaded OK
+[x] Segment #142110043 (195000) downloaded OK
+[x] Segment #142110042 (446000) downloaded OK
+[x] Segment #142110041 (840000) downloaded OK
+[x] Segment #142110043 (354000) downloaded OK
+[x] Segment #142110038 (1240000) downloaded OK
+[x] Segment #142110043 (710000) downloaded OK
+[x] Segment #142110044 (195000) downloaded OK
+[x] Segment #142110043 (446000) downloaded OK
+[x] Segment #142110042 (840000) downloaded OK
+[x] Segment #142110044 (354000) downloaded OK
+[x] Segment #142110039 (1240000) downloaded OK
+[x] Segment #142110044 (710000) downloaded OK
+[x] Segment #142110013 (4384000) downloaded OK
+[x] Segment #142110045 (195000) downloaded OK
+[x] Segment #142110044 (446000) downloaded OK
+[x] Segment #142110045 (354000) downloaded OK
+[x] Segment #142110043 (840000) downloaded OK
+[x] Segment #142110045 (710000) downloaded OK
+[x] Segment #142110040 (1240000) downloaded OK
+[x] Segment #142110046 (195000) downloaded OK
+[x] Segment #142110045 (446000) downloaded OK
+[x] Segment #142110046 (354000) downloaded OK
+[x] Segment #142110044 (840000) downloaded OK
+[x] Segment #142110046 (710000) downloaded OK
+[x] Segment #142110041 (1240000) downloaded OK
+[x] Segment #142110047 (195000) downloaded OK
+[x] Segment #142110014 (4384000) downloaded OK
+[x] Segment #142110047 (354000) downloaded OK
+[x] Segment #142110046 (446000) downloaded OK
+[x] Segment #142110045 (840000) downloaded OK
+[x] Segment #142110047 (710000) downloaded OK
+[x] Segment #142110048 (195000) downloaded OK
+[x] Segment #142110042 (1240000) downloaded OK
+[x] Segment #142110048 (354000) downloaded OK
+[x] Segment #142110047 (446000) downloaded OK
+[x] Segment #142110046 (840000) downloaded OK
+[x] Segment #142110048 (710000) downloaded OK
+[x] Segment #142110049 (195000) downloaded OK
+[x] Segment #142110043 (1240000) downloaded OK
+[x] Segment #142110049 (354000) downloaded OK
+[x] Segment #142110048 (446000) downloaded OK
+[x] Segment #142110047 (840000) downloaded OK
+[x] Segment #142110049 (710000) downloaded OK
+[x] Segment #142110050 (195000) downloaded OK
+[x] Segment #142110044 (1240000) downloaded OK
+[x] Segment #142110050 (354000) downloaded OK
+[x] Segment #142110049 (446000) downloaded OK
+[x] Segment #142110048 (840000) downloaded OK
+[x] Segment #142110050 (710000) downloaded OK
+[x] Segment #142110051 (195000) downloaded OK
+[x] Segment #142110045 (1240000) downloaded OK
+[x] Segment #142110051 (354000) downloaded OK
+[x] Segment #142110050 (446000) downloaded OK
+[x] Segment #142110049 (840000) downloaded OK
+[x] Segment #142110051 (710000) downloaded OK
+[x] Segment #142110052 (195000) downloaded OK
+[x] Segment #142110046 (1240000) downloaded OK
+[x] Segment #142110052 (354000) downloaded OK
+[x] Segment #142110051 (446000) downloaded OK
+[x] Segment #142110050 (840000) downloaded OK
+[x] Segment #142110052 (710000) downloaded OK
+[x] Segment #142110053 (195000) downloaded OK
+[x] Segment #142110015 (4384000) downloaded OK
+[x] Segment #142110053 (354000) downloaded OK
+[x] Segment #142110047 (1240000) downloaded OK
+[x] Segment #142110051 (840000) downloaded OK
+[x] Segment #142110052 (446000) downloaded OK
+[x] Segment #142110053 (710000) downloaded OK
+[x] Segment #142110054 (195000) downloaded OK
+[x] Segment #142110054 (354000) downloaded OK
+[x] Segment #142110048 (1240000) downloaded OK
+[x] Segment #142110052 (840000) downloaded OK
+[x] Segment #142110053 (446000) downloaded OK
+[x] Segment #142110054 (710000) downloaded OK
+[x] Segment #142110055 (195000) downloaded OK
+[x] Segment #142110055 (354000) downloaded OK
+[x] Segment #142110049 (1240000) downloaded OK
+[x] Segment #142110053 (840000) downloaded OK
+[x] Segment #142110054 (446000) downloaded OK
+[x] Segment #142110055 (710000) downloaded OK
+[x] Segment #142110056 (195000) downloaded OK
+[x] Segment #142110056 (354000) downloaded OK
+[x] Segment #142110050 (1240000) downloaded OK
+[x] Segment #142110054 (840000) downloaded OK
+[x] Segment #142110055 (446000) downloaded OK
+[x] Segment #142110056 (710000) downloaded OK
+[x] Segment #142110057 (195000) downloaded OK
+[x] Segment #142110057 (354000) downloaded OK
+[x] Segment #142110051 (1240000) downloaded OK
+[x] Segment #142110055 (840000) downloaded OK
+[x] Segment #142110056 (446000) downloaded OK
+[x] Segment #142110057 (710000) downloaded OK
+[x] Segment #142110058 (195000) downloaded OK
+[x] Segment #142110058 (354000) downloaded OK
+[x] Segment #142110052 (1240000) downloaded OK
+[x] Segment #142110056 (840000) downloaded OK
+[x] Segment #142110057 (446000) downloaded OK
+[x] Segment #142110058 (710000) downloaded OK
+[x] Segment #142110059 (195000) downloaded OK
+[x] Segment #142110059 (354000) downloaded OK
+[x] Segment #142110016 (4384000) downloaded OK
+[x] Segment #142110057 (840000) downloaded OK
+[x] Segment #142110058 (446000) downloaded OK
+[x] Segment #142110059 (710000) downloaded OK
+[x] Segment #142110060 (195000) downloaded OK
+[x] Segment #142110060 (354000) downloaded OK
+[x] Segment #142110053 (1240000) downloaded OK
+[x] Segment #142110058 (840000) downloaded OK
+[x] Segment #142110059 (446000) downloaded OK
+[x] Segment #142110060 (710000) downloaded OK
+[x] Segment #142110061 (195000) downloaded OK
+[x] Segment #142110061 (354000) downloaded OK
+[x] Segment #142110017 (4384000) downloaded OK
+[x] Segment #142110054 (1240000) downloaded OK
+[x] Segment #142110060 (446000) downloaded OK
+[x] Segment #142110059 (840000) downloaded OK
+[x] Segment #142110062 (195000) downloaded OK
+[x] Segment #142110061 (710000) downloaded OK
+[x] Segment #142110062 (354000) downloaded OK
+[x] Segment #142110055 (1240000) downloaded OK
+[x] Segment #142110061 (446000) downloaded OK
+[x] Segment #142110060 (840000) downloaded OK
+[x] Segment #142110063 (195000) downloaded OK
+[x] Segment #142110062 (710000) downloaded OK
+[x] Segment #142110063 (354000) downloaded OK
+[x] Segment #142110056 (1240000) downloaded OK
+[x] Segment #142110062 (446000) downloaded OK
+[x] Segment #142110061 (840000) downloaded OK
+[x] Segment #142110064 (195000) downloaded OK
+[x] Segment #142110063 (710000) downloaded OK
+[x] Segment #142110064 (354000) downloaded OK
+[x] Segment #142110057 (1240000) downloaded OK
+[x] Segment #142110063 (446000) downloaded OK
+[x] Segment #142110062 (840000) downloaded OK
+[x] Segment #142110065 (195000) downloaded OK
+[x] Segment #142110064 (710000) downloaded OK
+[x] Segment #142110065 (354000) downloaded OK
+[x] Segment #142110018 (4384000) downloaded OK
+[x] Segment #142110058 (1240000) downloaded OK
+[x] Segment #142110064 (446000) downloaded OK
+[x] Segment #142110066 (195000) downloaded OK
+[x] Segment #142110065 (710000) downloaded OK
+[x] Segment #142110066 (354000) downloaded OK
+[x] Segment #142110063 (840000) downloaded OK
+[x] Segment #142110059 (1240000) downloaded OK
+[x] Segment #142110065 (446000) downloaded OK
+[x] Segment #142110067 (195000) downloaded OK
+[x] Segment #142110066 (710000) downloaded OK
+[x] Segment #142110067 (354000) downloaded OK
+[x] Segment #142110064 (840000) downloaded OK
+[x] Segment #142110060 (1240000) downloaded OK
+[x] Segment #142110066 (446000) downloaded OK
+[x] Segment #142110019 (4384000) downloaded OK
+[x] Segment #142110068 (195000) downloaded OK
+[x] Segment #142110067 (710000) downloaded OK
+[x] Segment #142110068 (354000) downloaded OK
+[x] Segment #142110065 (840000) downloaded OK
+[x] Segment #142110061 (1240000) downloaded OK
+[x] Segment #142110067 (446000) downloaded OK
+[x] Segment #142110069 (195000) downloaded OK
+[x] Segment #142110068 (710000) downloaded OK
+[x] Segment #142110069 (354000) downloaded OK
+[x] Segment #142110066 (840000) downloaded OK
+[x] Segment #142110062 (1240000) downloaded OK
+[x] Segment #142110068 (446000) downloaded OK
+[x] Segment #142110070 (195000) downloaded OK
+[x] Segment #142110069 (710000) downloaded OK
+[x] Segment #142110070 (354000) downloaded OK
+[x] Segment #142110067 (840000) downloaded OK
+[x] Segment #142110063 (1240000) downloaded OK
+[x] Segment #142110069 (446000) downloaded OK
+[x] Segment #142110071 (195000) downloaded OK
+[x] Segment #142110070 (710000) downloaded OK
+[x] Segment #142110071 (354000) downloaded OK
+[x] Segment #142110068 (840000) downloaded OK
+[x] Segment #142110020 (4384000) downloaded OK
+[x] Segment #142110070 (446000) downloaded OK
+[x] Segment #142110072 (195000) downloaded OK
+[x] Segment #142110071 (710000) downloaded OK
+[x] Segment #142110072 (354000) downloaded OK
+[x] Segment #142110064 (1240000) downloaded OK
+[x] Segment #142110069 (840000) downloaded OK
+[x] Segment #142110071 (446000) downloaded OK
+[x] Segment #142110073 (195000) downloaded OK
+[x] Segment #142110072 (710000) downloaded OK
+[x] Segment #142110073 (354000) downloaded OK
+[x] Segment #142110065 (1240000) downloaded OK
+[x] Segment #142110070 (840000) downloaded OK
+[x] Segment #142110072 (446000) downloaded OK
+[x] Segment #142110074 (195000) downloaded OK
+[x] Segment #142110073 (710000) downloaded OK
+[x] Segment #142110074 (354000) downloaded OK
+[x] Segment #142110066 (1240000) downloaded OK
+[x] Segment #142110071 (840000) downloaded OK
+[x] Segment #142110073 (446000) downloaded OK
+[x] Segment #142110075 (195000) downloaded OK
+[x] Segment #142110074 (710000) downloaded OK
+[x] Segment #142110075 (354000) downloaded OK
+[x] Segment #142110067 (1240000) downloaded OK
+[x] Segment #142110072 (840000) downloaded OK
+[x] Segment #142110074 (446000) downloaded OK
+[x] Segment #142110076 (195000) downloaded OK
+[x] Segment #142110075 (710000) downloaded OK
+[x] Segment #142110076 (354000) downloaded OK
+[x] Segment #142110068 (1240000) downloaded OK
+[x] Segment #142110073 (840000) downloaded OK
+[x] Segment #142110075 (446000) downloaded OK
+[x] Segment #142110077 (195000) downloaded OK
+[x] Segment #142110076 (710000) downloaded OK
+[x] Segment #142110077 (354000) downloaded OK
+[x] Segment #142110021 (4384000) downloaded OK
+[x] Segment #142110074 (840000) downloaded OK
+[x] Segment #142110069 (1240000) downloaded OK
+[x] Segment #142110078 (195000) downloaded OK
+[x] Segment #142110076 (446000) downloaded OK
+[x] Segment #142110078 (354000) downloaded OK
+[x] Segment #142110077 (710000) downloaded OK
+[x] Segment #142110075 (840000) downloaded OK
+[x] Segment #142110070 (1240000) downloaded OK
+[x] Segment #142110079 (195000) downloaded OK
+[x] Segment #142110077 (446000) downloaded OK
+[x] Segment #142110079 (354000) downloaded OK
+[x] Segment #142110078 (710000) downloaded OK
+[x] Segment #142110076 (840000) downloaded OK
+[x] Segment #142110071 (1240000) downloaded OK
+[x] Segment #142110080 (195000) downloaded OK
+[x] Segment #142110078 (446000) downloaded OK
+[x] Segment #142110080 (354000) downloaded OK
+[x] Segment #142110079 (710000) downloaded OK
+[x] Segment #142110077 (840000) downloaded OK
+[x] Segment #142110072 (1240000) downloaded OK
+[x] Segment #142110081 (195000) downloaded OK
+[x] Segment #142110079 (446000) downloaded OK
+[x] Segment #142110081 (354000) downloaded OK
+[x] Segment #142110080 (710000) downloaded OK
+[x] Segment #142110078 (840000) downloaded OK
+[x] Segment #142110022 (4384000) downloaded OK
+[x] Segment #142110082 (195000) downloaded OK
+[x] Segment #142110080 (446000) downloaded OK
+[x] Segment #142110082 (354000) downloaded OK
+[x] Segment #142110081 (710000) downloaded OK
+[x] Segment #142110079 (840000) downloaded OK
+[x] Segment #142110073 (1240000) downloaded OK
+[x] Segment #142110083 (195000) downloaded OK
+[x] Segment #142110081 (446000) downloaded OK
+[x] Segment #142110083 (354000) downloaded OK
+[x] Segment #142110082 (710000) downloaded OK
+[x] Segment #142110080 (840000) downloaded OK
+[x] Segment #142110074 (1240000) downloaded OK
+[x] Segment #142110084 (195000) downloaded OK
+[x] Segment #142110082 (446000) downloaded OK
+[x] Segment #142110084 (354000) downloaded OK
+[x] Segment #142110083 (710000) downloaded OK
+[x] Segment #142110081 (840000) downloaded OK
+[x] Segment #142110023 (4384000) downloaded OK
+[x] Segment #142110085 (195000) downloaded OK
+[x] Segment #142110083 (446000) downloaded OK
+[x] Segment #142110085 (354000) downloaded OK
+[x] Segment #142110075 (1240000) downloaded OK
+[x] Segment #142110082 (840000) downloaded OK
+[x] Segment #142110084 (710000) downloaded OK
+[x] Segment #142110086 (195000) downloaded OK
+[x] Segment #142110084 (446000) downloaded OK
+[x] Segment #142110086 (354000) downloaded OK
+[x] Segment #142110076 (1240000) downloaded OK
+[x] Segment #142110083 (840000) downloaded OK
+[x] Segment #142110085 (710000) downloaded OK
+[x] Segment #142110087 (195000) downloaded OK
+[x] Segment #142110085 (446000) downloaded OK
+[x] Segment #142110087 (354000) downloaded OK
+[x] Segment #142110077 (1240000) downloaded OK
+[x] Segment #142110084 (840000) downloaded OK
+[x] Segment #142110086 (710000) downloaded OK
+[x] Segment #142110088 (195000) downloaded OK
+[x] Segment #142110086 (446000) downloaded OK
+[x] Segment #142110088 (354000) downloaded OK
+[x] Segment #142110078 (1240000) downloaded OK
+[x] Segment #142110085 (840000) downloaded OK
+[x] Segment #142110087 (710000) downloaded OK
+[x] Segment #142110089 (195000) downloaded OK
+[x] Segment #142110087 (446000) downloaded OK
+[x] Segment #142110089 (354000) downloaded OK
+[x] Segment #142110024 (4384000) downloaded OK
+[x] Segment #142110079 (1240000) downloaded OK
+[x] Segment #142110088 (710000) downloaded OK
+[x] Segment #142110090 (195000) downloaded OK
+[x] Segment #142110088 (446000) downloaded OK
+[x] Segment #142110090 (354000) downloaded OK
+[x] Segment #142110086 (840000) downloaded OK
+[x] Segment #142110080 (1240000) downloaded OK
+[x] Segment #142110089 (710000) downloaded OK
+[x] Segment #142110091 (195000) downloaded OK
+[x] Segment #142110089 (446000) downloaded OK
+[x] Segment #142110091 (354000) downloaded OK
+[x] Segment #142110087 (840000) downloaded OK
+[x] Segment #142110081 (1240000) downloaded OK
+[x] Segment #142110090 (710000) downloaded OK
+[x] Segment #142110092 (195000) downloaded OK
+[x] Segment #142110025 (4384000) downloaded OK
+[x] Segment #142110092 (354000) downloaded OK
+[x] Segment #142110090 (446000) downloaded OK
+[x] Segment #142110088 (840000) downloaded OK
+[x] Segment #142110091 (710000) downloaded OK
+[x] Segment #142110082 (1240000) downloaded OK
+[x] Segment #142110093 (195000) downloaded OK
+[x] Segment #142110093 (354000) downloaded OK
+[x] Segment #142110091 (446000) downloaded OK
+[x] Segment #142110089 (840000) downloaded OK
+[x] Segment #142110092 (710000) downloaded OK
+[x] Segment #142110083 (1240000) downloaded OK
+[x] Segment #142110094 (195000) downloaded OK
+[x] Segment #142110094 (354000) downloaded OK
+[x] Segment #142110092 (446000) downloaded OK
+[x] Segment #142110026 (4384000) downloaded OK
+[x] Segment #142110093 (710000) downloaded OK
+[x] Segment #142110090 (840000) downloaded OK
+[x] Segment #142110095 (195000) downloaded OK
+[x] Segment #142110095 (354000) downloaded OK
+[x] Segment #142110093 (446000) downloaded OK
+[x] Segment #142110084 (1240000) downloaded OK
+[!] Error obtaining segment #142110027 (4384000): The remote server returned an error: (404) Not Found. Retrying...
+[x] Segment #142110094 (710000) downloaded OK
+[x] Segment #142110091 (840000) downloaded OK
+[x] Segment #142110096 (195000) downloaded OK
+[x] Segment #142110096 (354000) downloaded OK
+[x] Segment #142110094 (446000) downloaded OK
+[x] Segment #142110085 (1240000) downloaded OK
+[x] Segment #142110095 (710000) downloaded OK
+[x] Segment #142110092 (840000) downloaded OK
+[x] Segment #142110097 (195000) downloaded OK
+[x] Segment #142110097 (354000) downloaded OK
+[x] Segment #142110095 (446000) downloaded OK
+[x] Segment #142110096 (710000) downloaded OK
+[x] Segment #142110086 (1240000) downloaded OK
+[x] Segment #142110098 (195000) downloaded OK
+[x] Segment #142110093 (840000) downloaded OK
+[x] Segment #142110098 (354000) downloaded OK
+[x] Segment #142110096 (446000) downloaded OK
+[x] Segment #142110097 (710000) downloaded OK
+[x] Segment #142110099 (195000) downloaded OK
+[x] Segment #142110087 (1240000) downloaded OK
+[x] Segment #142110099 (354000) downloaded OK
+[x] Segment #142110094 (840000) downloaded OK
+[x] Segment #142110097 (446000) downloaded OK
+[x] Segment #142110098 (710000) downloaded OK
+[x] Segment #142110100 (195000) downloaded OK
+[x] Segment #142110100 (354000) downloaded OK
+[x] Segment #142110095 (840000) downloaded OK
+[x] Segment #142110098 (446000) downloaded OK
+[x] Segment #142110099 (710000) downloaded OK
+[x] Segment #142110101 (195000) downloaded OK
+[x] Segment #142110101 (354000) downloaded OK
+[x] Segment #142110096 (840000) downloaded OK
+[x] Segment #142110099 (446000) downloaded OK
+[x] Segment #142110100 (710000) downloaded OK
+[x] Segment #142110102 (195000) downloaded OK
+[x] Segment #142110102 (354000) downloaded OK
+[x] Segment #142110088 (1240000) downloaded OK
+[x] Segment #142110097 (840000) downloaded OK
+[x] Segment #142110100 (446000) downloaded OK
+[x] Segment #142110101 (710000) downloaded OK
+[x] Segment #142110103 (195000) downloaded OK
+[x] Segment #142110103 (354000) downloaded OK
+[x] Segment #142110098 (840000) downloaded OK
+[x] Segment #142110089 (1240000) downloaded OK
+[x] Segment #142110101 (446000) downloaded OK
+[x] Segment #142110102 (710000) downloaded OK
+[x] Segment #142110104 (195000) downloaded OK
+[x] Segment #142110104 (354000) downloaded OK
+[x] Segment #142110099 (840000) downloaded OK
+[x] Segment #142110102 (446000) downloaded OK
+[x] Segment #142110103 (710000) downloaded OK
+[x] Segment #142110105 (195000) downloaded OK
+[x] Segment #142110105 (354000) downloaded OK
+[x] Segment #142110100 (840000) downloaded OK
+[x] Segment #142110103 (446000) downloaded OK
+[!] Error obtaining segment #142110027 (4384000): The remote server returned an error: (404) Not Found. Retrying...
+[x] Segment #142110090 (1240000) downloaded OK
+[x] Segment #142110106 (195000) downloaded OK
+[x] Segment #142110104 (710000) downloaded OK
+[x] Segment #142110106 (354000) downloaded OK
+[x] Segment #142110101 (840000) downloaded OK
+[x] Segment #142110104 (446000) downloaded OK
+[x] Segment #142110107 (195000) downloaded OK
+[x] Segment #142110091 (1240000) downloaded OK
+[x] Segment #142110107 (354000) downloaded OK
+[x] Segment #142110105 (710000) downloaded OK
+[x] Segment #142110105 (446000) downloaded OK
+[x] Segment #142110102 (840000) downloaded OK
+[x] Segment #142110108 (195000) downloaded OK
+[x] Segment #142110108 (354000) downloaded OK
+[x] Segment #142110092 (1240000) downloaded OK
+[x] Segment #142110106 (710000) downloaded OK
+[x] Segment #142110106 (446000) downloaded OK
+[x] Segment #142110103 (840000) downloaded OK
+[x] Segment #142110109 (195000) downloaded OK
+[x] Segment #142110109 (354000) downloaded OK
+[x] Segment #142110107 (710000) downloaded OK
+[x] Segment #142110107 (446000) downloaded OK
+[x] Segment #142110093 (1240000) downloaded OK
+[x] Segment #142110110 (195000) downloaded OK
+[x] Segment #142110110 (354000) downloaded OK
+[x] Segment #142110108 (710000) downloaded OK
+[x] Segment #142110104 (840000) downloaded OK
+[x] Segment #142110108 (446000) downloaded OK
+[x] Segment #142110094 (1240000) downloaded OK
+[x] Segment #142110111 (195000) downloaded OK
+[x] Segment #142110111 (354000) downloaded OK
+[x] Segment #142110109 (710000) downloaded OK
+[x] Segment #142110105 (840000) downloaded OK
+[x] Segment #142110109 (446000) downloaded OK
+[!] Error obtaining segment #142110027 (4384000): The remote server returned an error: (404) Not Found.
+Playlist complete with errors (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_4320_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+[x] Segment #142110095 (1240000) downloaded OK
+[x] Segment #142110112 (195000) downloaded OK
+[x] Segment #142110112 (354000) downloaded OK
+[x] Segment #142110110 (710000) downloaded OK
+[x] Segment #142110106 (840000) downloaded OK
+[x] Segment #142110110 (446000) downloaded OK
+[x] Segment #142110113 (195000) downloaded OK
+[x] Segment #142110113 (354000) downloaded OK
+[x] Segment #142110096 (1240000) downloaded OK
+[x] Segment #142110111 (710000) downloaded OK
+[x] Segment #142110111 (446000) downloaded OK
+[x] Segment #142110107 (840000) downloaded OK
+[x] Segment #142110114 (195000) downloaded OK
+[x] Segment #142110114 (354000) downloaded OK
+[x] Segment #142110112 (710000) downloaded OK
+[x] Segment #142110112 (446000) downloaded OK
+[x] Segment #142110108 (840000) downloaded OK
+[x] Segment #142110115 (195000) downloaded OK
+[x] Segment #142110115 (354000) downloaded OK
+[x] Segment #142110113 (710000) downloaded OK
+[x] Segment #142110113 (446000) downloaded OK
+[x] Segment #142110097 (1240000) downloaded OK
+[x] Segment #142110116 (195000) downloaded OK
+[x] Segment #142110109 (840000) downloaded OK
+[x] Segment #142110116 (354000) downloaded OK
+[x] Segment #142110114 (446000) downloaded OK
+[x] Segment #142110114 (710000) downloaded OK
+[x] Segment #142110117 (195000) downloaded OK
+[x] Segment #142110098 (1240000) downloaded OK
+[x] Segment #142110110 (840000) downloaded OK
+[x] Segment #142110117 (354000) downloaded OK
+[x] Segment #142110115 (446000) downloaded OK
+[x] Segment #142110115 (710000) downloaded OK
+[x] Segment #142110118 (195000) downloaded OK
+[x] Segment #142110111 (840000) downloaded OK
+[x] Segment #142110118 (354000) downloaded OK
+[x] Segment #142110116 (446000) downloaded OK
+[x] Segment #142110099 (1240000) downloaded OK
+[x] Segment #142110119 (195000) downloaded OK
+[x] Segment #142110112 (840000) downloaded OK
+[x] Segment #142110119 (354000) downloaded OK
+[x] Segment #142110116 (710000) downloaded OK
+[x] Segment #142110117 (446000) downloaded OK
+[x] Segment #142110120 (195000) downloaded OK
+[x] Segment #142110113 (840000) downloaded OK
+[x] Segment #142110120 (354000) downloaded OK
+[x] Segment #142110117 (710000) downloaded OK
+[x] Segment #142110100 (1240000) downloaded OK
+[x] Segment #142110121 (195000) downloaded OK
+[x] Segment #142110118 (446000) downloaded OK
+[x] Segment #142110121 (354000) downloaded OK
+[x] Segment #142110118 (710000) downloaded OK
+[x] Segment #142110114 (840000) downloaded OK
+[x] Segment #142110122 (195000) downloaded OK
+[x] Segment #142110119 (446000) downloaded OK
+[x] Segment #142110122 (354000) downloaded OK
+[x] Segment #142110119 (710000) downloaded OK
+[x] Segment #142110115 (840000) downloaded OK
+[x] Segment #142110123 (195000) downloaded OK
+[x] Segment #142110120 (446000) downloaded OK
+[x] Segment #142110123 (354000) downloaded OK
+[x] Segment #142110101 (1240000) downloaded OK
+[x] Segment #142110116 (840000) downloaded OK
+[x] Segment #142110124 (195000) downloaded OK
+[x] Segment #142110120 (710000) downloaded OK
+[x] Segment #142110121 (446000) downloaded OK
+[x] Segment #142110124 (354000) downloaded OK
+[x] Segment #142110102 (1240000) downloaded OK
+[x] Segment #142110125 (195000) downloaded OK
+[x] Segment #142110117 (840000) downloaded OK
+[x] Segment #142110121 (710000) downloaded OK
+[x] Segment #142110122 (446000) downloaded OK
+[x] Segment #142110125 (354000) downloaded OK
+[x] Segment #142110126 (195000) downloaded OK
+[x] Segment #142110118 (840000) downloaded OK
+[x] Segment #142110103 (1240000) downloaded OK
+[x] Segment #142110123 (446000) downloaded OK
+[x] Segment #142110126 (354000) downloaded OK
+[x] Segment #142110122 (710000) downloaded OK
+[x] Segment #142110127 (195000) downloaded OK
+[x] Segment #142110104 (1240000) downloaded OK
+[x] Segment #142110124 (446000) downloaded OK
+[x] Segment #142110119 (840000) downloaded OK
+[x] Segment #142110127 (354000) downloaded OK
+[x] Segment #142110123 (710000) downloaded OK
+[x] Segment #142110128 (195000) downloaded OK
+[x] Segment #142110125 (446000) downloaded OK
+[x] Segment #142110120 (840000) downloaded OK
+[x] Segment #142110128 (354000) downloaded OK
+[x] Segment #142110124 (710000) downloaded OK
+[x] Segment #142110129 (195000) downloaded OK
+[x] Segment #142110126 (446000) downloaded OK
+[x] Segment #142110105 (1240000) downloaded OK
+[x] Segment #142110129 (354000) downloaded OK
+[x] Segment #142110121 (840000) downloaded OK
+[x] Segment #142110130 (195000) downloaded OK
+[x] Segment #142110125 (710000) downloaded OK
+[x] Segment #142110127 (446000) downloaded OK
+[x] Segment #142110130 (354000) downloaded OK
+[x] Segment #142110106 (1240000) downloaded OK
+[x] Segment #142110122 (840000) downloaded OK
+[x] Segment #142110131 (195000) downloaded OK
+[x] Segment #142110128 (446000) downloaded OK
+[x] Segment #142110131 (354000) downloaded OK
+[x] Segment #142110126 (710000) downloaded OK
+[x] Segment #142110123 (840000) downloaded OK
+[x] Segment #142110132 (195000) downloaded OK
+[x] Segment #142110129 (446000) downloaded OK
+[x] Segment #142110132 (354000) downloaded OK
+[x] Segment #142110107 (1240000) downloaded OK
+[x] Segment #142110124 (840000) downloaded OK
+[x] Segment #142110133 (195000) downloaded OK
+[x] Segment #142110130 (446000) downloaded OK
+[x] Segment #142110133 (354000) downloaded OK
+[x] Segment #142110108 (1240000) downloaded OK
+[x] Segment #142110127 (710000) downloaded OK
+[x] Segment #142110125 (840000) downloaded OK
+[x] Segment #142110134 (195000) downloaded OK
+[x] Segment #142110131 (446000) downloaded OK
+[x] Segment #142110134 (354000) downloaded OK
+[x] Segment #142110128 (710000) downloaded OK
+[x] Segment #142110109 (1240000) downloaded OK
+[x] Segment #142110126 (840000) downloaded OK
+[x] Segment #142110135 (195000) downloaded OK
+[x] Segment #142110135 (354000) downloaded OK
+[x] Segment #142110132 (446000) downloaded OK
+[x] Segment #142110129 (710000) downloaded OK
+[x] Segment #142110110 (1240000) downloaded OK
+[x] Segment #142110136 (195000) downloaded OK
+[x] Segment #142110136 (354000) downloaded OK
+[x] Segment #142110127 (840000) downloaded OK
+[x] Segment #142110133 (446000) downloaded OK
+[x] Segment #142110130 (710000) downloaded OK
+[x] Segment #142110137 (195000) downloaded OK
+[x] Segment #142110111 (1240000) downloaded OK
+[x] Segment #142110137 (354000) downloaded OK
+[x] Segment #142110134 (446000) downloaded OK
+[x] Segment #142110131 (710000) downloaded OK
+[x] Segment #142110138 (195000) downloaded OK
+[x] Segment #142110112 (1240000) downloaded OK
+[x] Segment #142110138 (354000) downloaded OK
+[x] Segment #142110135 (446000) downloaded OK
+[x] Segment #142110132 (710000) downloaded OK
+[x] Segment #142110139 (195000) downloaded OK
+[x] Segment #142110128 (840000) downloaded OK
+[x] Segment #142110139 (354000) downloaded OK
+[x] Segment #142110136 (446000) downloaded OK
+[x] Segment #142110133 (710000) downloaded OK
+[x] Segment #142110140 (195000) downloaded OK
+[x] Segment #142110129 (840000) downloaded OK
+[x] Segment #142110140 (354000) downloaded OK
+[x] Segment #142110137 (446000) downloaded OK
+[x] Segment #142110113 (1240000) downloaded OK
+[x] Segment #142110141 (195000) downloaded OK
+[x] Segment #142110134 (710000) downloaded OK
+[x] Segment #142110141 (354000) downloaded OK
+[x] Segment #142110138 (446000) downloaded OK
+[x] Segment #142110130 (840000) downloaded OK
+[x] Segment #142110142 (195000) downloaded OK
+[x] Segment #142110135 (710000) downloaded OK
+[x] Segment #142110142 (354000) downloaded OK
+[x] Segment #142110114 (1240000) downloaded OK
+[x] Segment #142110139 (446000) downloaded OK
+[x] Segment #142110143 (195000) downloaded OK
+[x] Segment #142110136 (710000) downloaded OK
+[x] Segment #142110143 (354000) downloaded OK
+[x] Segment #142110131 (840000) downloaded OK
+[x] Segment #142110140 (446000) downloaded OK
+[x] Segment #142110144 (195000) downloaded OK
+[x] Segment #142110137 (710000) downloaded OK
+[x] Segment #142110144 (354000) downloaded OK
+[x] Segment #142110132 (840000) downloaded OK
+[x] Segment #142110141 (446000) downloaded OK
+[x] Segment #142110145 (195000) downloaded OK
+[x] Segment #142110138 (710000) downloaded OK
+[x] Segment #142110115 (1240000) downloaded OK
+[x] Segment #142110145 (354000) downloaded OK
+[x] Segment #142110133 (840000) downloaded OK
+[x] Segment #142110142 (446000) downloaded OK
+[x] Segment #142110146 (195000) downloaded OK
+[x] Segment #142110139 (710000) downloaded OK
+[x] Segment #142110146 (354000) downloaded OK
+[x] Segment #142110134 (840000) downloaded OK
+[x] Segment #142110143 (446000) downloaded OK
+[x] Segment #142110116 (1240000) downloaded OK
+[x] Segment #142110140 (710000) downloaded OK
+[x] Segment #142110147 (195000) downloaded OK
+[x] Segment #142110147 (354000) downloaded OK
+[x] Segment #142110144 (446000) downloaded OK
+[x] Segment #142110135 (840000) downloaded OK
+[x] Segment #142110117 (1240000) downloaded OK
+[x] Segment #142110148 (195000) downloaded OK
+[x] Segment #142110148 (354000) downloaded OK
+[x] Segment #142110145 (446000) downloaded OK
+[x] Segment #142110141 (710000) downloaded OK
+[x] Segment #142110136 (840000) downloaded OK
+[x] Segment #142110149 (195000) downloaded OK
+[x] Segment #142110149 (354000) downloaded OK
+[x] Segment #142110146 (446000) downloaded OK
+[x] Segment #142110142 (710000) downloaded OK
+[x] Segment #142110118 (1240000) downloaded OK
+[x] Segment #142110150 (195000) downloaded OK
+[x] Segment #142110150 (354000) downloaded OK
+[x] Segment #142110147 (446000) downloaded OK
+[x] Segment #142110143 (710000) downloaded OK
+[x] Segment #142110137 (840000) downloaded OK
+[x] Segment #142110151 (195000) downloaded OK
+[x] Segment #142110151 (354000) downloaded OK
+[x] Segment #142110119 (1240000) downloaded OK
+[x] Segment #142110148 (446000) downloaded OK
+[x] Segment #142110138 (840000) downloaded OK
+[x] Segment #142110152 (195000) downloaded OK
+[x] Segment #142110152 (354000) downloaded OK
+[x] Segment #142110144 (710000) downloaded OK
+[x] Segment #142110149 (446000) downloaded OK
+[x] Segment #142110139 (840000) downloaded OK
+[x] Segment #142110153 (195000) downloaded OK
+[x] Segment #142110153 (354000) downloaded OK
+[x] Segment #142110145 (710000) downloaded OK
+[x] Segment #142110150 (446000) downloaded OK
+[x] Segment #142110140 (840000) downloaded OK
+[x] Segment #142110154 (195000) downloaded OK
+[x] Segment #142110154 (354000) downloaded OK
+[x] Segment #142110120 (1240000) downloaded OK
+[x] Segment #142110146 (710000) downloaded OK
+[x] Segment #142110151 (446000) downloaded OK
+[x] Segment #142110141 (840000) downloaded OK
+[x] Segment #142110155 (195000) downloaded OK
+[x] Segment #142110155 (354000) downloaded OK
+[x] Segment #142110147 (710000) downloaded OK
+[x] Segment #142110152 (446000) downloaded OK
+[x] Segment #142110142 (840000) downloaded OK
+[x] Segment #142110156 (195000) downloaded OK
+[x] Segment #142110156 (354000) downloaded OK
+[x] Segment #142110148 (710000) downloaded OK
+[x] Segment #142110121 (1240000) downloaded OK
+[x] Segment #142110153 (446000) downloaded OK
+[x] Segment #142110143 (840000) downloaded OK
+[x] Segment #142110157 (195000) downloaded OK
+[x] Segment #142110157 (354000) downloaded OK
+[x] Segment #142110149 (710000) downloaded OK
+[x] Segment #142110122 (1240000) downloaded OK
+[x] Segment #142110154 (446000) downloaded OK
+[x] Segment #142110158 (195000) downloaded OK
+[x] Segment #142110158 (354000) downloaded OK
+[x] Segment #142110144 (840000) downloaded OK
+[x] Segment #142110150 (710000) downloaded OK
+[x] Segment #142110155 (446000) downloaded OK
+[x] Segment #142110159 (195000) downloaded OK
+[x] Segment #142110159 (354000) downloaded OK
+[x] Segment #142110145 (840000) downloaded OK
+[x] Segment #142110123 (1240000) downloaded OK
+[x] Segment #142110156 (446000) downloaded OK
+[x] Segment #142110160 (195000) downloaded OK
+[x] Segment #142110160 (354000) downloaded OK
+[x] Segment #142110146 (840000) downloaded OK
+[x] Segment #142110151 (710000) downloaded OK
+[x] Segment #142110124 (1240000) downloaded OK
+[x] Segment #142110157 (446000) downloaded OK
+[x] Segment #142110161 (195000) downloaded OK
+[x] Segment #142110161 (354000) downloaded OK
+[x] Segment #142110152 (710000) downloaded OK
+[x] Segment #142110147 (840000) downloaded OK
+[x] Segment #142110158 (446000) downloaded OK
+[x] Segment #142110162 (195000) downloaded OK
+[x] Segment #142110162 (354000) downloaded OK
+[x] Segment #142110125 (1240000) downloaded OK
+[x] Segment #142110153 (710000) downloaded OK
+[x] Segment #142110159 (446000) downloaded OK
+[x] Segment #142110163 (195000) downloaded OK
+[x] Segment #142110163 (354000) downloaded OK
+[x] Segment #142110126 (1240000) downloaded OK
+[x] Segment #142110154 (710000) downloaded OK
+[x] Segment #142110160 (446000) downloaded OK
+[x] Segment #142110164 (195000) downloaded OK
+[x] Segment #142110164 (354000) downloaded OK
+[x] Segment #142110148 (840000) downloaded OK
+[x] Segment #142110155 (710000) downloaded OK
+[x] Segment #142110161 (446000) downloaded OK
+[x] Segment #142110165 (195000) downloaded OK
+[x] Segment #142110127 (1240000) downloaded OK
+[x] Segment #142110165 (354000) downloaded OK
+[x] Segment #142110149 (840000) downloaded OK
+[x] Segment #142110162 (446000) downloaded OK
+[x] Segment #142110156 (710000) downloaded OK
+[x] Segment #142110128 (1240000) downloaded OK
+[x] Segment #142110166 (195000) downloaded OK
+[x] Segment #142110166 (354000) downloaded OK
+[x] Segment #142110163 (446000) downloaded OK
+[x] Segment #142110150 (840000) downloaded OK
+[x] Segment #142110157 (710000) downloaded OK
+[x] Segment #142110167 (195000) downloaded OK
+[x] Segment #142110167 (354000) downloaded OK
+[x] Segment #142110164 (446000) downloaded OK
+[x] Segment #142110151 (840000) downloaded OK
+[x] Segment #142110158 (710000) downloaded OK
+[x] Segment #142110168 (195000) downloaded OK
+[x] Segment #142110168 (354000) downloaded OK
+[x] Segment #142110165 (446000) downloaded OK
+[x] Segment #142110152 (840000) downloaded OK
+[x] Segment #142110159 (710000) downloaded OK
+[x] Segment #142110169 (195000) downloaded OK
+[x] Segment #142110169 (354000) downloaded OK
+[x] Segment #142110166 (446000) downloaded OK
+[x] Segment #142110153 (840000) downloaded OK
+[x] Segment #142110160 (710000) downloaded OK
+[x] Segment #142110170 (195000) downloaded OK
+[x] Segment #142110170 (354000) downloaded OK
+[x] Segment #142110167 (446000) downloaded OK
+[x] Segment #142110154 (840000) downloaded OK
+[x] Segment #142110161 (710000) downloaded OK
+[x] Segment #142110171 (195000) downloaded OK
+[x] Segment #142110171 (354000) downloaded OK
+[x] Segment #142110168 (446000) downloaded OK
+[x] Segment #142110129 (1240000) downloaded OK
+[x] Segment #142110162 (710000) downloaded OK
+[x] Segment #142110172 (195000) downloaded OK
+[x] Segment #142110172 (354000) downloaded OK
+[x] Segment #142110169 (446000) downloaded OK
+[x] Segment #142110130 (1240000) downloaded OK
+[x] Segment #142110163 (710000) downloaded OK
+[x] Segment #142110173 (195000) downloaded OK
+[x] Segment #142110173 (354000) downloaded OK
+[x] Segment #142110170 (446000) downloaded OK
+[x] Segment #142110155 (840000) downloaded OK
+[x] Segment #142110164 (710000) downloaded OK
+[x] Segment #142110131 (1240000) downloaded OK
+[x] Segment #142110174 (195000) downloaded OK
+[x] Segment #142110174 (354000) downloaded OK
+[x] Segment #142110171 (446000) downloaded OK
+[x] Segment #142110156 (840000) downloaded OK
+[x] Segment #142110165 (710000) downloaded OK
+[x] Segment #142110175 (195000) downloaded OK
+[x] Segment #142110175 (354000) downloaded OK
+[x] Segment #142110172 (446000) downloaded OK
+[x] Segment #142110157 (840000) downloaded OK
+[x] Segment #142110166 (710000) downloaded OK
+[x] Segment #142110176 (195000) downloaded OK
+[x] Segment #142110176 (354000) downloaded OK
+[x] Segment #142110173 (446000) downloaded OK
+[x] Segment #142110132 (1240000) downloaded OK
+[x] Segment #142110158 (840000) downloaded OK
+[x] Segment #142110177 (195000) downloaded OK
+[x] Segment #142110177 (354000) downloaded OK
+[x] Segment #142110174 (446000) downloaded OK
+[x] Segment #142110133 (1240000) downloaded OK
+[x] Segment #142110159 (840000) downloaded OK
+[x] Segment #142110178 (195000) downloaded OK
+[x] Segment #142110178 (354000) downloaded OK
+[x] Segment #142110175 (446000) downloaded OK
+[x] Segment #142110134 (1240000) downloaded OK
+[x] Segment #142110160 (840000) downloaded OK
+[x] Segment #142110179 (195000) downloaded OK
+[x] Segment #142110179 (354000) downloaded OK
+[x] Segment #142110176 (446000) downloaded OK
+[x] Segment #142110167 (710000) downloaded OK
+[x] Segment #142110161 (840000) downloaded OK
+[x] Segment #142110180 (195000) downloaded OK
+[x] Segment #142110180 (354000) downloaded OK
+[x] Segment #142110177 (446000) downloaded OK
+[x] Segment #142110168 (710000) downloaded OK
+[x] Segment #142110135 (1240000) downloaded OK
+[x] Segment #142110181 (195000) downloaded OK
+[x] Segment #142110162 (840000) downloaded OK
+[x] Segment #142110181 (354000) downloaded OK
+[x] Segment #142110178 (446000) downloaded OK
+[x] Segment #142110169 (710000) downloaded OK
+[x] Segment #142110182 (195000) downloaded OK
+[x] Segment #142110163 (840000) downloaded OK
+[x] Segment #142110136 (1240000) downloaded OK
+[x] Segment #142110179 (446000) downloaded OK
+[x] Segment #142110182 (354000) downloaded OK
+[x] Segment #142110183 (195000) downloaded OK
+[x] Segment #142110170 (710000) downloaded OK
+[x] Segment #142110164 (840000) downloaded OK
+[x] Segment #142110180 (446000) downloaded OK
+[x] Segment #142110183 (354000) downloaded OK
+[x] Segment #142110184 (195000) downloaded OK
+[x] Segment #142110171 (710000) downloaded OK
+[x] Segment #142110165 (840000) downloaded OK
+[x] Segment #142110181 (446000) downloaded OK
+[x] Segment #142110137 (1240000) downloaded OK
+[x] Segment #142110184 (354000) downloaded OK
+[x] Segment #142110185 (195000) downloaded OK
+[x] Segment #142110172 (710000) downloaded OK
+[x] Segment #142110182 (446000) downloaded OK
+[x] Segment #142110166 (840000) downloaded OK
+[x] Segment #142110185 (354000) downloaded OK
+[x] Segment #142110186 (195000) downloaded OK
+[x] Segment #142110173 (710000) downloaded OK
+[x] Segment #142110183 (446000) downloaded OK
+[x] Segment #142110167 (840000) downloaded OK
+[x] Segment #142110186 (354000) downloaded OK
+[x] Segment #142110187 (195000) downloaded OK
+[x] Segment #142110174 (710000) downloaded OK
+[x] Segment #142110184 (446000) downloaded OK
+[x] Segment #142110138 (1240000) downloaded OK
+[x] Segment #142110187 (354000) downloaded OK
+[x] Segment #142110188 (195000) downloaded OK
+[x] Segment #142110175 (710000) downloaded OK
+[x] Segment #142110185 (446000) downloaded OK
+[x] Segment #142110139 (1240000) downloaded OK
+[x] Segment #142110188 (354000) downloaded OK
+[x] Segment #142110168 (840000) downloaded OK
+[x] Segment #142110189 (195000) downloaded OK
+[x] Segment #142110176 (710000) downloaded OK
+[x] Segment #142110140 (1240000) downloaded OK
+[x] Segment #142110186 (446000) downloaded OK
+[x] Segment #142110189 (354000) downloaded OK
+[x] Segment #142110190 (195000) downloaded OK
+[x] Segment #142110169 (840000) downloaded OK
+[x] Segment #142110177 (710000) downloaded OK
+[x] Segment #142110187 (446000) downloaded OK
+[x] Segment #142110190 (354000) downloaded OK
+[x] Segment #142110191 (195000) downloaded OK
+[x] Segment #142110170 (840000) downloaded OK
+[x] Segment #142110178 (710000) downloaded OK
+[x] Segment #142110141 (1240000) downloaded OK
+[x] Segment #142110191 (354000) downloaded OK
+[x] Segment #142110188 (446000) downloaded OK
+[x] Segment #142110192 (195000) downloaded OK
+Playlist complete (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_162_a-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Converting file into MP4 format
+[x] Segment #142110179 (710000) downloaded OK
+[x] Segment #142110171 (840000) downloaded OK
+[x] Segment #142110192 (354000) downloaded OK
+Playlist complete (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_162_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Converting file into MP4 format
+[x] Segment #142110189 (446000) downloaded OK
+[x] Segment #142110180 (710000) downloaded OK
+[x] Segment #142110142 (1240000) downloaded OK
+[x] Segment #142110172 (840000) downloaded OK
+[x] Segment #142110190 (446000) downloaded OK
+[x] Segment #142110181 (710000) downloaded OK
+[x] Segment #142110143 (1240000) downloaded OK
+[x] Segment #142110191 (446000) downloaded OK
+[x] Segment #142110182 (710000) downloaded OK
+MP4 file created: /c00nt/vcms/Akamai/outputs/a921513487_195000.mp4
+[x] Segment #142110173 (840000) downloaded OK
+[x] Segment #142110192 (446000) downloaded OK
+Playlist complete (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_254_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Converting file into MP4 format
+[x] Segment #142110183 (710000) downloaded OK
+[x] Segment #142110144 (1240000) downloaded OK
+[x] Segment #142110174 (840000) downloaded OK
+[x] Segment #142110184 (710000) downloaded OK
+[x] Segment #142110145 (1240000) downloaded OK
+[x] Segment #142110185 (710000) downloaded OK
+[x] Segment #142110175 (840000) downloaded OK
+[x] Segment #142110186 (710000) downloaded OK
+[x] Segment #142110146 (1240000) downloaded OK
+[x] Segment #142110176 (840000) downloaded OK
+[x] Segment #142110187 (710000) downloaded OK
+MP4 file created: /c00nt/vcms/Akamai/outputs/a921513487_354000.mp4
+[x] Segment #142110177 (840000) downloaded OK
+[x] Segment #142110188 (710000) downloaded OK
+[x] Segment #142110147 (1240000) downloaded OK
+[x] Segment #142110189 (710000) downloaded OK
+[x] Segment #142110148 (1240000) downloaded OK
+MP4 file created: /c00nt/vcms/Akamai/outputs/a921513487_446000.mp4
+[x] Segment #142110190 (710000) downloaded OK
+[x] Segment #142110178 (840000) downloaded OK
+[x] Segment #142110191 (710000) downloaded OK
+[x] Segment #142110179 (840000) downloaded OK
+[x] Segment #142110149 (1240000) downloaded OK
+[x] Segment #142110192 (710000) downloaded OK
+Playlist complete (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_518_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Converting file into MP4 format
+[x] Segment #142110150 (1240000) downloaded OK
+[x] Segment #142110180 (840000) downloaded OK
+[x] Segment #142110181 (840000) downloaded OK
+[x] Segment #142110182 (840000) downloaded OK
+[x] Segment #142110183 (840000) downloaded OK
+[x] Segment #142110151 (1240000) downloaded OK
+[x] Segment #142110184 (840000) downloaded OK
+[x] Segment #142110152 (1240000) downloaded OK
+[x] Segment #142110185 (840000) downloaded OK
+MP4 file created: /c00nt/vcms/Akamai/outputs/a921513487_710000.mp4
+[x] Segment #142110186 (840000) downloaded OK
+[x] Segment #142110187 (840000) downloaded OK
+[x] Segment #142110188 (840000) downloaded OK
+[x] Segment #142110153 (1240000) downloaded OK
+[x] Segment #142110189 (840000) downloaded OK
+[x] Segment #142110154 (1240000) downloaded OK
+[x] Segment #142110190 (840000) downloaded OK
+[x] Segment #142110155 (1240000) downloaded OK
+[x] Segment #142110191 (840000) downloaded OK
+[x] Segment #142110192 (840000) downloaded OK
+Playlist complete (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_648_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Converting file into MP4 format
+[x] Segment #142110156 (1240000) downloaded OK
+[x] Segment #142110157 (1240000) downloaded OK
+MP4 file created: /c00nt/vcms/Akamai/outputs/a921513487_840000.mp4
+[x] Segment #142110158 (1240000) downloaded OK
+[x] Segment #142110159 (1240000) downloaded OK
+[x] Segment #142110160 (1240000) downloaded OK
+[x] Segment #142110161 (1240000) downloaded OK
+[x] Segment #142110162 (1240000) downloaded OK
+[x] Segment #142110163 (1240000) downloaded OK
+[x] Segment #142110164 (1240000) downloaded OK
+[x] Segment #142110165 (1240000) downloaded OK
+[x] Segment #142110166 (1240000) downloaded OK
+[x] Segment #142110167 (1240000) downloaded OK
+[x] Segment #142110168 (1240000) downloaded OK
+[x] Segment #142110169 (1240000) downloaded OK
+[x] Segment #142110170 (1240000) downloaded OK
+[x] Segment #142110171 (1240000) downloaded OK
+[x] Segment #142110172 (1240000) downloaded OK
+[x] Segment #142110173 (1240000) downloaded OK
+[x] Segment #142110174 (1240000) downloaded OK
+[x] Segment #142110175 (1240000) downloaded OK
+[x] Segment #142110176 (1240000) downloaded OK
+[x] Segment #142110177 (1240000) downloaded OK
+[x] Segment #142110178 (1240000) downloaded OK
+[x] Segment #142110179 (1240000) downloaded OK
+[x] Segment #142110180 (1240000) downloaded OK
+[x] Segment #142110181 (1240000) downloaded OK
+[x] Segment #142110182 (1240000) downloaded OK
+[x] Segment #142110183 (1240000) downloaded OK
+[x] Segment #142110184 (1240000) downloaded OK
+[x] Segment #142110185 (1240000) downloaded OK
+[x] Segment #142110186 (1240000) downloaded OK
+[x] Segment #142110187 (1240000) downloaded OK
+[x] Segment #142110188 (1240000) downloaded OK
+[x] Segment #142110189 (1240000) downloaded OK
+[x] Segment #142110190 (1240000) downloaded OK
+[x] Segment #142110191 (1240000) downloaded OK
+[x] Segment #142110192 (1240000) downloaded OK
+Playlist complete (http://tvsawpdvr-lh.akamaihd.net/i/stch04wp_1@119661/index_1048_av-p.m3u8?sd=&start=1421100000&end=1421101920&rebase=on)
+Converting file into MP4 format
+MP4 file created: /c00nt/vcms/Akamai/outputs/a921513487_1240000.mp4
+Playlists processed with errors
+
+2015-01-12 22:41:45,217 [[ E:DESCARGANDO SENALES DE AKAMAI: 1421102505.22 ]]
+2015-01-12 22:41:45,218 [[ S:GUARDANDO BITRATES EN BD: 1421102505.22 ]]
+2015-01-12 22:41:45,218 [195000, 354000, 446000, 710000, 840000, 1240000]
+2015-01-12 22:41:45,220 {'150': 354000, '600': 710000, '970': 840000, '0': 1240000, '235': 446000, '480': 446000}
+2015-01-12 22:41:45,374 [[ E:GUARDANDO BITRATES EN BD: 1421102505.37 ]]
+2015-01-12 22:41:45,376 (('150', '354000'), ('235', '446000'), ('600', '710000'), ('970', '840000'))
+2015-01-12 22:41:45,432 [[ S:PROCESANDO VIDEO DE LA CALIDAD 150: 1421102505.43 ]]
+2015-01-12 22:41:45,432 [[ S:MOVIENDO ARCHIVO A DIRECTORIO PARA PROCESAR: 1421102505.43 ]]
+2015-01-12 22:41:45,432 None
+2015-01-12 22:41:45,432 [[ E:MOVIENDO ARCHIVO A DIRECTORIO PARA PROCESAR: 1421102505.43 ]]
+2015-01-12 22:41:45,432 [[ S:ELIMINANDO TS: 1421102505.43 ]]
+2015-01-12 22:41:45,448 /c00nt/vcms/Akamai/outputs/a921513487_354000.ts
+2015-01-12 22:41:45,448 [[ E:ELIMINANDO TS: 1421102505.45 ]]
+2015-01-12 22:41:45,448 [[ S:CAMBIANDO EL KEYINTERVAL: 1421102505.45 ]]
+2015-01-12 22:41:46,276 
+2015-01-12 22:41:46,277 [[ E:CAMBIANDO EL KEYINTERVAL: 1421102506.28 ]]
+2015-01-12 22:41:46,277 [[ S:ELIMINANDO RESIDUOS KEYINTERVAL: 1421102506.28 ]]
+2015-01-12 22:41:46,293 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-150-lip-g.mp4
+2015-01-12 22:41:46,293 [[ E:ELIMINANDO RESIDUOS KEYINTERVAL: 1421102506.29 ]]
+2015-01-12 22:41:46,293 [[ S:CORRIGIENDO LIPSYNC Y RECORTANDO: 1421102506.29 ]]
+2015-01-12 22:41:46,293 ***************************************************************
+2015-01-12 22:42:22,095 
+2015-01-12 22:42:49,490 
+2015-01-12 22:43:17,934 
+2015-01-12 22:43:17,934 ***************************************************************
+2015-01-12 22:43:17,934 [[ E:CORRIGIENDO LIPSYNC Y RECORTANDO: 1421102597.93 ]]
+2015-01-12 22:43:17,934 [[ S:CONVIRTIENDO A TS PARA HACER EL SWITCH: 1421102597.93 ]]
+2015-01-12 22:43:17,934 ***************************************************************
+2015-01-12 22:43:18,300 
+2015-01-12 22:43:18,546 
+2015-01-12 22:43:18,744 
+2015-01-12 22:43:18,744 ***************************************************************
+2015-01-12 22:43:18,744 [[ E:CONVIRTIENDO A TS PARA HACER EL SWITCH: 1421102598.74 ]]
+2015-01-12 22:43:18,744 [[ S:CONCATENANDO LOS CORTES DE VIDEO: 1421102598.74 ]]
+2015-01-12 22:43:18,744 ***************************************************************
+2015-01-12 22:43:19,867 
+2015-01-12 22:43:19,868 ***************************************************************
+2015-01-12 22:43:19,868 [[ E:CONCATENANDO LOS CORTES DE VIDEO: 1421102599.87 ]]
+2015-01-12 22:43:19,868 [[ S:ELIMINANDO ARCHIVOS TEMPORALES: 1421102599.87 ]]
+2015-01-12 22:43:19,868 ***************************************************************
+2015-01-12 22:43:19,878 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-150_1.mp4
+2015-01-12 22:43:19,892 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-150_1.ts
+2015-01-12 22:43:19,899 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-150_2.mp4
+2015-01-12 22:43:19,908 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-150_2.ts
+2015-01-12 22:43:19,915 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-150_3.mp4
+2015-01-12 22:43:19,922 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-150_3.ts
+2015-01-12 22:43:19,922 ***************************************************************
+2015-01-12 22:43:19,922 [[ E:ELIMINANDO ARCHIVOS TEMPORALES: 1421102599.92 ]]
+2015-01-12 22:43:19,922 [[ S:ELIMINANDO RESIDUOS LIPSYNC: 1421102599.92 ]]
+2015-01-12 22:43:19,936 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-150-lip.mp4
+2015-01-12 22:43:19,936 [[ E:ELIMINANDO RESIDUOS LIPSYNC: 1421102599.94 ]]
+2015-01-12 22:43:19,936 [[ E:PROCESANDO VIDEO DE LA CALIDAD 150: 1421102599.94 ]]
+2015-01-12 22:43:19,938 [[ S:SUBIENDO A AKAMAI: 1421102599.94 ]]
+2015-01-12 22:43:20,865  El directorio fract/9f37033e2ea9215134873ae6ccee4412 no existia, se procede a crearlo
+2015-01-12 22:43:21,299  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-150.mp4 
+2015-01-12 22:44:18,586  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-600.mp4 
+2015-01-12 22:44:34,756  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-970.mp4 
+2015-01-12 22:45:22,632  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-235.mp4 
+2015-01-12 22:46:15,262  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-480.mp4 
+2015-01-12 22:47:22,443  1 
+2015-01-12 22:47:22,443 [[ E:SUBIENDO A AKAMAI: 1421102842.44 ]]
+2015-01-12 22:47:22,511 [[ S:PROCESANDO VIDEO DE LA CALIDAD 235: 1421102842.51 ]]
+2015-01-12 22:47:22,511 [[ S:MOVIENDO ARCHIVO A DIRECTORIO PARA PROCESAR: 1421102842.51 ]]
+2015-01-12 22:47:22,511 None
+2015-01-12 22:47:22,511 [[ E:MOVIENDO ARCHIVO A DIRECTORIO PARA PROCESAR: 1421102842.51 ]]
+2015-01-12 22:47:22,511 [[ S:ELIMINANDO TS: 1421102842.51 ]]
+2015-01-12 22:47:22,530 /c00nt/vcms/Akamai/outputs/a921513487_446000.ts
+2015-01-12 22:47:22,530 [[ E:ELIMINANDO TS: 1421102842.53 ]]
+2015-01-12 22:47:22,530 [[ S:CAMBIANDO EL KEYINTERVAL: 1421102842.53 ]]
+2015-01-12 22:47:23,381 
+2015-01-12 22:47:23,381 [[ E:CAMBIANDO EL KEYINTERVAL: 1421102843.38 ]]
+2015-01-12 22:47:23,381 [[ S:ELIMINANDO RESIDUOS KEYINTERVAL: 1421102843.38 ]]
+2015-01-12 22:47:23,397 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-235-lip-g.mp4
+2015-01-12 22:47:23,397 [[ E:ELIMINANDO RESIDUOS KEYINTERVAL: 1421102843.4 ]]
+2015-01-12 22:47:23,397 [[ S:CORRIGIENDO LIPSYNC Y RECORTANDO: 1421102843.4 ]]
+2015-01-12 22:47:23,397 ***************************************************************
+2015-01-12 22:47:59,127 
+2015-01-12 22:48:26,621 
+2015-01-12 22:48:55,046 
+2015-01-12 22:48:55,047 ***************************************************************
+2015-01-12 22:48:55,047 [[ E:CORRIGIENDO LIPSYNC Y RECORTANDO: 1421102935.05 ]]
+2015-01-12 22:48:55,047 [[ S:CONVIRTIENDO A TS PARA HACER EL SWITCH: 1421102935.05 ]]
+2015-01-12 22:48:55,047 ***************************************************************
+2015-01-12 22:48:55,429 
+2015-01-12 22:48:55,682 
+2015-01-12 22:48:55,888 
+2015-01-12 22:48:55,888 ***************************************************************
+2015-01-12 22:48:55,888 [[ E:CONVIRTIENDO A TS PARA HACER EL SWITCH: 1421102935.89 ]]
+2015-01-12 22:48:55,888 [[ S:CONCATENANDO LOS CORTES DE VIDEO: 1421102935.89 ]]
+2015-01-12 22:48:55,888 ***************************************************************
+2015-01-12 22:48:57,039 
+2015-01-12 22:48:57,039 ***************************************************************
+2015-01-12 22:48:57,039 [[ E:CONCATENANDO LOS CORTES DE VIDEO: 1421102937.04 ]]
+2015-01-12 22:48:57,039 [[ S:ELIMINANDO ARCHIVOS TEMPORALES: 1421102937.04 ]]
+2015-01-12 22:48:57,039 ***************************************************************
+2015-01-12 22:48:57,051 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-235_1.mp4
+2015-01-12 22:48:57,068 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-235_1.ts
+2015-01-12 22:48:57,076 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-235_2.mp4
+2015-01-12 22:48:57,087 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-235_2.ts
+2015-01-12 22:48:57,095 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-235_3.mp4
+2015-01-12 22:48:57,104 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-235_3.ts
+2015-01-12 22:48:57,104 ***************************************************************
+2015-01-12 22:48:57,104 [[ E:ELIMINANDO ARCHIVOS TEMPORALES: 1421102937.1 ]]
+2015-01-12 22:48:57,104 [[ S:ELIMINANDO RESIDUOS LIPSYNC: 1421102937.1 ]]
+2015-01-12 22:48:57,123 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-235-lip.mp4
+2015-01-12 22:48:57,123 [[ E:ELIMINANDO RESIDUOS LIPSYNC: 1421102937.12 ]]
+2015-01-12 22:48:57,123 [[ E:PROCESANDO VIDEO DE LA CALIDAD 235: 1421102937.12 ]]
+2015-01-12 22:48:57,125 [[ S:COPIANDO VIDEOS DE BITRATES IGUALES: 1421102937.13 ]]
+2015-01-12 22:48:57,371 None
+2015-01-12 22:48:57,372 [[ E:COPIANDO VIDEOS DE BITRATES IGUALES: 1421102937.37 ]]
+2015-01-12 22:48:57,372 [[ S:SUBIENDO A AKAMAI: 1421102937.37 ]]
+2015-01-12 22:48:58,323  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-235.mp4 
+2015-01-12 22:49:19,815  1 
+2015-01-12 22:49:19,815 [[ E:SUBIENDO A AKAMAI: 1421102959.82 ]]
+2015-01-12 22:49:19,815 [[ S:SUBIENDO A AKAMAI: 1421102959.82 ]]
+2015-01-12 22:49:20,807  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-480.mp4 
+2015-01-12 22:50:04,947  1 
+2015-01-12 22:50:04,947 [[ E:SUBIENDO A AKAMAI: 1421103004.95 ]]
+2015-01-12 22:50:05,000 [[ S:PROCESANDO VIDEO DE LA CALIDAD 600: 1421103005.0 ]]
+2015-01-12 22:50:05,000 [[ S:MOVIENDO ARCHIVO A DIRECTORIO PARA PROCESAR: 1421103005.0 ]]
+2015-01-12 22:50:05,000 None
+2015-01-12 22:50:05,000 [[ E:MOVIENDO ARCHIVO A DIRECTORIO PARA PROCESAR: 1421103005.0 ]]
+2015-01-12 22:50:05,000 [[ S:ELIMINANDO TS: 1421103005.0 ]]
+2015-01-12 22:50:05,029 /c00nt/vcms/Akamai/outputs/a921513487_710000.ts
+2015-01-12 22:50:05,029 [[ E:ELIMINANDO TS: 1421103005.03 ]]
+2015-01-12 22:50:05,030 [[ S:CAMBIANDO EL KEYINTERVAL: 1421103005.03 ]]
+2015-01-12 22:50:05,986 
+2015-01-12 22:50:05,986 [[ E:CAMBIANDO EL KEYINTERVAL: 1421103005.99 ]]
+2015-01-12 22:50:05,987 [[ S:ELIMINANDO RESIDUOS KEYINTERVAL: 1421103005.99 ]]
+2015-01-12 22:50:06,010 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-600-lip-g.mp4
+2015-01-12 22:50:06,010 [[ E:ELIMINANDO RESIDUOS KEYINTERVAL: 1421103006.01 ]]
+2015-01-12 22:50:06,010 [[ S:CORRIGIENDO LIPSYNC Y RECORTANDO: 1421103006.01 ]]
+2015-01-12 22:50:06,010 ***************************************************************
+2015-01-12 22:50:50,101 
+2015-01-12 22:51:24,230 
+2015-01-12 22:51:58,470 
+2015-01-12 22:51:58,470 ***************************************************************
+2015-01-12 22:51:58,470 [[ E:CORRIGIENDO LIPSYNC Y RECORTANDO: 1421103118.47 ]]
+2015-01-12 22:51:58,470 [[ S:CONVIRTIENDO A TS PARA HACER EL SWITCH: 1421103118.47 ]]
+2015-01-12 22:51:58,470 ***************************************************************
+2015-01-12 22:51:58,945 
+2015-01-12 22:51:59,267 
+2015-01-12 22:51:59,529 
+2015-01-12 22:51:59,529 ***************************************************************
+2015-01-12 22:51:59,530 [[ E:CONVIRTIENDO A TS PARA HACER EL SWITCH: 1421103119.53 ]]
+2015-01-12 22:51:59,530 [[ S:CONCATENANDO LOS CORTES DE VIDEO: 1421103119.53 ]]
+2015-01-12 22:51:59,530 ***************************************************************
+2015-01-12 22:52:01,030 
+2015-01-12 22:52:01,030 ***************************************************************
+2015-01-12 22:52:01,030 [[ E:CONCATENANDO LOS CORTES DE VIDEO: 1421103121.03 ]]
+2015-01-12 22:52:01,030 [[ S:ELIMINANDO ARCHIVOS TEMPORALES: 1421103121.03 ]]
+2015-01-12 22:52:01,030 ***************************************************************
+2015-01-12 22:52:01,049 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-600_1.mp4
+2015-01-12 22:52:01,076 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-600_1.ts
+2015-01-12 22:52:01,090 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-600_2.mp4
+2015-01-12 22:52:01,107 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-600_2.ts
+2015-01-12 22:52:01,117 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-600_3.mp4
+2015-01-12 22:52:01,131 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-600_3.ts
+2015-01-12 22:52:01,132 ***************************************************************
+2015-01-12 22:52:01,132 [[ E:ELIMINANDO ARCHIVOS TEMPORALES: 1421103121.13 ]]
+2015-01-12 22:52:01,132 [[ S:ELIMINANDO RESIDUOS LIPSYNC: 1421103121.13 ]]
+2015-01-12 22:52:01,160 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-600-lip.mp4
+2015-01-12 22:52:01,160 [[ E:ELIMINANDO RESIDUOS LIPSYNC: 1421103121.16 ]]
+2015-01-12 22:52:01,160 [[ E:PROCESANDO VIDEO DE LA CALIDAD 600: 1421103121.16 ]]
+2015-01-12 22:52:01,162 [[ S:SUBIENDO A AKAMAI: 1421103121.16 ]]
+2015-01-12 22:52:02,111  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-600.mp4 
+2015-01-12 22:52:35,706  1 
+2015-01-12 22:52:35,706 [[ E:SUBIENDO A AKAMAI: 1421103155.71 ]]
+2015-01-12 22:52:35,761 [[ S:PROCESANDO VIDEO DE LA CALIDAD 970: 1421103155.76 ]]
+2015-01-12 22:52:35,761 [[ S:MOVIENDO ARCHIVO A DIRECTORIO PARA PROCESAR: 1421103155.76 ]]
+2015-01-12 22:52:35,761 None
+2015-01-12 22:52:35,761 [[ E:MOVIENDO ARCHIVO A DIRECTORIO PARA PROCESAR: 1421103155.76 ]]
+2015-01-12 22:52:35,761 [[ S:ELIMINANDO TS: 1421103155.76 ]]
+2015-01-12 22:52:35,795 /c00nt/vcms/Akamai/outputs/a921513487_840000.ts
+2015-01-12 22:52:35,795 [[ E:ELIMINANDO TS: 1421103155.8 ]]
+2015-01-12 22:52:35,795 [[ S:CAMBIANDO EL KEYINTERVAL: 1421103155.8 ]]
+2015-01-12 22:52:36,803 
+2015-01-12 22:52:36,803 [[ E:CAMBIANDO EL KEYINTERVAL: 1421103156.8 ]]
+2015-01-12 22:52:36,803 [[ S:ELIMINANDO RESIDUOS KEYINTERVAL: 1421103156.8 ]]
+2015-01-12 22:52:36,830 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-970-lip-g.mp4
+2015-01-12 22:52:36,830 [[ E:ELIMINANDO RESIDUOS KEYINTERVAL: 1421103156.83 ]]
+2015-01-12 22:52:36,830 [[ S:CORRIGIENDO LIPSYNC Y RECORTANDO: 1421103156.83 ]]
+2015-01-12 22:52:36,830 ***************************************************************
+2015-01-12 22:53:37,931 
+2015-01-12 22:54:25,637 
+2015-01-12 22:55:12,329 
+2015-01-12 22:55:12,329 ***************************************************************
+2015-01-12 22:55:12,329 [[ E:CORRIGIENDO LIPSYNC Y RECORTANDO: 1421103312.33 ]]
+2015-01-12 22:55:12,329 [[ S:CONVIRTIENDO A TS PARA HACER EL SWITCH: 1421103312.33 ]]
+2015-01-12 22:55:12,330 ***************************************************************
+2015-01-12 22:55:12,905 
+2015-01-12 22:55:13,311 
+2015-01-12 22:55:13,646 
+2015-01-12 22:55:13,647 ***************************************************************
+2015-01-12 22:55:13,647 [[ E:CONVIRTIENDO A TS PARA HACER EL SWITCH: 1421103313.65 ]]
+2015-01-12 22:55:13,647 [[ S:CONCATENANDO LOS CORTES DE VIDEO: 1421103313.65 ]]
+2015-01-12 22:55:13,647 ***************************************************************
+2015-01-12 22:55:15,465 
+2015-01-12 22:55:15,466 ***************************************************************
+2015-01-12 22:55:15,466 [[ E:CONCATENANDO LOS CORTES DE VIDEO: 1421103315.47 ]]
+2015-01-12 22:55:15,466 [[ S:ELIMINANDO ARCHIVOS TEMPORALES: 1421103315.47 ]]
+2015-01-12 22:55:15,466 ***************************************************************
+2015-01-12 22:55:15,492 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-970_1.mp4
+2015-01-12 22:55:15,527 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-970_1.ts
+2015-01-12 22:55:15,544 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-970_2.mp4
+2015-01-12 22:55:15,567 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-970_2.ts
+2015-01-12 22:55:15,583 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-970_3.mp4
+2015-01-12 22:55:15,601 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-970_3.ts
+2015-01-12 22:55:15,601 ***************************************************************
+2015-01-12 22:55:15,601 [[ E:ELIMINANDO ARCHIVOS TEMPORALES: 1421103315.6 ]]
+2015-01-12 22:55:15,601 [[ S:ELIMINANDO RESIDUOS LIPSYNC: 1421103315.6 ]]
+2015-01-12 22:55:15,633 /c00nt/vcms/media/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-970-lip.mp4
+2015-01-12 22:55:15,633 [[ E:ELIMINANDO RESIDUOS LIPSYNC: 1421103315.63 ]]
+2015-01-12 22:55:15,633 [[ E:PROCESANDO VIDEO DE LA CALIDAD 970: 1421103315.63 ]]
+2015-01-12 22:55:15,635 [[ S:SUBIENDO A AKAMAI: 1421103315.64 ]]
+2015-01-12 22:55:16,717  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-970.mp4 
+2015-01-12 22:56:06,602  1 
+2015-01-12 22:56:06,603 [[ E:SUBIENDO A AKAMAI: 1421103366.6 ]]
+2015-01-12 22:56:06,603 [[ S:GENERANDO THUMBNAILS: 1421103366.6 ]]
+2015-01-12 22:56:06,879  
+2015-01-12 22:56:07,420  
+2015-01-12 22:56:07,420 [[ E:GENERANDO THUMBNAILS: 1421103367.42 ]]
+2015-01-12 22:56:07,420 [[ S:SUBIENDO THUMBNAILS A AKAMAI: 1421103367.42 ]]
+2015-01-12 22:56:08,364  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487.jpg 
+2015-01-12 22:56:08,706 1 
+2015-01-12 22:56:09,657  Directorio donde se sube el archivo: /tst/fract/9f37033e2ea9215134873ae6ccee4412/a921513487-STILL.jpg 
+2015-01-12 22:56:10,474 1 
+2015-01-12 22:56:10,474 [[ E:SUBIENDO THUMBNAILS A AKAMAI: 1421103370.47 ]]
+2015-01-12 22:56:10,474 [[ S:SUBIENDO XML A BRIGHTCOVE: 1421103370.47 ]]
+2015-01-12 22:56:11,103  Directorio donde se sube el archivo: //a921513487-bcmnfst.xml 
+2015-01-12 22:56:11,577 1 
+2015-01-12 22:56:11,577 [[ E:SUBIENDO XML A BRIGHTCOVE: 1421103371.58 ]]
+2015-01-12 22:56:11,577 [[ S:ELIMINANDO VIDEOS DESCARGADOS NO USADOS: 1421103371.58 ]]
+2015-01-12 22:56:11,577 [195000, 1240000]
+2015-01-12 22:56:11,585 /c00nt/vcms/Akamai/outputs/a921513487_195000.ts
+2015-01-12 22:56:11,592 /c00nt/vcms/Akamai/outputs/a921513487_195000.mp4
+2015-01-12 22:56:11,640 /c00nt/vcms/Akamai/outputs/a921513487_1240000.ts
+2015-01-12 22:56:11,682 /c00nt/vcms/Akamai/outputs/a921513487_1240000.mp4
+2015-01-12 22:56:11,682 [[ E:ELIMINANDO VIDEOS DESCARGADOS NO USADOS: 1421103371.68 ]]
+2015-01-12 22:56:11,700 [[E:PROCESANDO VOD ID 380: 1421103371.68 ]]
+2015-01-12 22:56:11,701  1421103371.68 - 1421102397.1

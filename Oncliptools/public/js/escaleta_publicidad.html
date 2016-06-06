@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body onLoad="bannerLoad()">
+<!--input type="submit" value="Load Box" onclick="bannerLoad()"-->
+
+		<script type="text/javascript">
+		  
+  		var idDFPObject="";
+  		var nombrePrograma= "test";
+  		var idDFP ="";
+  		var googletag = googletag || {};
+  			googletag.cmd = googletag.cmd || [];
+		
+  		(function() {
+  				var gads = document.createElement("script");
+  					gads.id = "googletag";
+  					gads.async = true;
+  					gads.type = "text/javascript";
+  			   
+  			   var useSSL = "https:" == document.location.protocol;
+  			   		gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+  			   var node = document.getElementsByTagName("script")[0];
+  			   node.parentNode.insertBefore(gads, node);
+  		})();
+       
+		//función para generar los espacios que se carguen apartir de un load
+			function bannerLoad(){
+				googletag.cmd.push(function() {
+				var mapping10 = googletag.sizeMapping().
+				addSize([948,140],[300,250]). //Desktop
+				addSize([740, 140],[300,250]). // Tablet.
+				addSize([200, 140], [320,50]). // Mobile.
+				build(); 
+					
+					var adUnit = "es.esmas.not/programas-tv/" +nombrePrograma;
+					googletag.defineSlot("/5644/"+adUnit, [300,250],"ban03").defineSizeMapping(mapping10).addService(googletag.pubads()).setTargeting("position","middle-btf");
+					googletag.enableServices();
+					googletag.display("ban03");
+					adId++;
+				});  
+			}
+		</script>
+		
+		
+		  <!-- Aquí se crean los divs necesarios como se necesiten 
+		  de acuerdo con los divs que genere la función bannerLoad() -->
+		  
+		  <div id="ban03" class="elemento">
+		  </div>
+		  
+</body>
+</html>
+		  
+		  
+ 

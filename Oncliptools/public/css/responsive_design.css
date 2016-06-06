@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/12/2014, 11:15:57 AM
+    Author     : edgar.martinez
+*/
+
+/* ---------  Welcome Title -----------*/
+
+#title{
+    position:absolute;
+    font-size:128px;
+    top:105px;
+}
+
+@media screen and (max-width:1024px){
+    #title{
+        position: absolute;
+        font-size:104px;
+        top:105px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #title{
+        position:absolute;
+        font-size:80px;
+        top:105px;
+    }
+}
+
+@media screen and (max-width:512px){
+    #title{
+        position:absolute;
+        font-size:48px; 
+        top:105px;
+    }
+}
+
+
+
+/* ---------  Welcome Title -----------*/
+
+                        .uri-cell{
+                           width:100%;
+                        }
+
+                        @media screen and (max-width:510px){
+                           .uri-cell{
+                               width:25%;
+                           }
+                        }
+
+                        /* ---------  Welcome Title -----------*/
+                        #video_generate{
+                            font-size:14px;
+                            font-weight: bold;
+                        }
+
+                        @media screen and (max-width:400px){
+                            #video_generate{
+                                font-size:10px;
+                                font-weight: bold;
+                            }
+                        }
+                        
+/* ---------  Welcome Title -----------*/ 
+
+.registroUrl{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1125px){
+    .registroUrl{
+        font-size: 10px;
+    }
+    .hidden-xsd {
+        display:none !important;
+    }
+}
+@media screen and (max-width: 500px){
+    .hidden-xs {
+        display:none !important;
+    }
+}
+
+/* ---------  Welcome Title -----------*/ 
+
+
+
+@media screen and (max-width: 768px){
+    #side-nav {
+        background-color: black; 
+    }
+}
+
+/* ---------  Welcome Title -----------*/ 
+
+@media screen and (max-width: 400px){
+    .pestanaFeed a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #table-dynamic {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #tablePermissions {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #tab-content {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .widget > header h4 {
+      font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+

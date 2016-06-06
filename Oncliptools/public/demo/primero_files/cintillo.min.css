@@ -1,0 +1,9 @@
+@media screen and (min-width:39em){.cintillo-cobertura-especial{width:100%;margin-bottom:12px}
+.cintillo-cobertura-especial img{display:block}
+}
+@media screen and (min-width:39em){.cintillo-cobertura-especial img{width:auto;display:block}
+.cintillo-cobertura-especial{overflow:hidden}
+}
+@media screen and (max-width:623px){.cintillo-cobertura-especial{width:auto;margin:0 auto;overflow:hidden;margin-bottom:12px}
+.cintillo-cobertura-especial img{width:150%;display:block}
+}

@@ -1,0 +1,27 @@
+.ie7 .btn_progr_02 .envivo .overlay{background:rgba(0,120,191,0.8);position:absolute;bottom:0;width:100%;height:113px;left:0}
+@media screen{.btn_progr_02{display:block;width:100%;text-align:left;background-color:transparent;overflow:hidden;clear:both;margin-top:10px;margin-bottom:5px}
+.btn_progr_02 .envivo{position:relative;width:100%;height:169px;overflow:hidden}
+.btn_progr_02 .envivo img{height:auto;width:100%}
+.btn_progr_02 .envivo .envivo_content{position:relative;left:.7em;padding:10px 16px 16px 10px;width:20em}
+.btn_progr_02 .envivo .envivo_content a{color:#fff;text-decoration:none}
+.btn_progr_02 .envivo .envivo_content a h3{font-size:24px;font-weight:100;overflow:hidden;font-style:italic;padding:0;text-overflow:ellipsis;width:81%}
+.btn_progr_02 .envivo .envivo_content a .h3Padding{padding-bottom:0;margin-bottom:10px;height:60px;overflow:hidden}
+.btn_progr_02 .envivo .envivo_content a p{font-size:.8em;font-style:italic;font-weight:bold;padding-bottom:10px;width:100%;overflow:hidden;float:left}
+.btn_progr_02 .envivo .envivo_content a span{font-size:1.3em;font-weight:normal;line-height:.8em}
+.btn_progr_02 .envivo .envivo_content a .line{border-top:1px solid #fff;height:.5em;width:3em}
+.btn_progr_02 .envivo .envivo_content a div.channelImg{display:inline;position:relative;float:left;width:50px;margin-top:0}
+.btn_progr_02 .envivo .envivo_content a div.channelImg img{width:26px}
+.btn_progr_02 .envivo .overlay{background:rgba(0,120,191,0.8);position:absolute;bottom:0;width:100%;left:0;height:113px}
+}
+@media screen and (min-width:39em){.btn_progr_02{width:300px;margin-bottom:36px;display:block}
+.btn_progr_02 .envivo{width:300px}
+.btn_progr_02 .overlay{width:300px}
+.ie8 .btn_progr_02 .envivo{z-index:2000!important}
+.ie8 .btn_progr_02 .envivo .overlay{z-index:1000!important}
+.ie7 .btn_progr_02 .envivo{z-index:2000!important}
+.ie7 .btn_progr_02 .envivo .overlay{z-index:1000!important}
+.ie8 .btn_progr_02 .envivo .envivo_content{z-index:1000!important}
+.ie7 .btn_progr_02 .envivo .envivo_content{z-index:1000!important}
+.btn_progr_02 .envivo img{height:auto;width:100%}
+.btn_progr_02 .envivo .overlay{background:rgba(0,120,191,0.8);position:absolute;width:100%;height:113px}
+}

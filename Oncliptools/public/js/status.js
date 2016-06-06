@@ -1,0 +1,1 @@
+escaleta.customDataJson({"url":"http:\/\/noticieros.televisa.com\/programas-primero-noticias\/","statusPlayer":"Activo","serverDate":"20141215","idChannel":1808});

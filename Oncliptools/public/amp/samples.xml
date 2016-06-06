@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<module type="AMP">
+	<head>
+		<link type="text/css" rel="stylesheet" href="/amp/amp.min.css" />
+	</head>
+	<config>
+		<native type="Object">
+	    	<controls type="Boolean">true</controls>
+	   	</native>
+	   	<fullscreen type="Object">
+	   		<native type="Boolean">true</native>
+	   		<enabled type="Boolean">true</enabled>
+	   	</fullscreen>
+	   	<captioning type="Object"></captioning>
+	   	<flash type="Object">
+	   		<swf type="String">/amp/AkamaiStandardPlayer.swf</swf>
+	   		<debug type="String">/amp/AkamaiStandardPlayer-debug.swf</debug>
+	   		<application>
+				<player
+					volume = "50"
+					dvr_enabled = "1"
+					rewind_interval = "15"
+					font_size="18"
+					media_analytics_logging_enabled="false"
+					enable_alternate_server_mapping="true"
+					enable_end_user_mapping="true"
+			        set_resume_dvr_at_live="true"
+					is_token_required="false"
+					locale_setting = "en"
+					auto_play_list = "false"
+					auto_replay = "false"
+					start_bitrate_index = "-1"
+					controls = "true"
+					>
+				</player>
+				<view>
+					<element id="infoOverlay" style="top: 0px; text-align: left;" />
+					<element id="controls" visible="true" height="5">
+				        <element id="replay" />
+						<element id="playPause" />
+						<element id="rewind" />
+						<element id="progress" color="#FF0000" />
+						<element id="loaded" color="#00FF00" />
+						<element id="scrubber" />
+						<element id="cc" />
+						<element id="stats" />
+						<element id="hdclient" />
+						<element id="volume" color="#0000FF" />
+						<element id="fullscreen" />
+						<element id="logo" style="width: 150px; height: 53px; right: 15px; top: 15px; opacity: 0.5; background-image: url('/img/akamai_logo.png');" />
+					</element>
+				</view>
+				<plugins>
+					<!-- CONSULT AKAMAI REGARDING PLUG-IN MODIFICATIONS. DO NOT MODIFY WITHOUT SUPPORT FROM AKAMAI -->
+					<plugin host="osmf" type="dynamic" absolute="true" id="AkamaiAdvancedStreamingPlugin">http://players.edgesuite.net/flash/plugins/osmf/advanced-streaming-plugin/v2.11/osmf1.6/AkamaiAdvancedStreamingPlugin.swf</plugin>
+					<plugin host="osmf" type="dynamic" id="CaptioningPlugin">../resources/plugins/CaptioningPlugin.swf</plugin>
+					<plugin host="osmf" type="static" id="OSMFCSMALoader">com.akamai.playeranalytics.osmf.OSMFCSMALoaderInfo</plugin>
+				</plugins>
+				<recommendations>	
+					<vendor id="mrss"> 
+						<property key="RECOMMENDATIONS_MRSS_URL">?http://www.foxnews.com/feeds/rss/chartbeat/most-popular-video</property> 
+					</vendor> 
+					<vendor id="outbrain"> 
+						<property key="OUTBRAIN_BASE_URL">http://odb.outbrain.com/utils/get</property> 
+						<property key="OUTBRAIN_API_KEY">AKAMAI2011</property> 
+						<property key="?OUTBRAIN_WIDGET_JS_ID">AR_2</property> 
+					</vendor> 
+				</recommendations>
+				<locales>  
+				  <locale id="en">
+					  <property key="MSG_EMAIL_TO">To</property>
+					  <property key="MSG_EMAIL_FROM">From</property>
+					  <property key="MSG_EMAIL_VIDEO">Email this video</property>
+					  <property key="MSG_EMAIL_MESSAGE_DEFAULT">Check out this video from xxx</property>
+					  <property key="MSG_EMAIL_MESSAGE">Message</property>
+					  <property key="MSG_EMAIL_ADDRESS_INVALID">Invalid Email Address</property>
+					  <property key="MSG_EMAIL_MESSAGE_INVALID">Please limit your message to 500 characters or less.</property>
+					  <property key="MSG_EMAIL_CHARACTERS_REMAINING_TEXT"> characters left</property>
+					  <property key="MSG_EMAIL_SEND_FAILURE">Message could not be sent.</property>
+					  <property key="MSG_EMAIL_SEND_SUCCESS_MESSAGE">Your email has been sent!</property>
+					  <property key="MSG_SHARE_VIDEO_TEXT">Share this video...</property>
+					  <property key="MSG_POST_TEXT">Post</property>
+					  <property key="MSG_EMBED_TEXT">Embed</property>
+					  <property key="MSG_LINK_TEXT">Link</property>
+					  <property key="MSG_SHARE_CONNECT_FAILURE">Unable to connect. Please try again.</property>
+					  <property key="MSG_SHARE_CONTENT_DISABLED">Share and embed are disabled.</property>
+					  <property key="MSG_VERSION_TEXT">Version</property>
+					  <property key="MSG_BUFFERING_TEXT">buffering</property>
+					  <property key="MSG_CUSTOMIZE_CLIP_POINTS">Customize the start and end point of the video.</property>
+					  <property key="MSG_PAUSE">Pause</property>
+					  <property key="MSG_PREVIEW">Preview</property>
+					  <property key="MSG_CURRENT">Currrent</property>
+					  <property key="MSG_SEEK_TO">Seek to</property>
+					  <property key="MSG_LIVE">LIVE</property>
+					  <property key="MSG_DEFAULT_ERROR_MESSAGE">Sorry, we were unable to play the media you selected. Please try again, or select alternate media.</property>
+					  <property key="MSG_ERROR_PREFIX">Error encountered:</property>
+					  <property key="MSG_STREAM_NOT_FOUND">Stream not found</property>
+					  <property key="MSG_CURRENT_WORKING_BANDWIDTH">Current working bandwidth</property>
+					  <property key="MSG_CURRENT_BITRATE_PLAYING">Current bitrate playing</property>
+					  <property key="MSG_MAX_BITRATE_AVAILABLE">Max bitrate available</property>
+					  <property key="MSG_NOT_AVAILABLE">Not Available</property>
+					  <property key="MSG_GO_LIVE">GO LIVE</property>
+					  <property key="MSG_REPLAY">Replay</property>
+				  </locale>
+				  <locale id="es">
+					  <property key="MSG_EMAIL_TO">a</property>
+					  <property key="MSG_EMAIL_FROM">de</property>
+					  <property key="MSG_EMAIL_VIDEO">Enviar este v?deo</property>
+					  <property key="MSG_EMAIL_MESSAGE_DEFAULT">Echa un vistazo a este video de xxx</property>
+					  <property key="MSG_EMAIL_MESSAGE">mensaje</property>
+					  <property key="MSG_EMAIL_ADDRESS_INVALID">Direcci?n de correo electr?nico no v?lida</property>
+					  <property key="MSG_EMAIL_MESSAGE_INVALID">Por favor limite su mensaje a 500 caracteres o menos.</property>
+					  <property key="MSG_EMAIL_CHARACTERS_REMAINING_TEXT">personajes de la izquierda</property>
+					  <property key="MSG_EMAIL_SEND_FAILURE">El mensaje no pudo ser enviado.</property>
+					  <property key="MSG_EMAIL_SEND_SUCCESS_MESSAGE">Tu email ha sido enviado!</property>
+					  <property key="MSG_SHARE_VIDEO_TEXT">Comparte este v?deo...</property>
+					  <property key="MSG_POST_TEXT">enviar</property>
+					  <property key="MSG_EMBED_TEXT">incrustar</property>
+					  <property key="MSG_LINK_TEXT">enlace</property>
+					  <property key="MSG_SHARE_CONNECT_FAILURE">No se puede conectar. Por favor, int?ntelo de nuevo.</property>
+					  <property key="MSG_SHARE_CONTENT_DISABLED">Compartir e incrustar est?n desactivados.</property>
+					  <property key="MSG_VERSION_TEXT">versi?n</property>
+					  <property key="MSG_BUFFERING_TEXT">el almacenamiento en b?fer</property>
+					  <property key="MSG_CUSTOMIZE_CLIP_POINTS">Personalizar el inicio y el punto final del video.</property>
+					  <property key="MSG_PAUSE">romper</property>
+					  <property key="MSG_PREVIEW">vista previa</property>
+					  <property key="MSG_CURRENT">corriente</property>
+					  <property key="MSG_SEEK_TO">Tratar de</property>
+					  <property key="MSG_LIVE">EN VIVO</property>
+					  <property key="MSG_DEFAULT_ERROR_MESSAGE">Lo sentimos, no hemos podido jugar los medios de comunicaci?n seleccionados. Por favor, int?ntelo de nuevo, o seleccionar los medios de comunicaci?n alternativos.</property>
+					  <property key="MSG_ERROR_PREFIX">Se produjo un error:</property>
+					  <property key="MSG_STREAM_NOT_FOUND">Stream que no se encuentra</property>
+					  <property key="MSG_CURRENT_WORKING_BANDWIDTH">Ancho de banda actual de trabajo</property>
+					  <property key="MSG_CURRENT_BITRATE_PLAYING">Tasa de bits de reproducci?n actual</property>
+					  <property key="MSG_MAX_BITRATE_AVAILABLE">Tasa de bits m?xima disponible</property>
+					  <property key="MSG_NOT_AVAILABLE">No est? disponible</property>
+					  <property key="MSG_GO_LIVE">IR A VIVIR</property>
+					  <property key="MSG_REPLAY">Repetir</property>
+				  </locale>
+				</locales>
+			    <metrics />
+				<eventmanagementstates />
+			</application>
+	   	</flash>
+		<mediaanalytics type="Object">
+			<plugin type="String">http://79423.analytics.edgesuite.net/html5/akamaihtml5-min.js</plugin>
+			<config type="String">http://ma188-r.analytics.edgesuite.net/config/beacon-2114.xml</config>
+		</mediaanalytics>
+   	</config>
+</module>

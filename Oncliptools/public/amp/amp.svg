@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> 
+<svg width="3000" height="123" viewBox="0 0 3000 123" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+	<defs>
+		<linearGradient id="normalGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+	    	<stop offset="0%" style="stop-color:#CCCCCC;stop-opacity:1" />
+	    	<stop offset="100%" style="stop-color:#888888;stop-opacity:1" />
+	    </linearGradient>
+	    <linearGradient id="activeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+	    	<stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+	    	<stop offset="100%" style="stop-color:#CCCCCC;stop-opacity:1" />
+	    </linearGradient>
+	</defs>
+	<!-- Play -->
+	<g transform="translate(0,0)">
+		<polygon points="0,0 0,20 19,10" fill="url(#normalGradient)" />
+	</g>
+	<!-- Play Active -->
+	<g transform="translate(19,0)">
+		<polygon points="0,0 0,20 19,10" fill="url(#activeGradient)"/>
+	</g>
+	<!-- Pause -->
+	<g transform="translate(38,0)">
+		<rect width="7" height="21" fill="url(#normalGradient)" />
+		<rect x="12"  width="7" height="21" fill="url(#normalGradient)" />
+	</g>
+	<!-- Pause Active -->
+	<g transform="translate(57,0)">
+		<rect width="7" height="21" fill="url(#activeGradient)" />
+		<rect x="12"  width="7" height="21" fill="url(#activeGradient)" />
+	</g>
+	<!-- Rewind -->
+	<g transform="translate(76,0) scale(0.27,0.27)">
+		<path d="M 20 50 a 30 30 0 1 0 30 -30" stroke-width="20" stroke="url(#normalGradient)" fill="none" />
+		<polygon points="25,20 52,40 52,0" fill="#888"/>
+	</g>
+	<!-- Rewind Active-->
+	<g transform="translate(103,0) scale(0.27,0.27)">
+		<path d="M 20 50 a 30 30 0 1 0 30 -30" stroke-width="20" stroke="url(#activeGradient)" fill="none" />
+		<polygon points="25,20 52,40 52,0" fill="#FFF"/>
+	</g>
+	<!-- Enter Full Screen -->
+	<g transform="translate(130,0) scale(0.25,0.21)">
+		<rect x="25" y="0" rx="5" ry="5" width="75" height="75" fill="url(#normalGradient)" />
+		<rect x="4" y="46" rx="5" ry="5" width="50" height="50" style="stroke:#888;stroke-width:8;fill:none;"/>
+	</g>
+	<!-- Enter Full Screen Active -->
+	<g transform="translate(155,0) scale(0.25,0.21)">
+		<rect x="25" y="0" rx="5" ry="5" width="75" height="75" fill="url(#activeGradient)" />
+		<rect x="4" y="46" rx="5" ry="5" width="50" height="50" style="stroke:#FFF;stroke-width:8;fill:none;"/>
+	</g>
+	<!-- Exit Full Screen -->
+	<g transform="translate(180,0) scale(0.25,0.21)">
+		<rect x="21" y="4" rx="5" ry="5" width="75" height="75" style="stroke:#888;stroke-width:8;fill:none;" />
+		<rect x="0" y="50" rx="5" ry="5" width="50" height="50" style="fill:#888;" />
+	</g>
+	<!-- Exit Full Screen -->
+	<g transform="translate(205,0) scale(0.25,0.21)">
+		<rect x="21" y="4" rx="5" ry="5" width="75" height="75" style="stroke:#FFF;stroke-width:8;fill:none;" />
+		<rect x="0" y="50" rx="5" ry="5" width="50" height="50" style="fill:#FFF;" />
+	</g>
+	<!-- Play Icon -->
+	<g transform="translate(230,0) scale(1.18,1.18)">
+		<circle cx="50" cy="50" r="45" stroke-width="5" stroke="#888" fill="none" />
+		<polygon points="35,25 35,75 75,50" fill="#888" />
+	</g>
+	<!-- Play Icon Active -->
+	<g transform="translate(348,0) scale(1.18,1.18)">
+		<circle cx="50" cy="50" r="45" stroke-width="5" stroke="#FFF" fill="none" />
+		<polygon points="35,25 35,75 75,50" fill="#FFF" />
+	</g>
+	<!-- Replay -->
+	<g transform="translate(466,0) scale(0.71,0.71)">
+		<path d="M 10 25 a 7 7 0 1 0 7 -7" stroke-width="4" stroke="#888" fill="none" />
+		<polygon points="12,18 17.2,23.5 17.2,12.5" fill="#888"/>
+	</g>
+	<!-- Replay Actice -->
+	<g transform="translate(537,0) scale(0.71,0.71)">
+		<path d="M 10 25 a 7 7 0 1 0 7 -7" stroke-width="4" stroke="#FFF" fill="none" />
+		<polygon points="12,18 17.2,23.5 17.2,12.5" fill="#FFF"/>
+	</g>
+</svg>

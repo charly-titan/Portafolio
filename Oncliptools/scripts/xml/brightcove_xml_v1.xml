@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publisher-upload-manifest report-success="TRUE" preparer="{{preparer}}" publisher-id="{{publisher-id}}">
+  <notify email="{{email}}"/>
+  <callback entity-url="{{callback-url}}/{{ref-id}}/"/>
+  <remote-asset type="VIDEO_FULL" controller-type="AKAMAI_HD2" frame-height="270" frame-width="480" refid="{{short-name}}-480" encoding-rate="480000" video-duration="{{duration}}" display-name="{{short-name}}-480" size="{{size-480}}" video-codec="H264" remote-url="{{akamai-url}}-480.mp4"/>
+  <remote-asset type="VIDEO_FULL" controller-type="AKAMAI_HD2" frame-height="180" frame-width="320" refid="{{short-name}}-150" encoding-rate="150000" video-duration="{{duration}}" display-name="{{short-name}}-150" size="{{size-150}}" video-codec="H264" remote-url="{{akamai-url}}-150.mp4"/>
+  <remote-asset type="VIDEO_FULL" controller-type="AKAMAI_HD2" frame-height="360" frame-width="640" refid="{{short-name}}-600" encoding-rate="600000" video-duration="{{duration}}" display-name="{{short-name}}-600" size="{{size-600}}" video-codec="H264" remote-url="{{akamai-url}}-600.mp4"/>
+  <remote-asset type="THUMBNAIL" frame-height="90" frame-width="160" refid="{{short-name}}-THUMB" display-name="{{short-name}}-THUMB" size="{{size-thumb}}" remote-url="{{image-url}}.jpg"/>
+  <remote-asset type="VIDEO_STILL" frame-height="360" frame-width="640" refid="{{short-name}}-STILL" display-name="{{short-name}}-STILL" size="{{size-still}}" remote-url="{{image-url}}-STILL.jpg"/>
+  <title language="English" name="{{program-name}}-{{short-date}}-{{title}}" color="TRUE" start-date="02/24/2011 12:47 PM" refid="{{ref-id}}:0" rating="TV-G" thumbnail-refid="{{short-name}}-THUMB" economic-type="" active="TRUE" video-still-refid="{{short-name}}-STILL" genre1="1005">
+    <short-description>{{program-name}}-{{short-date}}-{{title}}</short-description>
+    <long-description>{{program-name}}-{{short-date}}-{{title}}</long-description>
+    <rendition-refid>{{short-name}}-150</rendition-refid>
+    <rendition-refid>{{short-name}}-480</rendition-refid>
+    <rendition-refid>{{short-name}}-600</rendition-refid>
+    <custom-string-value name="release_date">{{release-date}}</custom-string-value>
+    <custom-string-value name="geofilter">ONLY_MEX</custom-string-value>
+    <custom-string-value name="asset_path">{{asset-path}}</custom-string-value>
+    <custom-string-value name="program">{{program-name}}</custom-string-value>
+    <custom-string-value name="status">MP4(150,480,600)</custom-string-value>
+  </title>
+</publisher-upload-manifest>

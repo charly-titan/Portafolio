@@ -1,0 +1,28 @@
+   
+#CurrentPermission,#tableAccountSetting, #example_length,.dataTables_length{display: none;}
+    
+#tablePerm tr  td , #tablePermNew tr  td {width: 50%;}
+    
+tr{width: 100%;}
+
+label{color: white}
+
+i label,td {padding: .3em;}
+	
+.error{color:red;}
+
+.dataTables_info{display: none;}
+   
+.widget{padding: 1.5em;}
+
+.dataTables_paginate{padding: 2em;}
+
+@media screen and (max-width:570px){
+    .dataTables_paginate {
+        padding: 0em;
+    }
+}
+
+#datosTable{border-color: none;}
+
+#radioGender label{float: left;}

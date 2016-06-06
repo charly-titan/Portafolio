@@ -1,0 +1,1145 @@
+/*================================================================================
+The use, disclosure, reproduction, modification, transfer, or transmittal
+of this work for any purpose in any form or by any means without th
+written permission of Akamai Technologies is strictly prohibited.
+
+Confidential, Unpublished Property of Akamai Technologies.
+Use and Distribution Limited Solely to Authorized Personnel.
+
+Copyright 2011 Akamai Technologies, Inc.  All Rights Reserved.
+================================================================================*/
+html, body
+{
+	padding:	0px;
+	margin:		0px;
+	border:   	none;
+	width: 		100%;
+	height:     100%;
+}
+
+.akamai-player
+{
+    background: #212121;
+	background: -moz-linear-gradient(top,  #212121 0%, #090909 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#212121), color-stop(100%,#090909));
+	background: -webkit-linear-gradient(top,  #212121 0%,#090909 100%);
+	background: -o-linear-gradient(top,  #212121 0%,#090909 100%);
+	background: -ms-linear-gradient(top,  #212121 0%,#090909 100%);
+	background: linear-gradient(to bottom,  #212121 0%,#090909 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#090909',GradientType=0 );
+  
+ 	width:              100%;
+    height:             100%;
+    position:           relative;
+    padding:            0px;
+    margin:             0px;
+    border:             none;
+    overflow: 		    hidden;
+    color:				#FFFFFF;
+    font-family:		Arial, Helvetica, sans-serif;
+    
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+}
+
+.akamai-player:-webkit-full-screen	{ width: 100%; height: 100% }
+.akamai-player:-moz-full-screen		{ width: 100%; height: 100% }
+.akamai-player:-ms-full-screen		{ width: 100%; height: 100% }
+.akamai-player:-o-full-screen		{ width: 100%; height: 100% }
+.akamai-player:full-screen			{ width: 100%; height: 100% }
+
+.akamai-player.akamai-html5.akamai-medium-audio
+{
+	height: 50px;
+}
+
+.akamai-flash.akamai-medium-audio
+{
+	height: 25px;
+}
+
+.akamai-video-area
+{
+    position:   absolute;
+    top:        0px;
+    left:       0px;
+    bottom:     0px;
+    right:      0px;
+    padding:    0px;
+    margin:     0px;
+    border:     none;
+    display:	block;
+    
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+}
+
+.akamai-video
+{
+    position:   absolute;
+    width:      100%;
+    height:     100%;
+    top:        0px;
+    left:       0px;
+
+    padding:    0px;
+    margin:     0px;
+    border:     none;
+    display:	block;
+    
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+}
+
+.akamai-hide-video .akamai-video
+{
+   -webkit-transform: translateX(-2048px);
+}
+
+.akamai-ended .akamai-video,
+.akamai-error .akamai-video
+{
+	width: 0px;
+	height: 0px;
+}
+
+.akamai-hidden
+{
+	display: none;
+}
+
+.akamai-overlays
+{
+	position:           absolute;
+    top:                0px;
+    left:               0px;
+    right:              0px;
+    bottom:             0px;
+    padding:            0px;
+    margin:             0px;
+    border:             none;
+    display:			block;
+}
+.akamai-controls
+{
+	background: #212121;
+	background: -moz-linear-gradient(top,  #212121 0%, #1d1d1d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#212121), color-stop(100%,#1d1d1d));
+	background: -webkit-linear-gradient(top,  #212121 0%,#1d1d1d 100%);
+	background: -o-linear-gradient(top,  #212121 0%,#1d1d1d 100%);
+	background: -ms-linear-gradient(top,  #212121 0%,#1d1d1d 100%);
+	background: linear-gradient(to bottom,  #212121 0%,#1d1d1d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#1d1d1d',GradientType=0 );
+	
+    width:		100%;
+    height:		50px;
+    position: 	absolute;
+    padding:	0px;
+    margin:		0px;
+    color:		#FFFFFF;
+    
+    display: 	none;
+    bottom: 	0px;
+    
+    border-top-color: #181818; 
+    border-top-width: 1px;
+    border-top-style: solid; 
+    
+    z-index: 100; 
+}
+
+.akamai-active .akamai-controls,
+.akamai-medium-audio .akamai-controls,
+.akamai-ended .akamai-controls
+{
+	display: block;
+}
+
+.akamai-persistent-controls .akamai-video-area,
+.akamai-persistent-controls .akamai-overlays,
+.akamai-persistent-controls .akamai-error-slate
+{
+	bottom: 50px;
+}
+.akamai-end-slate
+{
+	width:    	100%;
+	height:   	100%;
+  	
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	
+  	padding:  	0px;
+  	overflow:   hidden;
+  	display:	none;
+  	text-align: center;
+  	
+  	-webkit-user-select: none;
+}
+
+.akamai-ended .akamai-end-slate
+{
+	display: 	block;
+}
+
+.akamai-end-slate-image
+{
+	width: 100%;
+}
+.akamai-error-slate
+{
+	width:    	100%;
+	height:   	100%;
+  	
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	
+  	padding:  	0px;
+  	overflow:   hidden;
+  	display:	none;
+  	text-align: center;
+  	
+  	-webkit-user-select: none;
+}
+
+.akamai-error .akamai-error-slate
+{
+	display: 	table;
+}
+
+.akamai-error-message
+{
+	color:		    #FFFFFF;
+	font-weight: 	bold;
+  	font-size:    	20px;
+ 	white-space:  	nowrap;
+  	text-overflow: 	ellipsis;
+  	text-align:   	center;
+  	vertical-align: middle;
+  	line-height:  	23px;
+  	display: 		table-cell;
+}
+.akamai-full-screen-button
+{
+    width:              25px;
+    height:             21px;
+    border:             none;
+    position:           absolute;
+    top:             	15px;
+    right:              15px;
+    margin:				0px;
+    padding:			0px;
+    background-image:	url("amp.svg");
+    background-position: -130px 0px;
+    background-color: 	rgba(0, 0, 0, 0);
+	
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+}
+
+.akamai-full-screen-button:active
+{
+    background-position: -155px 0px;
+}
+
+.akamai-full-screen .akamai-full-screen-button
+{
+    background-position: -180px 0px;
+}
+
+.akamai-full-screen .akamai-full-screen-button:active
+{
+    background-position: -205px 0px;
+}
+
+.akamai-disable-full-screen .akamai-full-screen-button
+{
+    opacity: 0.15;
+}
+
+.akamai-medium-audio .akamai-full-screen-button
+{
+    display: none;
+}
+.akamai-loading-overlay
+{
+    width:              32px;
+    height:             32px;
+    text-align:			center;
+    border:             none;
+    position:           absolute;
+    left:             	50%;
+    top:              	50%;
+   	margin-top:			-16px;
+    margin-left:		-16px;
+    display: 			none;
+    
+    background-image:	url("amp.svg");
+    background-position: -592px 0px;
+}
+
+.akamai-loading .akamai-loading-overlay,
+.akamai-loading-overlay-open
+{
+    display: block;
+}
+.akamai-play-overlay
+{
+    width:              118px;
+    height:             118px;
+    border:             none;
+    position:           absolute;
+    display:			none;
+    right: 				50%;
+	bottom: 			50%;
+	margin-bottom: 		-59px;
+	margin-right: 		-59px;
+    background-image:	url("amp.svg");
+    background-position: -230px 0px;
+    
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+  	
+  	z-index: 110;
+}
+
+.akamai-play-overlay:active
+{
+    background-position: -348px 0px;
+}
+
+.akamai-ready .akamai-play-overlay,
+.akamai-paused .akamai-play-overlay,
+.akamai-play-overlay-open
+{
+	display: block;
+}
+
+.akamai-medium-audio .akamai-play-overlay
+{
+	display: none;
+}
+.akamai-play-pause-button
+{
+    border:             none;
+    position:           absolute;
+    top:				14px;
+	left:				26px;
+	width:				18px;
+	height:				21px;
+	margin:				0px;
+	padding:			0px;
+    background-image:	url("amp.svg");
+    background-color: 	rgba(0, 0, 0, 0);
+	
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+}
+
+.akamai-play-pause-button:active
+{
+    background-position: -19px 0px;
+}
+
+.akamai-playing .akamai-play-pause-button
+{
+    background-position: -38px 0px;
+}
+
+.akamai-playing .akamai-play-pause-button:active
+{
+    background-position: -57px 0px;
+}
+.akamai-poster-overlay
+{
+	width:    	100%;
+	height:   	100%;
+  	
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	margin: 0px;
+  	padding: 0px;
+  	overflow:   hidden;
+  	display:	none;
+}
+
+.akamai-ready .akamai-poster-overlay
+{
+	display: table;
+}
+
+.akamai-poster-content
+{
+	text-align:   	center;
+  	vertical-align: middle;
+  	display: 		table-cell;
+  	width:    		100%;
+	height:   		100%;
+}
+
+.akamai-poster-image
+{
+  	width: 100%;
+}
+
+.akamai-progress-area
+{
+	width: 		auto;
+	height: 	auto;
+
+	padding: 		0px;
+	margin-top: 	15px;
+	margin-left: 	66px;
+	margin-right: 	150px;
+
+	-webkit-user-select: none;
+}
+
+.akamai-long-form .akamai-progress-area
+{
+	margin-right: 	182px;
+}
+
+.akamai-progress
+{
+	background: #0f0f0f;
+	background: -moz-linear-gradient(top,  #0f0f0f 0%, #000000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0f0f0f), color-stop(100%,#000000));
+	background: -webkit-linear-gradient(top,  #0f0f0f 0%,#000000 100%);
+	background: -o-linear-gradient(top,  #0f0f0f 0%,#000000 100%);
+	background: -ms-linear-gradient(top,  #0f0f0f 0%,#000000 100%);
+	background: linear-gradient(to bottom,  #0f0f0f 0%,#000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0f0f', endColorstr='#000000',GradientType=0 );
+
+	position:			relative;
+	height:				20px;
+  	cursor:        		pointer;
+  	border-radius:		4px;
+ 	border-style:		solid;
+ 	border-width:		1px;
+ 	border-color:		#000000;
+  	-webkit-user-select:   none;
+}
+
+.akamai-buffer-value
+{
+	background: #555555;
+	background: -moz-linear-gradient(top,  #555555 0%, #212121 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#212121));
+	background: -webkit-linear-gradient(top,  #555555 0%,#212121 100%);
+	background: -o-linear-gradient(top,  #555555 0%,#212121 100%);
+	background: -ms-linear-gradient(top,  #555555 0%,#212121 100%);
+	background: linear-gradient(to bottom,  #555555 0%,#212121 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#212121',GradientType=0 );
+	
+	position: 			absolute;   
+	border-radius:		4px;
+    height: 			20px;
+	max-width:			100%;
+	min-width:			0%;
+	-webkit-user-select: none;
+}
+
+.akamai-progress-value
+{
+	background: #c80000;
+	background: -moz-linear-gradient(top,  #c80000 0%, #210000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c80000), color-stop(100%,#210000));
+	background: -webkit-linear-gradient(top,  #c80000 0%,#210000 100%);
+	background: -o-linear-gradient(top,  #c80000 0%,#210000 100%);
+	background: -ms-linear-gradient(top,  #c80000 0%,#210000 100%);
+	background: linear-gradient(to bottom,  #c80000 0%,#210000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c80000', endColorstr='#210000',GradientType=0 );
+	
+	position: 			absolute; 
+	border-radius:		4px 0px 0px 4px;
+	height: 			20px;
+	max-width:			100%;
+	min-width:			0%;
+	-webkit-user-select: none;
+}
+
+.akamai-scrubber
+{
+	background: #c8c8c8;
+	background: -moz-linear-gradient(top,  #c8c8c8 0%, #212121 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c8c8c8), color-stop(100%,#212121));
+	background: -webkit-linear-gradient(top,  #c8c8c8 0%,#212121 100%);
+	background: -o-linear-gradient(top,  #c8c8c8 0%,#212121 100%);
+	background: -ms-linear-gradient(top,  #c8c8c8 0%,#212121 100%);
+	background: linear-gradient(to bottom,  #c8c8c8 0%,#212121 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8c8c8', endColorstr='#212121',GradientType=0 );
+
+	border-radius:		5px;
+	width:				18px;
+	height: 			24px;
+	padding: 			0px;
+	margin:				-3px 0px 0px 0px;
+
+	cursor:        		pointer;
+	position:   		absolute;
+	display:			block;
+}
+
+.akamai-scrub-time
+{
+	background: #212121;
+	background: -moz-linear-gradient(top,  #212121 0%, #000000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#212121), color-stop(100%,#000000));
+	background: -webkit-linear-gradient(top,  #212121 0%,#000000 100%);
+	background: -o-linear-gradient(top,  #212121 0%,#000000 100%);
+	background: -ms-linear-gradient(top,  #212121 0%,#000000 100%);
+	background: linear-gradient(to bottom,  #212121 0%,#000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#000000',GradientType=0 );
+	
+	border-radius:		5px;
+  	position:     		absolute;
+  	top:          		-30px;
+  	left:				-25px;
+  	width:				75px;
+  	height:       		24px; 
+  	font-size:    		14px;
+  	font-weight:  		bold;
+  	text-align:   		center;
+  	line-height:  		17px;
+  	padding-top:		5px;
+  	margin-top: 		-20px;
+  	margin-left: 		-37px;
+  	opacity:			0;
+  	z-index:			2000;
+  	
+  	-webkit-user-select: none;
+}
+
+.akamai-scrubbing .akamai-scrub-time
+{
+	opacity: 1;
+}
+
+.akamai-seek-bar
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+}
+
+.akamai-live-mode .akamai-progress-area
+{
+	margin-right: 60px;
+}
+
+.akamai-live-mode .akamai-scrub-time,
+.akamai-live-mode .akamai-scrubber,
+.akamai-live-mode .akamai-buffer-value,
+.akamai-live-mode .akamai-progress-value,
+.akamai-live-mode .akamai-seek-bar,
+.akamai-ready .akamai-seek-bar
+{
+	display: none;
+}
+
+.akamai-replay-overlay
+{
+	background: #7c7c7c;
+	background: -moz-linear-gradient(top,  #7c7c7c 0%, #595959 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7c7c7c), color-stop(100%,#595959));
+	background: -webkit-linear-gradient(top,  #7c7c7c 0%,#595959 100%);
+	background: -o-linear-gradient(top,  #7c7c7c 0%,#595959 100%);
+	background: -ms-linear-gradient(top,  #7c7c7c 0%,#595959 100%);
+	background: linear-gradient(to bottom,  #7c7c7c 0%,#595959 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#595959',GradientType=0 );
+  
+ 	
+ 	border-top-width: 1px;
+ 	border-top-color: #6E6E6E;
+ 	border-top-style: solid;
+ 	
+ 	border-bottom-width: 1px;
+ 	border-bottom-color: #5A5A5A;
+ 	border-bottom-style: solid;
+ 	
+	width:    	100%;
+	height:   	19px;
+  
+  	position: 	absolute;
+ 	left:     	0px;
+ 	top:		0px;
+  	padding:  	0px;
+  	overflow:   hidden;
+  	display:	none;
+}
+
+.akamai-ended .akamai-replay-overlay
+{
+	display: 	block;
+}
+
+.akamai-replay-button
+{
+	position: 	absolute;
+	background: none;
+	border: 	none;
+	margin: 	0px;
+	padding:	0px;
+	
+  	top: 		2px;
+  	right:  	20px;
+  	width:		50px;
+  	
+  	cursor: 	pointer;
+}
+
+.akamai-replay-icon
+{
+	position: 	absolute;
+	width: 		10px;
+	height:		13px;
+	left:		10px;
+	
+	border: 	none;
+	margin: 	0px;
+	padding: 	0px;
+	
+	background-image:		url("amp.svg");
+	background-position:	-238px -24px;
+}
+
+.akamai-replay-button:active .akamai-replay-icon
+{
+	background-position:	-238px -37px;
+}
+
+.akamai-replay-label
+{
+	position: 		absolute;
+	left:			25px;
+	color:			#E1E1E1;
+	text-shadow: 	1px 1px 1px #000000;
+}
+
+.akamai-replay-button:active .akamai-replay-label
+{
+	color:		#FFFFFF;
+}
+.akamai-time-display
+{
+	position: 		absolute;
+	top: 		  	50%;
+	margin-top:		-5px;
+	right:			65px;
+	width:			125px;
+  	height:       	9px;
+  	color:        	#999999;  
+  	font-family:  	Arial, Helvetica, sans-serif;
+  	font-size:    	12px;
+  	font-weight:  	bold;
+  	text-align:   	right;
+  	line-height:  	9px;
+  
+  	-webkit-user-select: none;
+}
+
+.akamai-current-time-display
+{
+	color: 					#CCCCCC;
+	text-align:   			right;
+	-webkit-user-select: 	none;
+	display: 				inline;
+}
+
+.akamai-separator-display
+{
+	display: inline;
+}
+
+.akamai-duration-display
+{
+	display: 				inline;
+	text-align:   			right;
+	-webkit-user-select: 	none;
+}
+
+.akamai-live-display
+{
+	position:				absolute;
+	color: 					#FFFFFF;
+	text-align:   			center;
+	background-color: 		#FF0000;
+	display:                none;
+	width:					30px;
+	height:       			11px;
+	top: 		  			6px;
+	right:					7px;
+	padding-top:			2px;
+	margin-top:				-6px;
+  	
+  	font-size:    			10px;
+  	-webkit-user-select: 	none;
+  	cursor:					pointer;
+  	
+  	z-index: 				100;
+}
+
+.akamai-live-mode .akamai-live-display
+{
+	display: block;
+}
+
+.akamai-live-mode .akamai-current-time-display,
+.akamai-live-mode .akamai-separator-display,
+.akamai-live-mode .akamai-duration-display
+{
+	display: none;
+}
+
+.akamai-title-bar
+{
+	background-color: 	rgba(0, 0, 0, 0.5);  
+  
+ 	width:    	100%;
+  
+  	position: 	absolute;
+ 	left:     	0px;
+  	padding:  	0px;
+  	display: 	none;
+  	bottom:     0px;
+  	overflow:   hidden;
+  	
+  	-webkit-user-select: none;
+}
+
+.akamai-ready .akamai-title-bar,
+.akamai-paused .akamai-title-bar
+{
+	display: inline;
+}
+
+.akamai-active .akamai-title-bar
+{
+	bottom: 50px;	
+}
+
+.akamai-title-text
+{
+	color:		    #FFFFFF;
+	font-weight: 	bold;
+  	font-size:    	12px;
+ 	white-space:  	nowrap;
+  	text-overflow: 	ellipsis;
+  	text-align:   	left;
+  	margin-top:		8px;
+	margin-left:	15px;
+}
+
+.akamai-description-text
+{
+	color:		    #FFFFFF;
+	font-weight: 	normal;
+  	font-size:    	12px;
+ 	white-space:  	nowrap;
+  	text-overflow: 	ellipsis;
+  	text-align:   	left;
+  	margin-bottom:	8px;
+	margin-left:	15px;
+}
+
+.akamai-slider
+{
+	width: 				50px;
+	height: 			100px;
+	background-color: 	rgba(0, 0, 0, 0.7);
+	
+	position: 	absolute;
+	top: 		-100px;
+	right: 		34px;
+	
+	opacity:	0;
+	z-index:	102;
+	border-radius: 5px;
+}
+
+.akamai-volume .akamai-slider
+{
+	opacity:	1;
+}
+
+.akamai-slider-area
+{
+	position:	absolute;
+	left:		23px;
+	top:		10px;
+	width: 		4px;
+	height: 	80px;
+
+	-webkit-user-select: none;
+}
+
+.akamai-slider-track
+{
+	position: absolute;
+	background-color: #000000;
+	width: 100%;
+	height: 100%;
+}
+
+.akamai-slider-value
+{
+	position: 	absolute;
+	bottom:		0px;
+	
+	background-color: rgb(200, 0, 0);
+	
+	width: 100%;
+}
+
+.akamai-slider-handle
+{
+	position: absolute;
+	left: -8px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+
+.akamai-volume-button
+{
+    width:              25px;
+    height:             21px;
+    border:             none;
+    position:           absolute;
+    top:             	17px;
+    right:              46px;
+    margin:				0px;
+    padding:			0px;
+    background-image:	url("amp.svg");
+    background-position: -130px 0px;
+    background-color: 	rgba(0, 0, 0, 0);
+	
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+}
+
+.akamai-volume-button:active
+{
+    background-position: -155px 0px;
+}
+@-webkit-keyframes buffering
+{
+	from {left: -28px;}
+	to {left: 0px;}
+}
+
+.akamai-waiting-overlay
+{
+    width:              100%;
+    height:             16px;
+    position:           absolute;
+    left:             	0px;
+    bottom:      		0px;
+    display: 			none;
+    margin:				0px;
+    padding:			0px;
+    border:				none;
+}
+
+.akamai-persistent-controls .akamai-waiting-overlay,
+.akamai-persistent-controls.akamai-active .akamai-waiting-overlay
+{
+	bottom: 0px;
+}
+
+.akamai-waiting .akamai-waiting-overlay,
+.akamai-waiting-overlay-open
+{
+    display: block;
+}
+
+.akamai-waiting-bar
+{
+    width:              150%;
+    height:             16px;
+    position:           absolute;
+    left:             	0px;
+    bottom:      		0px;
+    margin:				0px;
+    margin-left:		-28px;
+    padding:			0px;
+    border:				none;
+    border-top-style:	solid;
+    border-top-width:	1px;
+    border-top-color:	rgba(64, 64, 64, 0.5);
+    
+    background-image:	url("bar.png");
+    background-repeat:	repeat-x;
+    background-position: 0px 0px;
+	background-color:	rgba(128, 128, 128, 0.5);
+	
+	-webkit-animation: buffering 0.25s linear infinite;
+}
+
+.akamai-waiting-text
+{
+	color:			#CCCCCC;
+	position: 		absolute;
+	margin-top: 	1px;
+	margin-left: 	5px;
+	font-size:		10px;
+	text-shadow: 	1px 1px 1px #000000;
+}
+.akamai-event-management
+{
+	position:	absolute;
+	width:		100%;
+	height:		100%;
+	z-index:	1000;
+}
+
+.akamai-event-poster
+{
+	position:	absolute;
+	width:		100%;
+	height:		100%;
+}
+
+.akamai-captioning
+{
+	position:	absolute;
+	width:		100%;
+	bottom:		0px;
+	overflow:   hidden;
+ 	padding: 	0px;
+ 	margin: 	auto;
+ 	text-align: center;
+ 	z-index: 	100;
+ 	padding: 	10px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.akamai-active .akamai-captioning
+{
+	bottom: 50px;
+}
+
+.akamai-caption-text
+{
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.akamai-caption-button
+{
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	width: 24px;
+	height: 24px;
+	top: 13px;
+	right: 55px;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 5px;
+	border-color: #CCCCCC;
+	border-style: solid;
+	color: #CCCCCC;
+	font-weight: bold;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	display: none;
+}
+
+.akamai-cc-enabled .akamai-caption-button
+{
+	display: block;
+}
+
+.akamai-caption-button:active
+{
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+.akamai-caption-button.akamai-cc-active
+{
+	background-color: rgba(255, 0, 0, 1);
+}
+
+.akamai-cc-enabled .akamai-progress-area
+{
+	margin-right: 177px;
+}
+
+.akamai-cc-enabled .akamai-time-display
+{
+	right: 92px;
+}
+.akamai-ended .akamai-end-slate
+{
+	display: 	none;
+}
+.akamai-play-overlay
+{
+    height: 117px;
+}
+.akamai-playing .akamai-play-pause-button
+{
+	width: 19px;
+    background-position: -38px 0px;
+}
+
+.akamai-playing .akamai-play-pause-button:active
+{
+	width: 19px;
+    background-position: -57px 0px;
+}
+
+.akamai-ended .akamai-play-pause-button
+{
+	width: 23px;
+	height: 25px;
+	background-position: -78px 0px;
+}
+.akamai-ended .akamai-play-pause-button:active
+{
+	width: 23px;
+	height: 25px;
+	background-position: -105px 0px;
+}
+.akamai-scrubber
+{
+	margin-left: -7px;
+}
+.akamai-replay-overlay
+{
+	background: #595959;
+	background: -moz-linear-gradient(top,  #595959 0%, #272727 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#595959), color-stop(100%,#272727));
+	background: -webkit-linear-gradient(top,  #595959 0%,#272727 100%);
+	background: -o-linear-gradient(top,  #595959 0%,#272727 100%);
+	background: -ms-linear-gradient(top,  #595959 0%,#272727 100%);
+	background: linear-gradient(to bottom,  #595959 0%,#272727 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#272727',GradientType=0 );
+ 
+	height:   	100%;
+}
+
+.akamai-replay-button
+{
+  	position:	absolute;
+  	width:		auto;
+  	height:		auto;
+  	right:		auto;
+  	padding: 	10px;
+  	margin-left: -25px;
+  	margin-top: -25px;
+  	left: 		50%;
+  	top: 		50%;
+  	
+  	background: #7c7c7c;
+	background: -moz-linear-gradient(top,  #7c7c7c 0%, #595959 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7c7c7c), color-stop(100%,#595959));
+	background: -webkit-linear-gradient(top,  #7c7c7c 0%,#595959 100%);
+	background: -o-linear-gradient(top,  #7c7c7c 0%,#595959 100%);
+	background: -ms-linear-gradient(top,  #7c7c7c 0%,#595959 100%);
+	background: linear-gradient(to bottom,  #7c7c7c 0%,#595959 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#595959',GradientType=0 );
+}
+
+.akamai-replay-icon
+{
+	width: 		13px;
+	height:		15px;
+	
+	border: 	none;
+	margin: 	0px;
+	padding: 	0px;
+	
+	background-image:		url("amp.svg");
+	background-position:	-472px -9px;
+}
+
+.akamai-replay-button:active .akamai-replay-icon
+{
+	background-position:	-543px -9px;
+}
+
+.akamai-replay-label
+{
+	position: static;
+	margin-left: 20px;
+}
+
+.akamai-time-display
+{
+	right:		58px;
+}
+.akamai-title-bar
+{
+	top: 0px;	
+}
+
+.akamai-active .akamai-title-bar
+{
+	top: 0px;	
+}
+@-webkit-keyframes buffering
+{
+	from {left: -28px;}
+	to {left: 0px;}
+}
+
+.akamai-waiting-overlay
+{
+    width:              100%;
+    height:             16px;
+    position:           absolute;
+    left:             	0px;
+    bottom:      		0px;
+    display: 			none;
+    margin:				0px;
+    padding:			0px;
+    border:				none;
+}
+
+.akamai-waiting .akamai-waiting-overlay
+{
+    display: block;
+}
+
+
+.akamai-active .akamai-waiting-overlay
+{
+   	bottom: 50px;
+}
+
+.akamai-waiting-bar
+{
+    width:              150%;
+    height:             16px;
+    position:           absolute;
+    left:             	0px;
+    bottom:      		0px;
+    margin:				0px;
+    margin-left:		-28px;
+    padding:			0px;
+    border:				none;
+    border-top-style:	solid;
+    border-top-width:	1px;
+    border-top-color:	rgba(64, 64, 64, 0.5);
+    
+    background-image:	url("bar.png");
+    background-repeat:	repeat-x;
+    background-position: 0px 0px;
+	background-color:	rgba(128, 128, 128, 0.5);
+	
+	-webkit-animation: buffering 0.25s linear infinite;
+}
+
+.akamai-waiting-text
+{
+	position: absolute;
+	margin-top: 	-2px;
+	margin-left: 	5px;
+	font-size:		10px;
+	text-shadow: 	1px 1px 1px #000000;
+}
