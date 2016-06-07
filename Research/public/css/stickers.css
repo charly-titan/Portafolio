@@ -1,0 +1,457 @@
+/******************************************************************/
+/* Configuracion inicial.                                         */
+/******************************************************************/
+html, body {
+    min-height : 100% !important ;
+    height : 100%;
+    margin : 0;
+    padding : 0;
+    background : gray;
+}
+[draggable=true] {
+    cursor: move;
+}
+#contenedor_flipbook {
+    width : 90%;
+    height : 70% !important ;
+    position : relative;
+    left : 0;
+    right : 0;
+    margin : auto;
+    margin-top: 10px;
+}
+#contenedor_carrusel {
+    width : 90%;
+    height : 25%;
+    position : relative;
+    left : 0;
+    right : 0;
+    margin : auto;
+    margin-top: 10px;
+}
+.center {
+    bottom : 0;
+    left : 0;
+    margin : auto;
+    position : absolute;
+    right : 0;
+    top : 0;
+    width: 100%;
+    max-height: 90%
+}
+/******************************************************************/
+/* Propiedades de los stickers dentro del album y carrusel        */
+/******************************************************************/
+.transparente {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+.thumbnailContainer {
+    height : 100%;
+    position : relative;
+}
+.thumbnailImg {
+    border : #9491D4 solid 3px;
+    bottom : 0;
+    display : block;
+    left : 0;
+    margin : auto;
+    max-height : 100%;
+    max-width : 100%;
+    position : absolute;
+    right : 0;
+    top : 0;
+    vertical-align : middle;
+    width : auto;
+    -webkit-box-shadow: 0 3px 6px #666;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.thumbnailFondo {
+    background-position : center;
+    background-repeat : no-repeat;
+    background-size : contain;
+    bottom : 0;
+    display : block;
+    height : auto;
+    left : 0;
+    margin : auto;
+    max-height : 100%;
+    max-width : 100%;
+    position : absolute;
+    right : 0;
+    top : 0;
+    vertical-align : middle;
+    width : auto;
+}
+li > .thumbnailImg {
+    border : none;
+}
+.numero {
+    border-radius : 50px;
+    bottom : 0;
+    height : 25px;
+    left : 10px;
+    position : absolute;
+    text-align : center;
+    width : 25px;
+    cursor: default;
+    z-index: 2;
+}
+.numero2 {
+    background : red;
+    border-radius : 50px;
+    color : white;
+    height : 20px;
+    left : 10px;
+    position : absolute;
+    text-align : center;
+    top : 0;
+    width : 20px;
+    cursor: default;
+    z-index: 2;
+}
+.numero3 {
+    background : blue;
+    border-radius : 50px;
+    color : white;
+    height : 20px;
+    position : absolute;
+    right : 10px;
+    text-align : center;
+    top : 0;
+    width : 20px;
+    cursor: default;
+    z-index: 2;
+}
+.numero4 {
+    bottom : 0;
+    color : blue;
+    height : 20px;
+    left : 0;
+    margin : auto;
+    position : absolute;
+    right : 0;
+    top : 0;
+    width : 20px;
+    cursor: default;
+    z-index: 2;
+}
+/******************************************************************/
+/* Propiedades del carrusel.                                      */
+/******************************************************************/
+.jcarousel-wrapper {
+    border-radius : 5px;
+    border : #A47851 solid 6px;
+    height : 100%;
+    margin : auto;
+    position : relative;
+    width : 93%;
+}
+.jcarousel {
+    background : #3D3E42;
+    overflow : hidden;
+    width : 100%;
+    height : 100%;
+}
+.jcarousel ul {
+    list-style : none;
+    position : relative;
+    width : 20000em;
+    height : 100%;
+}
+.jcarousel li {
+    box-sizing : border-box;
+    float : left;
+    width : 296px;
+}
+.jcarousel-control-prev, .jcarousel-control-next {
+    background : #4E443C;
+    border-radius : 30px;
+    box-shadow : 0 0 2px #999;
+    color : #FFF !important ;
+    font : 24px/27px Arial, sans-serif;
+    height : 30px;
+    position : absolute;
+    text-align : center;
+    text-decoration : none;
+    text-shadow : 0 0 1px #000;
+    top : 45%;
+    width : 30px;
+}
+.jcarousel-control-prev {
+    left : -50px;
+}
+.jcarousel-control-next {
+    right : -50px;
+}
+.jcarousel-control-prev:hover span, .jcarousel-control-next:hover span {
+    display : block;
+}
+.jcarousel-control-prev.inactive, .jcarousel-control-next.inactive {
+    opacity : 0.5;
+    cursor : default;
+    color : #4E443C !important ;
+}
+/******************************************************************/
+/* Propiedades de los diferetntes tipos de configuracion de la p. */
+/******************************************************************/
+.sancho {
+    width : 145px !important ;
+}
+.sequal {
+    width : 185px !important ;
+}
+/********************************************/
+.s1 {
+    width : 60%;
+    height : 60%;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 20%;
+    margin: auto;
+}
+.sHide {
+    width : 48%;
+    height : 48%;
+    float : left;
+    margin : 1%;
+}
+.sCenter {
+    width : 48%;
+    height : 48%;
+    float : left;
+    margin : 1%;
+    margin-left: 26%;
+}
+.sBase {
+    width : 48%;
+    height : 48%;
+    float : left;
+    margin : 1%;
+}
+.sHeight {
+    width : 30%;
+    height : 48%;
+    float : left;
+    margin : 1%;
+}
+/************************************************/
+.col_sticker {
+    width : 48%;
+    height : 48%;
+    float : left;
+    margin : 1%;
+}
+#carrusel {
+    height : 100%;
+}
+#orientacion{
+    max-height: 85%;
+    height: auto;
+    position: relative;
+}
+#orientacion img{
+    width: 100%
+}
+.modal-content{
+    height: auto !important;
+}
+/******************************************************************/
+/* Propiedades del album.                                         */
+/******************************************************************/
+/*#flipbook {
+    border : transparent solid 5px;
+    overflow : hidden;
+    width: 100% !important;
+    position: absolute !important;
+    height: 100% !important;
+}*/
+#flipbook .even {
+    background-image: -moz-linear-gradient(left, #FFF 95%, #cacaca 100%);
+    background-image: -ms-linear-gradient(left, #FFF 95%, #cacaca 100%);
+    background-image: -o-linear-gradient(left, #FFF 95%, #cacaca 100%);
+    background-image: -webkit-linear-gradient(left, #FFF 95%, #cacaca 100%);
+    background-image: linear-gradient(left, #FFF 95%, #cacaca 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0.95, #FFF), color-stop(1, #cacaca));
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#flipbook .odd {
+    background-image: -moz-linear-gradient(right, #FFF 95%, #cacaca 100%);
+    background-image: -ms-linear-gradient(right, #FFF 95%, #cacaca 100%);
+    background-image: -o-linear-gradient(right, #FFF 95%, #cacaca 100%);
+    background-image: -webkit-linear-gradient(right, #FFF 95%, #cacaca 100%);
+    background-image: linear-gradient(right, #FFF 95%, #cacaca 100%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(0.95, #FFF), color-stop(1, #cacaca));
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#flipbook .pageBody {
+    height : 90%;
+    position : relative;
+    width : 90%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#flipbook .page{
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+}
+#flipbook .even .pageBody{
+    right: 2%;
+    margin: auto;
+}
+#flipbook .odd .pageBody{
+    left: 2%;
+    margin: auto;
+}
+#flipbook #portada, #flipbook #contraportada {
+    text-align : center;
+    border : none;
+    border-radius:0;
+}
+
+#flipbook .interna.odd{
+    background: #C9C9C9;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+#flipbook .interna.even{
+    background: #C9C9C9;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+#flipbook .doble.even{
+    background-size: 200% 100% !important;
+    background-position:left !important;
+}
+#flipbook .doble.odd{
+    background-size: 200% 100% !important;
+    background-position:right !important;
+}
+#flipbook .simple{
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+}
+/******************************************************************************/
+#girdCard .col-md-2{
+    margin-top: 5px;
+}
+#girdCard .thumbnail-container
+{
+    position: relative;
+    background: white;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    -webkit-box-shadow: 0 3px 6px #666;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+#girdCard .thumbnail-body
+{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 160px;
+    text-align:center;
+    transform: rotateY(180deg);
+}
+#girdCard .thumbnail-body:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 160px;
+}
+#girdCard .thumbnail-img
+{
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    border: solid 1px black;
+}
+#girdCard .thumbnail-footer
+{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 30px;
+    text-align:center; /* Align center inline elements */
+}
+#girdCard  .flip-container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#girdCard .flip-container .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+#girdCard  .flip-container:hover .flipper{
+    transform: rotateY(180deg);
+}
+#girdCard .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+}
+#girdCard .front {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+#girdCard .back {
+    transform: rotateY(180deg);
+}
+#girdCard .textBack{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    word-wrap: break-word;
+    text-align: left;
+}
+#girdCard .thumbnail-body.front{
+    background: black
+}
+#girdCard{
+    width: 90%;
+    height: 100% !important;
+    max-width: 800px !important;
+    max-height: 2000px !important;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 10px;
+    -webkit-box-shadow: 0 3px 6px #666;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+/******************************************************************************/
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_3.gif) center no-repeat #fff;
+}

@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Investigación y Desarrollo</title>
+
+</head>
+<body>
+<script type="text/javascript" 
+        src="/js/faye.1.1.1/faye-browser-min.js">
+        </script>
+<script>
+var WebSocket = require('faye-websocket'),
+    ws        = new WebSocket.Client('ws://www.example.com/');
+
+ws.on('open', function(event) {
+  console.log('open');
+  ws.send('Hello, world!');
+});
+
+ws.on('message', function(event) {
+  console.log('message', event.data);
+});
+
+ws.on('close', function(event) {
+  console.log('close', event.code, event.reason);
+  ws = null;
+});
+</script>
+</body>
+</html>

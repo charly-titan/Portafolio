@@ -1,0 +1,120 @@
+.url-generator__logo {
+  background: url(/sharedlink/images/sprite_logos.svg) no-repeat -6px -56px !important;
+  height: 55px;
+  width: 65px;
+  background-size: 450px auto !important;
+  float: left;
+  margin-right: 20px;
+}
+@media (max-width: 647px) {
+  .url-generator__logo {
+    background: url(/sharedlink/images/sprite_logos.svg) no-repeat -38px -14px !important;
+    width: 130px;
+    background-size: 210px !important;
+    height: 40px;
+    float: none;
+    margin: 0 auto;
+  }
+}
+.url-generator__title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 6px 20px;
+  line-height: 80px;
+  margin: 0;
+  background-color: #154C7B;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 60px;
+}
+@media (max-width: 647px) {
+  .url-generator__title {
+    line-height: 30px;
+  }
+}
+.url-generator__title--small {
+  font-size: 18px;
+  font-weight: bold;
+}
+.url-generator__title--small:first-child {
+  margin-top: 0;
+}
+.url-generator__title--small .icon {
+  margin-right: 8px;
+}
+.url-generator__inputhelp {
+  color: #929292;
+  font-style: italic;
+}
+.url-generator__form {
+  margin: 0 20px;
+}
+.url-generator__submit {
+  margin: 0 auto;
+  display: block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.url-generator__submit i.fa {
+  margin-right: 12px;
+}
+.url-generator__result {
+  margin: 20px;
+}
+.url-generator__resultlink--title {
+  text-transform: capitalize;
+  font-weight: bold;
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+}
+.url-generator__resultlink--link {
+  text-transform: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.url-generator__resultlink--full {
+  display: block;
+}
+.url-generator div.alert {
+  color: white;
+}
+.url-generator div.alert.alert-danger {
+  font-weight: bold;
+  color: #a94442;
+}
+.url-generator div.alert .icon {
+  display: inline-block;
+  margin-right: 6px;
+  float: left;
+  font-size: 30px;
+  width: 30px;
+}
+ .alert-facebook, .alert-facebook a {
+  background-color: #3b5998;
+  color:#FFF;
+}
+ .alert-twitter, .alert-twitter a {
+  background-color: #00aced;
+  color:#FFF;
+}
+.alert-instagram, .alert-instagram a {
+  background-color: #517fa4;
+  color:#FFF;
+}
+.alert-google-plus, .alert-google-plus a {
+  background-color: #dd4b39;
+  color:#FFF;
+}
+.alert-pinterest, .alert-pinterest a {
+  background-color: #cb2027;
+  color:#FFF;
+}
+.alert-youtube, .alert-youtube a {
+  background-color: #bb0000;
+  color:#FFF;
+}
+.alert-vine, .alert-vine a {
+  background-color: #00bf8f;
+}

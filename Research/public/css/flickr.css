@@ -1,0 +1,138 @@
+/*view gallery.blade.php*/
+/***************************/
+/*efecto sombreado checkbox*/
+.cc-selector input[type="checkbox"]
+{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+}
+.cc-selector input[type="checkbox"]:active +.drinkcard-cc{opacity: .9;}
+.cc-selector input[type="checkbox"]:checked +.drinkcard-cc
+{
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+    -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+    filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkcard-cc
+{
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+.drinkcard-cc:hover
+{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+/***************************/
+/*detalles barra de busqueda*/
+.ui-button-icon-only
+{
+    height: 32px;
+    margin-right: 20px;
+}
+.redondoizq
+{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+/***************************/
+/*ajuste de vistas miniatura*/
+.thumbnail
+{
+    display:table;
+    border-spacing: 2px;
+    border-collapse: separate;
+    border-radius:6px; /* Demonstrational.. */
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.thumbnail-container
+{
+    position: relative;
+    width: 100%;
+    height: 240px;
+    margin: 10px;
+    border: 1px solid #EEE;
+    -webkit-box-shadow: 0 3px 6px #666;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.thumbnail-body
+{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 200px;
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;
+    background: #000;
+}
+.thumbnail-body:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 200px;
+}
+.thumbnail-img
+{
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 200px;
+}
+.thumbnail-footer
+{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 30px;
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;
+}
+.smart-form .toggle i {
+    left: 50%;
+}
+.smart-form .toggle:last-child {
+    margin-bottom: 0;
+        bottom: -7px;
+}
+/*******************************/
+/*vista loading*/
+#overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    z-index: 10000;
+}
+#loading
+{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    width: 250px;
+    z-index: 10000;
+}
+/*******************************/
+.ui-autocomplete,.ui-front,.ui-menu .ui-widget .ui-widget-content
+{
+width: auto;
+}
