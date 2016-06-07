@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'canal-5-promociones'; 
+    src: url(../../fonts/canal-5-promociones/canal-5-promociones.ttf) format('truetype'), /* Safari, Android, iOS */
+         url(../../fonts/canal-5-promociones/canal-5-promociones.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(../../fonts/canal-5-promociones/canal-5-promociones.woff) format('woff'), /* Modern Browsers */
+         url(../../fonts/canal-5-promociones/canal-5-promociones.svg#555512b92c5a82.11253509) format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+[class^="c5-"], [class*=" c5-"] {
+	font-family: 'c5-promociones';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	display: inline;
+	width: auto;
+	height: auto;
+	line-height: normal;
+	vertical-align: baseline;
+	background-image: none;
+	background-position: 0 0;
+	background-repeat: repeat;
+	margin-top: 0
+}
+[class^="c5-"]:before, [class*=" c5-"]:before {
+	text-decoration: inherit;
+	display: inline-block;
+	speak: none
+}
+a [class^="c5-"], a [class*=" c5-"] {
+	display: inline-block
+}
+.c5-logo:before {
+	content: "\0041";
+}
+.c5-mensaje:before {
+	content: "\0042";
+}
+.c5-facebook:before {
+	content: "\0043";
+}
+.c5-twitter:before {
+	content: "\0044";
+}
+.c5-plus:before {
+	content: "\0045";
+}
+.c5-pinterest:before {
+	content: "\0046";
+}
+.c5-izquierda:before {
+	content: "\0047";
+}
+.c5-derecha:before {
+	content: "\0048";
+}
+.c5-arriba:before {
+	content: "\004A";
+}
+.c5-abajo:before {
+	content: "\0049";
+}
+.c5-calendario:before {
+	content: "\004B";
+}
+.c5-check:before {
+	content: "\004C";
+}
+.c5-share:before {
+	content: "\004D";
+}
+.c5-popcorn:before {
+	content: "\004E";
+}
+.c5-home:before {
+	content: "\004F";
+}

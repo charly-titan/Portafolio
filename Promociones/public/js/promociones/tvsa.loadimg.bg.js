@@ -1,0 +1,1 @@
+!function(t){var o=t.tvsaloadimg,a=o.bgAttr||"data-bg";o.selector+=",["+a+"]",t(document).on("tvsaimgshow",function(o){var r=t(o.target);r.css("background-image","url('"+r.attr(a)+"')").removeAttr(a)})}(window.jQuery||window.Zepto||window.$);

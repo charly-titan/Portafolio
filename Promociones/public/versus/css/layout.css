@@ -1,0 +1,60 @@
+/**! @desc layout.layout-grid
+ @generated 2015-01-29T13:46:15-06:00
+**/
+.c5-wapper {
+  max-width: 100%;
+  display: block;
+}
+
+.c5-wapper header, .c5-wapper .wrapper-container, .c5-wapper footer {
+  width: 100%;
+}
+
+.c5-wapper .wrapper-container .container {
+  max-width: 1010px;
+  margin: 0 auto;
+}
+
+.c5-wapper .wrapper-container .container .left-container {
+  max-width: 660px;
+  float: left;
+}
+
+.c5-wapper .wrapper-container .container .right-container {
+  max-width: 330px;
+  padding-left: 20px;
+  float: left;
+}
+
+@media screen and (max-width: 647px) {
+  .c5-wapper .wrapper-container .container .right-container {
+    max-width: initial;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .c5-wapper .wrapper-container .container .left-container {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 648px) and (max-width: 1009px) {
+  .c5-wapper .wrapper-container .container .right-container {
+    max-width: initial;
+    width: 100%;
+    padding: 0 40px;
+    padding: 0;
+  }
+
+  .c5-wapper .wrapper-container .container .left-container {
+    max-width: calc(100% - 80px);
+    max-width: -webkit-calc(100% - 80px);
+    max-width: -moz-calc(100% - 80px);
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 948px) {
+  .c5-wapper .wrapper-container .container .left-container {
+    max-width: 100%;
+  }
+}

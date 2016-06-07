@@ -1,0 +1,2 @@
+function insertAfter(e,i){if(e.nextSibling){e.parentNode.insertBefore(i,e.nextSibling);}else{e.parentNode.appendChild(i);}}
+function appendLibs(src){var rootNode=document.getElementById('libs');var srcNode=document.createElement('script');if(!$('script[src*="'+src+'"]').length){srcNode.setAttribute('src',src);srcNode.setAttribute('type','text/javascript');insertAfter(rootNode,srcNode);rootNode.setAttribute('id','');srcNode.setAttribute('id','libs');}}

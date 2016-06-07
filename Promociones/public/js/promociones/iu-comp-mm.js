@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".mm-social").hover(function(){$(this).children(".mm-social-icons").css("display","inline-block").stop().hide().fadeIn()},function(){$(this).children(".mm-social-icons").stop().fadeOut()})});

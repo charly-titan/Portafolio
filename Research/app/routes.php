@@ -455,8 +455,8 @@ Route::get('instagram/{process?}',
                         $url = "https://api.instagram.com/v1/subscriptions/";
                         $callback_url = "http://promociones.televisa.com/instagram_callback";
 
-                        $client_id = "965dd72bf2a8489da694624ba92ed34b";
-                        $client_secret = "4cc49b83b68e447087efcf6efd19e812";
+                        $client_id = "*";
+                        $client_secret = "*";
 
                         $data = array(
                                     'client_id' => $client_id,

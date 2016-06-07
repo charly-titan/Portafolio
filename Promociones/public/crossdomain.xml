@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<cross-domain-policy>
+	<allow-access-from domain="*" />
+	<allow-access-from domain="*.jwplayer.com" />
+</cross-domain-policy>
+
+

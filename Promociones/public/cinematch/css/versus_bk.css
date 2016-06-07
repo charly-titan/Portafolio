@@ -1,0 +1,1667 @@
+/* 
+BEGIN: FUENTES
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+@font-face {
+  font-family: 'c5-promociones';
+  src: url(../fonts/c5-promociones/c5-promociones-normal-normal.ttf) format("truetype"), url(../fonts/c5-promociones/c5-promociones-normal-normal.eot?#iefix) format("embedded-opentype"), url(../fonts/c5-promociones/c5-promociones-normal-normal.woff) format("woff"), url(../fonts/c5-promociones/c5-promociones-normal-normal.svg#5536de0b598704.08320658) format("svg"), url(data:application/font-woff;charset=utf-8;base64,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) format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+[class^="c5-"], [class*=" c5-"] {
+  font-family: 'c5-promociones';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+
+[class^="c5-"]:before, [class*=" c5-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+
+a [class^="c5-"], a [class*=" c5-"] {
+  display: inline-block;
+}
+
+.c5-logo:before {
+  content: "\0041";
+}
+
+.c5-mensaje:before {
+  content: "\0042";
+}
+
+.c5-facebook:before {
+  content: "\0043";
+}
+
+.c5-twitter:before {
+  content: "\0044";
+}
+
+.c5-plus:before {
+  content: "\0045";
+}
+
+.c5-pinterest:before {
+  content: "\0046";
+}
+
+.c5-izquierda:before {
+  content: "\0047";
+}
+
+.c5-derecha:before {
+  content: "\0048";
+}
+
+.c5-arriba:before {
+  content: "\004A";
+}
+
+.c5-abajo:before {
+  content: "\0049";
+}
+
+.c5-calendario:before {
+  content: "\004B";
+}
+
+
+@charset "UTF-8";@font-face {
+    font-family: 'Canal 5';
+    src: url(http://i2.esmas.com/fonts/canal-5/canal-5.eot);
+    src: url(http://i2.esmas.com/fonts/canal-5/canal-5.eot?#iefix) format("embedded-opentype"),url(http://i2.esmas.com/fonts/canal-5/canal-5.woff) format("woff"),url(http://i2.esmas.com/fonts/canal-5/canal-5.ttf) format("truetype"),url(http://i2.esmas.com/fonts/canal-5/canal-5.svg#538e1a04658632.54852768) format("woff"),url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAABZQABEAAAAAH0gAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABgAAAABwAAAAcbI7Fb0dERUYAAAGcAAAAHQAAACAATQAET1MvMgAAAbwAAABGAAAAYHSNkrpjbWFwAAACBAAAAGcAAAFiaOpowmN2dCAAAAJsAAAANgAAADYPNg4UZnBnbQAAAqQAAAGxAAACZVO0L6dnYXNwAAAEWAAAAAgAAAAI//8AA2dseWYAAARgAAAOvgAAE+CPn1PnaGVhZAAAEyAAAAAwAAAANgYim4loaGVhAAATUAAAABwAAAAkDBkF6WhtdHgAABNsAAAASQAAAIBv4wBEbG9jYQAAE7gAAAAuAAAAQnHabI5tYXhwAAAT6AAAACAAAAAgAT0CEG5hbWUAABQIAAABAQAAAg4pL0r2cG9zdAAAFQwAAAB+AAAA4EdNGfBwcmVwAAAVjAAAALoAAAFpT4L7q3dlYmYAABZIAAAABgAAAAb4NVQIAAAAAQAAAADMPaLPAAAAANAieesAAAAA0C6otHjaY2BkYGDgA2IJBhBgYmAEQnkgZgHzGAAFnwBSAAAAeNpjYGZexTiBgZWBhdWY5QwDA8NMCM10hsGI8RCQD5TCDkK9w/0YHBgcVf+wpf1LA6prZTgFFGaEyLKGAQkFBkYAcOIMRAAAeNpjYGBgZoBgGQZGBhCIAfIYwXwWBgcgzcPAwcAEZPsrcCnoK8Sr/vn/HyjqqMAA4/0/9EDo/rv7+28pQ02AA0Y2BrgQIxOQYGJAU8BAGDCzsLKxc3BycfPw8vELCDIMMQAAq9QRcgAAAAACARICEABgAG8AzwDmAR4BJQEvAEUAYALbAG8AhQCWAOABDAEWAR8BPAGnAloAYABXBREAAHjaXVG7TltBEN0NDwOBxNggOdoUs5mQxnuhBQnE1Y1iZDuF5QhpN3KRi3EBH0CBRA3arxmgoaRImwYhF0h8Qj4hEjNriKI0Ozuzc86ZM0vKkap36WvPU+ckkMLdBs02/U5ItbMA96Tr642MtIMHWmxm9Mp1+/4LBpvRlDtqAOU9bykPGU07gVq0p/7R/AqG+/wf8zsYtDTT9NQ6CekhBOabcUuD7xnNussP+oLV4WIwMKSYpuIuP6ZS/rc052rLsLWR0byDMxH5yTRAU2ttBJr+1CHV83EUS5DLprE2mJiy/iQTwYXJdFVTtcz42sFdsrPoYIMqzYEH2MNWeQweDg8mFNK3JMosDRH2YqvECBGTHAo55dzJ/qRA+UgSxrxJSjvjhrUGxpHXwKA2T7P/PJtNbW8dwvhZHMF3vxlLOvjIhtoYEWI7YimACURCRlX5hhrPvSwG5FL7z0CUgOXxj3+dCLTu2EQ8l7V1DjFWCHp+29zyy4q7VrnOi0J3b6pqqNIpzftezr7HA54eC8NBY8Gbz/v+SoH6PCyuNGgOBEN6N3r/orXqiKu8Fz6yJ9O/sVoAAAAAAAAB//8AAnjafVhpcBzXcX5vdmb2xOzMHrMLYO8b2MUeszeuBcBTBEiCF0hQAAhRvHHQIClSEElTtOyiSCkSJdou0pRLqpSdo5SkZgYwSYFlhUxSOapsp3KUUqlKylbiP+vYDn86trFKv1lCIU07u8DMmzc9x+v+vu6vF1FoPULUIWYP0iE9SisYZXpVPW3+maSwzL/1qjoKhkjRkWmGTKt6tu3XvSom83khKESDQnA9FWhE8M3GMWbPLz9cT38fwS0R+uwXzD5mG7KhKooilUMoqbj1dTmTkcN5LHdnlB6cRIo7I9gUI6pWsznBYaPzUj9VLKSpcIijXIUyLuUlF3aITkcSCw42iYuFJA6xXhwOFYVwiA2H4rF7uOejq42VmZmVz16/troy8+80/kuaNdD4byj+ONb/gruptz7ipylaR1E09a2PGn91d2Zl9drVxr2ZEyurb+gZ/JCmGz2YxpbGsoFadvOGZRMeAePmOhCCdYzBOobRLFLtsI5lTyzd3R9x5bVVLZdMyEIn5S0ZLI9kZPSJEnXW5ZQkR3llCCeXjU5yWtmKk0oUCTbZXpWHhAEjJ9LuRKV3YEvEVZWNNqW7v1pFSsn+O92BJTEvlWHBcclFRmnch0VXLB4rFsqwhy1xVqnM6sk/uIzVs3oOPPWbDsLtJpv51P5SZ0IwgIFT7B62l6Oc0/XqP9OZ3PqNUl/KVunKhyRdZyzUU31v15vUn/yG1xqXqc1BTwFTest4LyUwHn+0I5H6wGJuWyflilx7d5gRszGW63mnXC5mS0/7MY1ySPUSzyUY5APPOaQmPNoMdbkLvJjJKFmCjUTX73QGU8yTBfdgZzgEy2SdDj2gIq8PC2HhmfU+GkumDswOdrCUzsQwb1kv3XpmQV+7MjGWy1y1UZSBwQYTs+1K4xy+Cq9MMMCMMfvgvcfRFXQTfQv9KVJ3kNdljHX1VTKY1tfVOBm0M3X1a2TwlrEu//7jVWVNdfk9Ccvf1rBhd9QBQ6bk0oDda0zKIUm288rrgI3rQl2+zhNSLN+yoAC4ZZsk3+KVbeakYnTVlT8Am9cJOpL7q1WlB5A0YGK49oiUH1y34wiASDHegrO59wmM4u1PeM5H5aWI7XMYgdvINx/rw7ArlopNGoE7+3EP1odFl/YlHiV+9WOx+UemiGUaAwRjZQcxAhiSexRixVgRTmRwLEPFmls4bIZGz9o1W4nYxWNkkkQv78w7w85wEYLw+gruvXNipaEFA/t5q8+X2LzJz2BMmznDxnyuKzw28r2+AcakN1j1tqhojhgcImMymT1W2vDWy2KkIxxwWbgx3rvJF2h394ocRcPFFENhymIB3lMGK20xs45ixuV2Wix5tsUXmUiYbfFqytWKdy+uO3duHfVnBCwaeFZXTszcazQueyJeMBc7/CazjtLpdVRXetNgvtMdpA16tkXoiPamRH2kVW9zCYzeYPK5bE7vtjO0qcUhtLnKgdaYm2WtMUeAMTBmRqfT0wZ4Fc6CMUXpTTRrBuZYbYIbrzjd+WSyUPCnU+sC/t35c+fyV69qnKGAMwR7F/BRpIYInFiqrk6TQc5cV9MwUHvI0TgcWbUcSzXBqCbJ5iXYLL3CWg1JLF9sAtBWJ5DbADgbs6BhwNkYr7wM4Np5VpKUmAWuTnRKkrR0OvayISlH8sqstS7HeGUSbEqWulziFS8MTfa68kWclEttK30/+e/vI2fSxMlxXj76gFbOtv4PI7/0gIbjpUT8qD251Em2zFKS7Fb6qUdxsDcvpZqz6adnD2tXHCFbFSwC1wLXwiwn2Kry4ap8pIrupM4mOg8fOZpufvCdVPql5P8dywNtWHl5TLCpO3YPV6tVOSaojPUVGCmzpwXbUsjdM05y7qSwxHK5aRgiZTwNfDE95ovo8uFAM9UEINMUSlpi9WFgBEmn8VIZpvoxIN+HgQD9UJSeADvhDIF7uVAuwKlyiVCL3GCNPlQ/VcPABUIFYqtdkMYzU5Or2NZMW41HjZVZbFmYeGF2/oWJhUr545PSYAjwhw0UYzB2B2sFqRLwLm6rZPN+j7/d0AIF0soCrmidsX1h345015ZqSNDraYYyUxzLmX3BLktRj+euAsp/PTU5s5b6Zu59dm3+QQk+D+YXJg7MC5UAbmEYj8Eecvqj4S9vHZSK6zhbqz0W98eDmXzCzvI6jBmWslosPmnn6WTXxskLLoNgdhuCTNEteAShJ93h/lF7wmZM/z2im3mf/jlyozzqQ5vQGaSaAZQynVd62bq8UVLDBKhODHNOSP6bM7LvEyUBJTTBK90AtBpXl2saYBWBq6sbBJI8NyBjUnkOphI+CLQhkyWB7hYUcwH2NZucgqD2OiGo5SES1KIAIQiSfFXDQRIKEBPhIGQ9rBURQdtKME3ipMdsKI5jyAHmpQJESXS4msNQOoQvzku1gcwX8MWwozUb+NVmf5sL63Vc+J+sVvEfncF/iJs4d+NtLs01rvPUhyG7I+B3OlROcNjDwc5RzAbSJzOZky4x2PhlIOtqo35sNAfxvNNmDdsb7waD5FoOL/CraiIUSPl9aU4Idgaa9ZP+V3oRFdECmkPqesL1/Ya6SpOBSNdVhlRUkxltoZPqFuJSibhUApee0ojfDtxt55USOG2Kr8tTvBKBYZelrpwmUyXwo0U8RPwYEb5jNmzYsvsFwo2m8zTvaBWBqC74ggwD4ArEM0EoAn3NsiJ6MRhpnrUD/ssaTwhVevBjfYLJbbBWcfo0zhC2kLtC1YjHtE08dmnfnxtbbIUMJh8KkvhuKRQOBwrUXCEQsrZyLb6B2r7VGxO9tY8ZE82bpDb3wc7pP1r0GkxOC/ZzXONTi1Nv9i7+bN+gUSewtNlAMi/GujbJav0Xam7fJavJzlo95P6hQGH1RiEQDoekDzjWylks/MPn+2q1XvwOM+iN+MOeDQ5nzuK77rNS1saPOadobvwHlBP/9Re2f726vsWsM1soqDFYl50ekCBMGLTvtO6HzFdQKxKRFhcN3lhuyyjtIGwgyTSlrV/zhpFsrZpPcCxK3YjnS/HhaLThxP8VjQ5HK8Xo6lyUOlWMUu/G4yPRYjnacDRcZB6sqHei6PEzp+CZX2o+0/xbngkBMGLIRTX8VBzA5RH804YjEhmJAcSpr0ajq7ORUiUyEklUI7iOfxqplOBcbHWePHp1HgwjT+m5ItrT1PfLgaYS7gTMlZrFxvm52mkHtZPR1E6UiGIRxUAUl4koBlGzxNFuScvEgc7/R/MREsd/6xLIXDD0TC+AN3pceOQ1QQgJYAzSgm986nCKcCi81lh2eZ7RgSvl1uBlwe2EzkZofMq7XXzjhwJoStEtXA4QCmrr/jqsexA9D0y8hP4TqadJPjuXV77I1OVFST1IXGFrEpHUX9VDKOo31+V5Se2HoCgX+vnAA3DSqxlZ/ESZ4OtLQxOiIakg4CXKKEOwm+AVCzgnC8MsrxyDYRzMtsSPgVk3ZMQ4r1yA6ntGUs7D0VlJPX+BuPn8ojGpXjhPhhdOQYq8DBdaJsCl/fNA7KywbOA3bhsl5e+YTckfgbm4sOzzdxXKREFe6Ib+xAtReOkgDI5VZb8gT1Q1uGqasdzsNqC/CK+NICJPSUbAscZpH9Yko4vkjFBTLhKxSMpeUwOufZviMF9qCklyNg6z+AmFGC76/cN7D4xu5QUbSxs6hTe2bV8Y2THRi4+cnBcFweU0WTpbfHmDi+N1NqZ3MJTQnTn3o4+mpm7u3nPt4vqBruRRsycU6ynq/a42j9UxXm7NpIsbc6KeLnnj8Z7N2Rh177snHz48eR99lh2opSSbmbaHPXHRZnHQur07T15aqNmtA5xNCEaCHfnJPnsga/A5fAGrzsXkutPV/V8+dFy3c8u1qVp/tbBnYy69maKNPEg9e6svqNO9eDTVEdLlwpGs+dh8xeNjmEqxYZshD7xPE+4CpsYAUxE0hVQnQYsAnbJX0nKH0srW1RDJ5QB0OarxKthSlz2SHOSVFgCBIClGsS4beUWEJkLMyHxeiUHgg6Td9FUVsQX2rWupHPL14/on5MthwqlykUgRaKqd0NGHYqkA/XEwmQw2vq20fy/ZPd9xZvEdVV1dCKRG6I8DqVTgV0PBJMX/4CtSjrpjfPvyrR+sPko2cxBC7LuwjioKI62sfwcZhNZ4krTKFbKCSubzzh9ehiCCxPvx/sl29tmGtll9tAoUCOd+/t1TY+PBXjZWvLh1e/bk+lRH5pWHdz4xHjr89s1D83OJL0wfrc11JHYNLy6+98HdxqffoL+qWzd0hLF49h88r4uyye0j4xM7v3F4ypJIvH3o8JyjdmHIlJrelbpx+c1LZ48frnSjJ+JyHH0JqSKh8jrC7ecZ5AFusyQ4Mej9BLI0AZZ2QgtOVtA4W4MIHADpfIBX9sJwk62u7t0ExER7t0Mq3MQrAcJNoa7MEMMaJMFS7yHSyMl7hTsCK8bW2UkBljfZ5LYqWiMhESiEaRSpmfFSDT/RhT1NrTUZ2o8hXcbX3KmR9HG/9znnHtdhHdnAPSYmwWf3vvne5MS9b95emX6xxGedqUxpbteuTKZUOPTipcld27tzmSTvCMeG2gzQa+lZvmty4uaV57b21SYr/laacpgFc6srXYnEnXtb8N2FBerD+7ffH5+cHH//9v2Vxl8/P+HdVbsfcbfVyvNzrx0Z31+qtrWmwv21Ym/3+PAmj8lLsRbWY7dXtl2ZPvjcljM3j5+IecKcldvorXW0d/q9UmF4qLPxe4VhK7/rD//4id9q9iEBEDiOtA5ICUI/5CIJuiPfpFMOJjgSMS6jhEt57bcoGWuNUfMnqSD0GqrT7SEdQ9IFcbFHEhUSiZwgFyEbunE/dNQ+iuegLKWxjejEMgO+E5tyUR8tQ0McJZIROl5N4zMwPXt39Y03V+/Nzt5bffON1bs3RrtrcVyhR0/t2FHtTzT+TqfD5Y6+6o4dp0bpxt929HVTISyu3p2F6xo/adydm7uL/+LUaPo2b6mOjp4azd72sQ7qdnq0ApdUjY7bWbTGwbVPDv0vrcGyEgAAeNpjYGRgYGBkcNQKW2Aaz2/zlUGegwEELuit2IKg/8exTWJtBXI5GJhAogAkbwqceNpjYGRgYG39b8bAwDaJgQFMMjKgAgUAT18DEnjaY3rD4MIABEyrGBhYI5BwGILNcpOBgfk+ED+Aik2DyLNNQqhjOgSkWxE043UgTgQa/BqKNwD5UkDaD0KD5Bi/MDAAAGm5EYcAAAB42mNgYNABwwmMJowTmM6xGLBcYV3F+oRNhm0G+yEONY4+zjTOF3jgBwBAghYyAAAAAQAAACAApQAFAAAAAAACAAEAAgAWAAABAAFnAAAAAHjapZFNSwJBHMZ/kxYYEdKhYwweBRddjVIvnTokiKTlNY1SyTYxLbv0KfpQ9a16dmcs3KsMM/u8/N9mB9jnkwwmmwMK2g4b8mIO73BI6HGGGhceZ7EsPN5lxZfHe5yYA4+PsKbo8TfH5srjH8rmjntemPHBnAkjxqpmeRZ+1ZoQSYt44F3qpSIj+dfiI5ZMGSirQkBZq0KTG1r0aQu5nHVGKZWTrmhT/q3YPOkf+3ajR4euFMf+1bEiF8ldIt7+MgLOdDZ1nwFPqhnHPEqdqvJQ/zPgNNnnVMXqW07dFxuq/tp1M/Q021KsK3emr9XrxV6dhrq6M5QSJjep/QIFbUhSAAAAeNptyLkOAVEcRvHzDWbsyxso7Oudy1hKkcyrIBHRKHTenMT965zmlxwivr1feP7VBUUq0KPPgCEjxkyYMmPOgiWOFK+iSoqVqKyKqqqproaaaqmtTny6Pu/nNOCTx+3inXNmav7+ylybmbkxt+bO3JuHoM+DWTDLjx9B+Sd9AAB42kXOvRLBQBQFYJuQP5LdJBsUDOp9DUkhBaPKzngLM2qNkme5UXk7zph1dfc7pzj3Jd43EvdBS9Gh64V42L4JTLchZVvSRxxXu6TAnLoBeeuafLMlf10/vcgzXwwB/4cRMNw5BMBIO4RAUDhEQCgdYiDKHBIgPjuMgcQ1giZuPUU6CT3T+80FzMD0TwlmK6YC5YKZg6pkFmCumCVYSKYGyz2zAnXKnIJVwpyB0/8bc3DGtKTNB6/NYjEAAAABVAj4NAAA) format("woff");
+    font-style: normal;
+    font-weight: 400
+}
+
+.canal-5 {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Canal 5';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.canal-5-home:before {
+    content: "\0041"
+}
+
+.canal-5-twitter:before {
+    content: "\004D"
+}
+
+.canal-5-facebook:before {
+    content: "\004C"
+}
+
+.canal-5-googleplus:before {
+    content: "\004B"
+}
+
+.canal-5-pinterest:before {
+    content: "\004E"
+}
+
+.canal-5-download:before {
+    content: "\0046"
+}
+
+.canal-5-external:before {
+    content: "\0047"
+}
+
+.canal-5-arrow-left:before {
+    content: "\0048"
+}
+
+.canal-5-arrow-right:before {
+    content: "\0049"
+}
+
+.canal-5-arrow-right-alt:before {
+    content: "\004A"
+}
+
+.canal-5-share:before {
+    content: "\004F"
+}
+
+
+
+END: FUENTES
+
+
+
+
+BEGIN: RESET
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+html {
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+*, :before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+a:-webkit-any-link, a -webkit-link {
+  text-decoration: none;
+  color: #575757;
+}
+a:link {
+  color: #575757;
+  text-decoration: none;
+}
+body {
+    background: #fff
+}
+article, aside, details, figcaption, figure, footer, header, main, nav, section {
+    display: block
+}
+ol, ul {
+    list-style: none
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0
+}
+caption, th, td {
+    font-weight: 400;
+    text-align: left
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: ""
+}
+blockquote, q {
+    quotes: "" ""
+}
+a:focus {
+    outline: 0
+}
+a img {
+    border: 0
+}
+body, ul, li {
+    margin: 0;
+    padding: 0
+}
+.limpiar {
+    clear: both
+}
+.clearme {
+    clear: both;
+    height: 1px;
+    font-size: 1px
+}
+END RESET
+
+
+@media screen {
+    .c5-versus {
+        font-family: 'Source Sans Pro', 'Arial';
+    }
+    .c5-versus .c5-wapper header, .c5-versus .c5-wapper .wrapper-container, .c5-versus .c5-wapper footer {
+      width: 100%;
+    }
+    .c5-versus .header-promo {
+        background-color: #790707;
+    }
+    .c5-versus .cintillo-promo {
+      height: 73px;
+      overflow: hidden;
+    }
+    .c5-versus .c5-wapper {
+      max-width: 100%;
+      display: block;
+    }
+    .c5-versus #tui-logo {
+      background-size: cover;
+      float: left;
+      height: 38px;
+      margin: 20px 10px 15px 10px;
+      width: 30px;
+      z-index: 10;
+    }
+    .c5-versus #tui-logo a {
+      background: url(http://i2.esmas.com/spacer.gif);
+      display: block;
+      height: 70%;
+      text-align: left;
+      width: 100%;
+      color: white;
+    }
+    .c5-versus #tui-logo a i {
+      font-size: 62px;
+      line-height: 37px;
+    }
+    .c5-versus .cintillo-bar-back {
+      background: #790707;
+      float: left;
+      width: calc(100% - 60px);
+    }
+    .c5-versus .tui-wrapper-bar-content {
+      clear: both;
+      margin: 0 auto;
+      max-width: 1010px;
+      min-height: 80px;
+      width: 100%;
+    }
+    .c5-versus .cintillo p.cintillo_t a {
+      font-weight: 900;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: 'Source Sans Pro';
+      line-height: 40px;
+      text-decoration: none;
+      display: block;
+      margin: 10px 0 0;
+    }
+    .c5-versus .cintillo p.caption {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: 'Source Sans Pro';
+      margin: 0;
+    }
+    .c5-versus .shareall .a-btn-slide-show {
+      position: absolute;
+      opacity: 0;
+      height: 100%;
+      top: 0;
+      right: 200px;
+      width: 0;
+      white-space: nowrap;
+      text-transform: uppercase;
+      -webkit-transition: width .3s linear;
+      -moz-transition: width .3s linear;
+      -o-transition: width .3s linear;
+      transition: width .3s linear;
+      padding: 0;
+      -webkit-border-radius: 40px;
+      -moz-border-radius: 40px;
+      border-radius: 40px;
+    }
+    .c5-versus .shareall div:hover {
+        opacity: 1;
+        transition: all .5s ease 0;
+        -o-transition: all .5s ease 0;
+        -mos-transition: all .5s ease 0;
+        -webkit-transition: all .5s ease 0
+    }
+
+    .c5-versus .shareall div span {
+        position: relative;
+        margin: 0;
+        transition: all .5s ease 0;
+        -o-transition: all .5s ease 0;
+        -mos-transition: all .5s ease 0;
+        -webkit-transition: all .5s ease 0;
+        padding: 0 0;
+        top: 0;
+        display: inline-block;
+        font-family: 'Canal 5';
+        font-style: normal;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        cursor: pointer
+    }
+
+    .c5-versus .shareall div {
+        display: inline-block;
+        font-family: 'Canal 5';
+        font-style: normal;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: rgba(68,68,68,.8);
+        margin: 0;
+        cursor: pointer;
+        transition: all .5s ease 0;
+        -o-transition: all .5s ease 0;
+        -mos-transition: all .5s ease 0;
+        -webkit-transition: all .5s ease 0
+    }
+
+    .c5-versus .shareall .mobile .home-icon:hover {
+        opacity: .8
+    }
+
+    .c5-versus .shareall .a-btn-slide-show div:first-child {
+        margin-left: 18px
+    }
+
+    .c5-versus .shareall div .icon span:before {
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        display: block
+    }
+
+    .c5-versus .shareall div .icon span {
+        padding: 0
+    }
+
+    .c5-versus .shareall .a-btn span:hover {
+        opacity: .8
+    }
+
+    .c5-versus .shareall span.canal-5-twitter {
+        color: #55ACEE;
+        margin: 0
+    }
+
+    .c5-versus .shareall span.canal-5-facebook {
+        color: #3B5998;
+        margin: 0
+    }
+
+    .c5-versus .shareall span.canal-5-googleplus {
+        color: #DD4B39;
+        margin: 0
+    }
+
+    .c5-versus .shareall .a-btn, .c5-versus .shareall .close {
+        background: 0 0;
+        padding-left: 0;
+        padding-right: 0;
+        display: inline-block;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        border-radius: 40px;
+        overflow: hidden;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        position: relative
+    }
+
+    .c5-versus .shareall .a-btn-show {
+        padding: 5px;
+        right: 0;
+        display: block;
+        font-size: 18px;
+        white-space: nowrap;
+        text-shadow: 0 1px 1px rgba(255,255,255,.3);
+        color: #446388;
+        -webkit-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear
+    }
+
+    .c5-versus .shareall .a-btn-slide-show {
+        position: absolute;
+        opacity: 0;
+        height: 100%;
+        top: 0;
+        right: 200px;
+        width: 0;
+        white-space: nowrap;
+        text-transform: uppercase;
+        -webkit-transition: width .3s linear;
+        -moz-transition: width .3s linear;
+        -o-transition: width .3s linear;
+        transition: width .3s linear;
+        padding: 0;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        border-radius: 40px
+    }
+
+    .c5-versus .shareall .a-btn:hover .a-btn-show {
+        text-shadow: 0 1px 1px #5d81ab;
+        color: #fff
+    }
+
+    .c5-versus .shareall .a-btn:hover .a-btn-slide-show {
+        max-width: 100%;
+        width: 100%;
+        opacity: 1;
+        background: #fff;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        border-radius: 40px;
+        z-index: 0
+    }
+
+    .c5-versus .shareall .a-btn-icon-right {
+        position: absolute;
+        top: 0;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        border-radius: 40px;
+        -webkit-box-shadow: 1px 0 1px rgba(255,255,255,.4) inset;
+        -moz-box-shadow: 1px 0 1px rgba(255,255,255,.4) inset;
+        box-shadow: 1px 0 1px rgba(255,255,255,.4) inset;
+        padding: 0;
+        background: #f93
+    }
+
+    .c5-versus .a-btn:hover .a-btn-icon-right span {
+        opacity: .8
+    }
+
+    .c5-versus .tui-wrapper-bar-content {
+        clear: both;
+        margin: 0 auto;
+        max-width: 1010px;
+        min-height: 80px;
+        width: 100%;
+    }
+
+    .c5-versus .shareall div a {
+        text-decoration: none
+    }
+    .c5-versus .iu-texto {
+      font-family: 'Source Sans Pro';
+    }
+    .c5-versus .iu-texto h2 {
+      color: #790707;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 12px;
+      line-height: 24px;
+    }
+
+
+
+    footer.c5-footer {
+      display: flex;
+      display: -webkit-flex;
+      width: 100%;
+      font-family: Source Sans Pro;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+
+    .c5-versus footer.c5-footer * {
+      font-family: Source Sans Pro;
+    }
+
+    .c5-versus footer.c5-footer .c5-logo {
+      font-family: 'c5-promociones';
+      color: #000;
+      font-size: 60px;
+      line-height: 1em;
+    }
+
+    .c5-versus footer.c5-footer .c5-logof {
+      width: 30px;
+      height: 38px;
+      margin: 0 0 0 10px;
+      position: relative;
+    }
+
+    .c5-versus footer.c5-footer .c5-logof a {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: block;
+    }
+
+    .c5-versus footer.c5-footer .c5-txtf {
+      line-height: 24px;
+      margin: 8px 0 12px;
+      font-size: 12px;
+      text-align: right;
+      width: calc(100% - 70px);
+    }
+
+    .c5-versus footer.c5-footer .c5-txtf a {
+      color: #666;
+      text-decoration: underline;
+    }
+
+    .c5-versus .container-footer {
+      background: #ccc;
+      clear: both;
+      overflow: hidden;
+    }
+
+    
+
+
+    DSFGFDGDF
+    .container-bannerdesktop3-3 {
+        background: rgba(0, 0, 0, 0.2);
+        margin: 1em auto;
+        width: 80%;
+    }
+    .container-bannerdesktop3-3 span {
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: monospace;
+    }
+    .container-bannerdesktop3-3 iframe {
+        width: 100%;
+    }
+    .banners-desktop3-3 {
+        height: 90px;
+        margin-bottom: 30px;
+        background: url(../images/twd.jpg) no-repeat 0 94%;
+        background-size: 100%;
+    }
+    .box_ntp {
+        height: 330px;
+        width: 300px;
+        background: none;
+        display: inline-block;
+    }
+    #cont_global .mod_face {
+        display: none;
+    }
+    .c5-wapper .wrapper-contboxainer {
+        margin-bottom: 30px;
+    }
+    .desk_box_banner {
+        margin-top: 0;
+        background: url(../images/twd.jpg) rgb(234, 234, 234) no-repeat 61% 100%;
+        background-size: 889px 282px;
+        display: inline-block;
+        width: 300px;
+    }
+    .redes-marcador {
+        display: inline-block;
+        width: 300px;
+    }
+    .shareall div .icon span {
+        color: white;
+    }
+    .tui-grid {
+        float: none;
+    }
+    article.tui-grid {
+        margin-bottom: 0;
+    }
+    .tui-grid-full {
+        width: 100%;
+        margin: 1em auto 1em auto;
+        text-align: center;
+        float: none;
+        clear: none;
+    }
+    .votar {
+        width: 0;
+        height: 0;
+        border-right: 80px solid transparent;
+        border-top: 80px solid #C50A0A;
+        border-left: 80px solid #C50A0A;
+        border-bottom: 80px solid transparent;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .votar .votar-text {
+        color: white;
+        font-family: 'Source Sans Pro', 'Arial';
+        transform: rotate(-45deg) translate(-37px, -110%);
+        -webkit-transform: rotate(-45deg) translate(-37px, -110%);
+        display: block;
+        font-size: 37px;
+        font-weight: bold;
+    }
+    .top5 {
+        font-family: 'Source Sans Pro', 'Arial';
+        border: 3px solid rgb(203, 203, 203);
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .top5 .titulo-top {
+        color: black;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 3px;
+        width: 100%;
+        font-weight: normal;
+        letter-spacing: -1px;
+    }
+    .top5 .top {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .top5 .top .top-list {
+        height: 40px
+    }
+    .top5 .top .top-list td:last-child {
+        border: none;
+    }
+    .uno, .dos, .tres, .cuatro, .cinco {
+        background: url(../images/sprite_profile.png);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-size: 100%;
+    }
+    .uno {
+        height: 55px;
+        width: 55px;
+        border: 3px solid rgb(121, 7, 7);
+        box-sizing: border-box;
+    }
+    .dos {
+        background-position: 0 -46px;
+    }
+    .tres {
+        background-position: 0 -92px;
+    }
+    .cuatro {
+        background-position: 0 -138px;
+    }
+    .cinco {
+        background-position: 0 -184px;
+    }
+    .top5 .top .top-list .profile {
+        border-radius: 50%;
+        display: block;
+        width: 45px;
+        height: 45px;
+        margin: 0 auto;
+    }
+    .top5 .top .top-list .profile-text {
+        font-size: 15px;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .top5 .top .top-list td {
+        border-right: 1px solid gray;
+    }
+    .top5 .top .top-list:first-child .profile {
+        height: 55px;
+        width: 55px;
+        margin-bottom: 0.5em;
+    }
+    .top5 .top .top-list:first-child .profile-text {
+        color: rgb(121, 7, 7);
+    }
+    .img1 {
+        background: url(../images/background_spiderman.png) no-repeat 80% 100%;
+        background-size: cover;
+    }
+    .img2 {
+        background: url(../images/background_xmen.png) no-repeat 50% 75%;
+        background-size: cover;
+    }
+    .timeline {
+        border: 2px solid rgb(220, 220, 220);
+        width: 300px;
+    }
+    .vs-sec {
+        width: 50%;
+        font-family: 'Source Sans Pro', 'Arial';
+        background: rgb(121, 7, 7);
+        color: white;
+        float: left;
+        text-align: center;
+    }
+    .vs-sec .vs-sec-imagen {
+        width: 30%;
+        margin: 2% 1%;
+        display: inline-block;
+        position: relative;
+    }
+    .vs-sec .vs-sec-imagen .lugar {
+        border-right: 3em solid transparent;
+        border-top: 3em solid #C50A0A;
+        border-left: 3em solid #C50A0A;
+        border-bottom: 3em solid transparent;
+        position: absolute;
+        top: 0;
+    }
+    .vs-sec .vs-sec-imagen .lugar span {
+        display: block;
+        position: absolute;
+        top: 0;
+        font-family: 'Source Sans Pro', 'Arial';
+        font-size: 36px;
+        transform: translate(-26px, -43px);
+        -webkit-transform: translate(-26px, -43px);
+    }
+    .vs-sec .vs-sec-imagen img {
+        width: 100%;
+    }
+    .vs-sec .vs-sec-ganaste {
+        background: rgb(234, 234, 234);
+        color: black;
+        height: auto;
+        margin: 1em auto 0;
+        padding: 1em 0;
+        text-align: center;
+        width: 100%;
+    }
+    .vs-sec .vs-sec-ganaste h4 {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .vs-sec .vs-sec-ganaste p {
+        font-size: 16px;
+    }
+    .vs-sec .vs-sec-ganaste .comparte {
+        background: gray;
+        border-radius: 1em;
+        color: white;
+        margin: 1em auto;
+        padding: 0.5em;
+        width: 80%;
+    }
+    .poster .votacion {
+        background: rgba(121, 7, 7, 1);
+        border-radius: 2em;
+        border: 1px solid white;
+        color: white;
+        font-family: 'Source Sans Pro', 'Arial';
+        font-size: 38px;
+        font-weight: bold;
+        margin: 0.5em auto;
+        width: 60%;
+        text-align: center;
+    }
+    .vs-sec .redes .tvsagui-facebook:before, .vs-sec .redes .tvsagui-twitter:before, .vs-sec .redes .tvsagui-gplus:before {
+        content: ' ';
+    }
+    .vs-sec .redes {
+        width: 90%;
+        margin: 0 auto 1em;
+    }
+    .vs-sec .redes li {
+        display: inline-block;
+        margin: 0 2%;
+    }
+    .vs-sec .redes li a {
+        border-radius: 50%;
+    }
+    .vs-sec .vs-sec-palomitas {
+        width: 90%;
+        box-sizing: border-box;
+        margin: 1em auto 0;
+    }
+    .vs-sec .vs-sec-palomitas td {
+        text-align: center;
+        border-right: 1px solid gray;
+    }
+    .vs-sec .vs-sec-palomitas td:last-child {
+        border-right: 0;
+    }
+    .vs-sec .vs-sec-palomitas .palomita {
+        height: 30px;
+        position: relative;
+    }
+    .vs-sec .vs-sec-palomitas .palomita:after {
+        content: ' ';
+        position: absolute;
+        background: url(../images/corn.png) no-repeat 50% 50%;
+        background-size: 100%;
+        height: 30px;
+        width: 50px;
+        left: 30%;
+        top: 0;
+    }
+    .vs-sec-pal-mobile {
+
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .c5-versus .shareall .a-btn-slide-show div {
+        width:45px;
+        height: 45px;
+        display: inline-block;
+        z-index: 17;
+        top: -8px;
+        overflow: visible;
+        position: relative
+    }
+
+    .c5-versus div.cintillo-left {
+        padding: 0;
+        max-width: 98%!important;
+        width: 100%;
+        margin: 0
+    }
+
+    .c5-versus .shareall {
+        margin: auto;
+        width: 40px;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        display: flex;
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: stretch
+    }
+
+    .c5-versus .shareall div:hover {
+        opacity: 1
+    }
+
+    .c5-versus .shareall .a-btn div {
+        margin: 0
+    }
+
+    .c5-versus div.shareall {
+        min-width: 100%;
+        margin: 0 auto;
+        max-width: 100%;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        position: relative;
+        clear: both;
+        height: 38px;
+        float: none
+    }
+
+    .c5-versus .shareall .mobile {
+        width: auto;
+        margin: 0 auto;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        position: relative;
+        height: 30px;
+        padding: 0;
+        float: right
+    }
+
+    .c5-versus .shareall .mobile .a-btn .home-icon {
+        margin: 0 10px 20px 0;
+        width: 45px;
+        height: 45px;
+        border: 1px solid;
+        float: left
+    }
+
+    .c5-versus .shareall div span {
+        margin: 0;
+        width: 30px;
+        text-align: center;
+        height: 30px
+    }
+
+    .c5-versus .shareall div {
+        height: 30px;
+        width: 30px;
+        margin: 0;
+        top: 0;
+        z-index: 0
+    }
+
+    .c5-versus .shareall div .icon span:before {
+        height: 30px;
+        width: 30px;
+        font-size: 44px;
+        line-height: 34px
+    }
+
+    .c5-versus .shareall span {
+        margin: 0;
+        width: 40px;
+        text-align: center;
+        height: 40px
+    }
+
+    .c5-versus .shareall .a-btn-icon-right {
+        width: 30px;
+        height: 30px;
+        right: 0;
+        z-index: 300
+    }
+
+    .c5-versus .shareall .mobile .home-icon {
+        margin: 0 10px 0 0
+    }
+
+    .c5-versus .shareall .home-icon {
+        position: absolute;
+        left: -20px
+    }
+
+    .c5-versus .shareall .a-btn:hover .a-btn-slide-show {
+        height: 30px;
+        left: 0
+    }
+
+    .c5-versus .shareall div span:before {
+        margin: 8px 0;
+        text-align: center;
+        display: block;
+        font-size: 28px;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+        padding: 0
+    }
+
+    .c5-versus .shareall .a-btn:hover,.shareall .close:hover {
+        -webkit-box-shadow: 0 1px 1px rgba(255,255,255,.8) inset,1px 1px 3px rgba(0,0,0,.2);
+        -moz-box-shadow: 0 1px 1px rgba(255,255,255,.8) inset,1px 1px 3px rgba(0,0,0,.2);
+        box-shadow: 0 1px 1px rgba(255,255,255,.8) inset,1px 1px 3px rgba(0,0,0,.2);
+        opacity: 1;
+        height: 30px
+    }
+
+    .c5-versus .shareall .a-btn:hover {
+        padding-right: 11.5em;
+        overflow: hidden
+    }
+
+    .c5-versus .shareall .a-btn {
+        margin-right: 0;
+        left: 20px
+    }
+
+    .c5-versus .shareall .close:hover {
+        padding-right: 0;
+        margin-right: 0
+    }
+
+    .c5-versus .shareall span.canal-5-twitter {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: stretch
+    }
+
+    .c5-versus .shareall span.canal-5-facebook {
+        margin: 0; width: 45px;
+        height: 45px;
+        display: flex;
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: stretch;
+        width: 45px
+    }
+
+    .c5-versus .shareall span.canal-5-googleplus {
+        margin: 0;
+        height: 45px;
+        display: flex;
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: stretch;
+        width: 45px
+    }
+
+    .c5-versus .tui-wrapper-bar-content {
+        height: auto
+    }
+
+    .c5-versus .cintillo-bar-back {
+        height: auto
+    }
+}
+
+
+@media (min-width: 601px) {
+    .c5-versus .shareall div {
+        height:45px;
+        width: 45px
+    }
+
+    .c5-versus .shareall .a-btn-icon-right {
+        width: 45px;
+        right: 0;
+        height: 45px
+    }
+
+    .c5-versus .shareall div span {
+        height: 45px;
+        line-height: 45px;
+        width: 45px
+    }
+
+    .c5-versus .shareall .a-btn {
+        margin: 17px 0
+    }
+
+    .c5-versus .shareall .mobile:hover {
+        opacity: 1;
+        transition: all .5s ease 0;
+        -o-transition: all .5s ease 0;
+        -mos-transition: all .5s ease 0;
+        -webkit-transition: all .5s ease 0;
+        width: auto
+    }
+
+    .c5-versus .shareall .mobile {
+        height: 80px;
+        width: auto;
+        display: block;
+        margin: auto;
+        float: right
+    }
+
+    .c5-versus .shareall {
+        height: auto;
+        width: auto;
+        display: block
+    }
+
+    .c5-versus div.shareall {
+        float: right;
+        min-width: 0;
+        max-width: 100%
+    }
+
+    .c5-versus .shareall .mobile .home-icon {
+        float: left;
+        position: relative;
+        left: inherit;
+        margin: 17px 30px 17px 0
+    }
+
+    .c5-versus .shareall .a-btn {
+        position: relative;
+        right: inherit;
+        height: 45px;
+        width: 45px
+    }
+
+    .c5-versus .shareall div .icon span:before {
+        height: 45px;
+        width: 45px;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        font-size: 68px;
+        display: block;
+        line-height: 51px
+    }
+
+    .c5-versus .shareall div span:before {
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        display: block;
+        font-size: 45px;
+        line-height: 45px
+    }
+
+    .c5-versus .shareall .a-btn:hover,.shareall .close:hover {
+        opacity: 1
+    }
+
+    .c5-versus .shareall .a-btn:hover {
+        padding-right: 19.5em;
+        overflow: hidden
+    }
+
+    .c5-versus .shareall .close:hover {
+        padding-right: 0
+    }
+
+    .c5-versus .shareall .a-btn:hover .a-btn-slide-show {
+        left: 0
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .c5-versus div.cintillo-left {
+      padding: 0;
+      max-width: 50%;
+      float: left;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .c5-versus .cintillo-bar-back {
+      height: 80px;
+    }
+    .c5-versus .tui-wrapper-bar-content {
+      clear: both;
+      margin: 0 auto;
+      max-width: 1010px;
+      width: 100%;
+      display: table;
+      height: 80px;
+    }
+    .c5-versus div.cintillo-left {
+        padding:0;
+        max-width: 50%;
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        width: 50%
+    }
+    .c5-versus .cintillo p.cintillo_t a {
+        padding: 0 0 0 10px;
+        margin: 0;
+        font-size: 24px;
+        line-height: 24px;
+        overflow: hidden;
+        max-height: 50px;
+        padding-top: 0
+    }
+    .c5-versus .cintillo p.caption {
+        margin: 0 0 0 10px
+    }
+}
+
+@media screen and ( min-width: 648px ) {
+    .c5-versus .cintillo-promo {
+      height: 80px;
+      display: table;
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1010px;
+    }
+    .c5-versus div#tui-logo {
+      float: left;
+      width: 45px;
+      height: 56px;
+      margin: 12px 22px 12px 40px;
+      z-index: 10;
+    }
+    .c5-versus #tui-logo a i {
+      font-size: 93px;
+      line-height: 56px;
+    }
+
+
+    .c5-versus footer.c5-footer {
+        height: 60px;
+    }
+
+    .c5-versus footer.c5-footer .c5-logof {
+        margin: 0 0 0 40px;
+        height: 60px;
+    }
+
+    .c5-versus footer.c5-footer .c5-txtf {
+        margin-right: 40px;
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .c5-versus .iu-texto {
+      padding-bottom: 0px;
+    }
+    .c5-versus .cintillo-bar-back {
+      width: calc(100% - 150px);
+    }
+
+}
+@media (max-width: 680px) {
+    .c5-versus .cintillo p.cintillo_t a {
+        font-size:26px;
+        line-height: 28px;
+        margin: 13px 10px 14px;
+        max-height: 52px
+    }
+
+    .c5-versus .cintillo .caption {
+        display: none
+    }
+}
+@media screen and (min-width: 948px) {
+    .c5-versus div#tui-logo {
+        margin: 12px 30px 12px 30px;
+    }
+    .c5-versus #tui-logo a i {
+      font-size: 92px;
+      line-height: 57px;
+    }
+    .c5-versus .iu-texto {
+      margin-right: 20px;
+      width: 100%;
+      text-align: center;
+      font-family: 'Source Sans Pro', 'Arial';
+    }
+    .c5-versus .iu-texto h2 {
+      font-size: 48px;
+      line-height: 55px;
+      margin-bottom: 2px;
+      letter-spacing: -0.025em;
+    }
+
+
+
+
+    .c5-versus footer.c5-footer {
+        display: table;
+        border-spacing: 11px 0;
+        max-width: 1010px;
+    }
+
+    .c5-versus footer.c5-footer .c5-logof {
+        display: table-cell;
+    }
+
+    .c5-versus footer.c5-footer .c5-logo {
+        font-size: 62px;
+    }
+
+    .c5-versus footer.c5-footer .c5-txtf {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 0;
+        font-size: 14px;
+        letter-spacing: 0.01em;
+    }
+
+    .c5-versus footer.c5-footer .c5-txtf a:hover {
+        opacity: 0.8;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:750px){
+    .redes-marcador{
+        display: none;
+    }
+    .vs-sec .vs-sec-palomitas, .vs-sec .comparte, .vs-sec .redes{
+        display: none;
+    }
+    .vs-sec .vs-sec-ganaste p{
+        margin: 1em 0;
+    }
+    
+    .vs-sec-pal-mobile{
+        width: 100%;
+        font-family: 'Source Sans Pro', 'Arial';
+        height: 100%;
+        display: block;
+    }
+
+    .vs-sec-pal-mobile .comparte{
+        margin-top: 1em;
+        background: gray;
+        border-radius: 1em;
+        padding: 0.5em;
+        color: white; 
+        text-align: center;
+    }
+
+    .vs-sec-pal-mobile .redes .tvsagui-facebook:before,.vs-sec-pal-mobile .redes .tvsagui-twitter:before, .vs-sec-pal-mobile .redes .tvsagui-gplus:before{
+        content: ' ';
+    }
+
+    .vs-sec-pal-mobile .redes{
+        width: 100%;
+        margin-bottom: 1em; 
+    }
+    .vs-sec-pal-mobile .redes li a{
+        border-radius: 50%; 
+    }
+    .vs-sec-pal-mobile .redes li{
+        display: inline-block;
+        margin: 0 2%;
+    }
+
+    .vs-sec-pal-mobile .vs-sec-palomitas{
+        width: 100%;
+    }
+
+    .vs-sec-pal-mobile .vs-sec-palomitas td{
+        text-align: center;
+        border-right: 1px solid gray;
+    }
+    .vs-sec-pal-mobile .vs-sec-palomitas td:last-child{
+        border-right: 0;
+    }
+    .vs-sec-pal-mobile .vs-sec-palomitas .palomita{
+        height: 30px;
+        position: relative;
+    }
+
+    .vs-sec-pal-mobile .vs-sec-palomitas .palomita:after{
+        content:' '; 
+        position: absolute;
+        background: url(../images/corn.png) no-repeat 50% 50%;
+        background-size: 100%;
+        height: 30px;
+        width: 50px;
+        left: 33%;
+        top: 0;
+    }
+    .vs-sec .vs-sec-imagen .lugar{
+        border-right: 1.5em solid transparent;
+        border-top: 1.5em solid #C50A0A;
+        border-left: 1.5em solid #C50A0A;
+        border-bottom: 1.5em solid transparent;
+    }
+    .vs-sec .vs-sec-imagen span{
+        font-size: 22px;
+         transform: translate(-16px, -26px);
+        -webkit-transform: translate(-16px, -26px);
+    }
+}   
+
+@media screen and (max-width:1009px) and (min-width:600px){
+    .redes-marcador{
+        display: none;
+    }
+    .terminos-condiciones{
+        text-align: center;
+    }
+
+    .timeline{
+        display: none;
+    }
+
+    .votar{
+        border-right: 100px solid transparent;
+        border-top: 0px solid #C50A0A;
+        border-left: 100px solid #C50A0A;
+        border-bottom: 100px solid transparent;
+        top: 0;
+        left: 0;
+    }
+    .votar .votar-text{
+        font-size: 20px;
+        transform: rotate(-45deg) translate(-89px, -133%);
+        -webkit-transform: rotate(-45deg) translate(-89px, -133%);
+    }
+
+    .box_ntp{
+        height: 330px;
+        width: 300px;
+        transform: translateY(-9px);
+        -webkit-transform: translateY(-9px);
+    }
+
+    .tui-grid-full{
+        width: 95%;
+        text-align: center;
+    }
+
+    .c5-wapper .wrapper-container .container .versus .vs{                 
+        left: 42%;
+        width: 130px;
+        height: 130px;
+        line-height: 130px;
+        font-size: 90px;
+        top: 1.5em;
+    }
+
+    .desk_box_banner{
+        margin: 0 0 10px !important;
+        width: 300px;
+        height: 330px;
+        background-size: 275% 86%;
+        background-position: 61% 100%;            
+    }
+    .top5 .top{
+        width: 95%;
+    }
+    .poster .votacion{
+       font-size: 33px;
+       width: 75%;
+    }
+}
+
+@media screen and (max-width:650px) and (min-width:600px){
+    .box_ntp,.desk_box_banner{
+        height: 290px;
+        width: 280px;
+    }
+    .mos_7_ficha h2{
+        margin: 0;
+    }
+    .top5 .top .top-list .profile-text{
+        font-size: 13px;
+    }
+    .top5 .top .top-list .profile{
+        height: 40px;
+        width: 40px;
+        margin-bottom: 0.3em;
+    }
+    .top5 .top .top-list:first-child .profile{
+        height: 40px;
+        width: 40px;
+    }
+    .uno, .dos, .tres, .cuatro, .cinco{
+        height: 40px;
+        width: 40px;
+        margin: 0;
+    }
+    .dos{
+          background-position: 0 -40px;
+    }
+    .tres{
+          background-position: 0 -82px;
+    }
+    .cuatro{
+          background-position: 0 -123px;
+    }
+    .cinco{
+          background-position: 0 -164px;
+    }
+}
+
+
+ @media screen and (max-width:600px){
+    .banners-desktop3-3{
+       height: 60px;
+    }
+    article.tui-grid:first-child {
+        display: none;
+    }
+     .tui-grid-full{
+        width: 90%;
+    }
+    .desk_box_banner{
+        width: 100%;
+        background-position: 82% 96%;
+        background-size: 100%;
+        margin-top: 20px !important; 
+    }
+
+    .cintillo-promo{
+        height: 90px;
+    }
+
+    .descargas .box_descargas, .descargas .desk_box_banner{
+        width: calc(100% - 20px);
+        margin: 0 auto;
+    }
+    
+    .tui-grid{
+        clear: none;
+    }
+
+    .descargas .top .top-list{
+        text-align: center;
+    }
+
+    .container-bannerdesktop3-3{
+        background: rgba(0,0,0,0.2);
+        width: 100%;
+    }
+
+    .terminos-condiciones{
+        text-align: center;
+    }
+
+    .c5-wapper .wrapper-container .container .versus .vs{  
+        font-size: 58px;
+        width: 90px ;
+        height: 90px;
+        line-height: 87px;
+        left: 42%;
+        top: 30%;
+    }
+
+    .c5-wapper .wrapper-container .container .poster img{
+         margin: 0 auto;
+         width: 70%;
+         display: block;
+    }
+    
+    .votar{
+        border-right: 100px solid transparent;
+        border-top: 0px solid #C50A0A;
+        border-left: 100px solid #C50A0A;
+        border-bottom: 100px solid transparent;%;
+        left: 14.9%;
+        top: 0;
+        z-index: 10;
+        position: absolute;
+    }
+    .votar .votar-text{
+        font-size: 20px;
+        transform: rotate(-45deg) translate(-89px, -133%);
+        -webkit-transform: rotate(-45deg) translate(-89px, -133%);
+    }
+
+    .top5 .titulo-top .top .top-list{
+        margin-left: 25%;
+        line-height: 40px;
+    }
+
+    .top5 .top .top-list:before{
+        left: -25%;
+    }
+    .vs-sec .redes{
+        margin: 0 auto;
+    }
+
+    .top5 .top .top-list .profile{
+        height: 60px;
+        width: 60px;
+        display: block;
+    }
+    .top5 .top .top-list:first-child .profile{
+        height: 70px;
+        width: 70px;
+        margin-bottom: 0.5em;
+    }
+    .top5 .top .top-list:first-child .profile-text{
+       color: rgb(121, 7, 7);
+    }
+
+    .uno, .dos, .tres, .cuatro, .cinco{
+        height: 60px;
+        width: 60px;
+    }
+    .uno{
+        height: 70px;
+        width: 70px;
+        border: 3px solid rgb(121, 7, 7);
+        box-sizing:border-box;
+    }
+    .dos{
+          background-position: 0 -61px;
+    }
+    .tres{
+          background-position: 0 -123px;
+    }
+    .cuatro{
+          background-position: 0 -184px;
+    }
+    .cinco{
+          background-position: 0 -246px;
+    }
+    .top5{
+        height: 440px;
+    }
+    .top5 .top{
+        width: 80%;
+    }
+
+    .top5 .top .top-list{
+        width: 100%;
+        height: 70px;
+    }
+
+    .box_ntp{
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+    .poster .votacion{
+        border-radius: 0;
+        font-size: 26px;
+        width: 100%;
+        margin: 2em auto 0.5em;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .top5 .top .top-list .profile-text{
+        font-size: 4vw;
+    }
+    .vs-sec .redes{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .vs-sec .redes a{
+        width: 40px;
+        height: 40px;
+        margin-left: 3%;
+    }
+    .c5-wapper .wrapper-container .container .versus .vs{
+        font-size: 40px;
+        width: 70px;
+        height: 70px;
+        line-height: 66px;
+        left: 40%;
+        top: 26%;
+    }
+    .votar{
+        border-right: 70px solid transparent;
+        border-top: 0px solid #C50A0A;
+        border-left: 70px solid #C50A0A;
+        border-bottom: 70px solid transparent;
+    }
+    .votar .votar-text{
+        font-size: 15px;
+        transform: rotate(-45deg) translate(-66px, -133%);
+        -webkit-transform: rotate(-45deg) translate(-66px, -133%);
+    }
+} */
